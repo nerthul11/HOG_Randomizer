@@ -1,23 +1,19 @@
-using ItemChanger;
+using ItemChanger.Items;
 
-/// This should list the statue item properties and handle switch
-/// behaviour once obtained.
 namespace HallOfGodsRandomizer.Manager {
-    public class StatueItem : AbstractItem
-    /// <summary>
-    /// Each item should contain:
-    /// Attributes:
-    /// -Standard item attributes.
-    /// 
-    /// Methods:
-    /// -Unlock a statue location when obtained.
-    /// -Unlock the next tier for the item
-    /// </summary>
-    {
-        public override void GiveImmediate(GiveInfo info)
-        {
-            /// Set bool to true
-            PlayerData.instance.statueStateGruzMother.completedTier1 = true;
-        }
+
+    public class HOG_Item : BoolItem {
+        /// <summary>
+        /// All items are boolean and will affect "statueStateBOSSNAME" properties.
+        /// 
+        /// Tier 1 will affect "isUnlocked"
+        /// Tier 2 will affect "completedTier1"
+        /// Tier 3 will affect "completedTier2"
+        /// Tier 4 will affect "completedTier3"
+        /// 
+        /// When called, two parameters should be used: Boss name and item tier.
+        /// 
+        /// At some place, the original setting of the switches must be overriden.
+        /// </summary>
     }
 }
