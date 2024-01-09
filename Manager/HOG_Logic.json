@@ -1,0 +1,14 @@
+[
+    {
+        "name": "HOG-Gruz_Mother_1",
+        "logic": "GG_Workshop + Defeated_Gruz_Mother"
+    },
+    {
+        "name": "HOG-Gruz_Mother_2",
+        "logic": "HOG-Gruz_Mother_1"
+    },
+    {
+        "name": "HOG-Gruz_Mother_3",
+        "logic": "HOG-Gruz_Mother_2"
+    }
+]
