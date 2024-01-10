@@ -74,7 +74,7 @@
     <Reference Include="ItemChanger">
       <HintPath>$(LocalRefs)/Mods/ItemChanger/ItemChanger.dll</HintPath>
     </Reference>
-        <Reference Include="ItemChanger">
+    <Reference Include="MenuChanger">
       <HintPath>$(LocalRefs)/Mods/MenuChanger/MenuChanger.dll</HintPath>
     </Reference>
     <Reference Include="MMHOOK_Assembly-CSharp">
