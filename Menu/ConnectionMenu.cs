@@ -1,35 +1,21 @@
-﻿﻿using HallOfGodsRandomizer.Manager;
-using HallOfGodsRandomizer.Menu;
-using IL.InControl.NativeDeviceProfiles;
-using MenuChanger;
+﻿﻿using MenuChanger;
 using MenuChanger.Extensions;
 using MenuChanger.MenuElements;
 using MenuChanger.MenuPanels;
-using Modding;
-using RandomizerMod;
 using RandomizerMod.Menu;
-using RandomizerMod.Settings;
-using System.Linq;
 using UnityEngine;
 
 namespace HallOfGodsRandomizer.Menu
 {
     public class ConnectionMenu 
     {
-        private const int VSPACE_SMALL = 50;
-        private const int VSPACE_MED = 200;
-        private const int VSPACE_LARGE = 350;
-        private const int HSPACE_LARGE = 300;
-        private const int HSPACE_XLARGE = 450;
-        private const int HSPACE_XXLARGE = 750;
-
-        private SmallButton pageRootButton;
-        private MenuPage randomizerPage;
-        private ToggleButton enabledControl;
-        private MenuEnum<StatueAccessMode> accessControl;
-        private MenuEnum<TierLimitMode> tierControl;
-        private MenuElementFactory<HOG_RandomizationSettings> toplevelMEF;
+        /// Top-level definitions
         internal static ConnectionMenu Instance { get; private set; }
+        private SmallButton pageRootButton;
+
+        /// Menu page and elements
+        private MenuPage hogPage;
+        private MenuElementFactory<HOG_RandomizationSettings> elementFactory;
 
         public static void Hook()
         {
@@ -52,29 +38,28 @@ namespace HallOfGodsRandomizer.Menu
         private ConnectionMenu(MenuPage connectionPage)
         {
             /// Define connection page
-            randomizerPage = new MenuPage(Localization.Localize("randomizerPage"), connectionPage);
-            VerticalItemPanel toplevelVip = new(randomizerPage, new Vector2(0, 400), VSPACE_LARGE, true);
-            MenuLabel headingLabel = new(randomizerPage, "Hall of Gods Randomizer");
-            toplevelMEF = new(connectionPage, HOG_Interop.Settings);
+            hogPage = new MenuPage("hogPage", connectionPage);
+            elementFactory = new(hogPage, HOG_Interop.Settings);
+            VerticalItemPanel topLevelPanel = new(hogPage, new Vector2(0, 400), 350, true);
             
             /// Define parameters
-            enabledControl = (ToggleButton)toplevelMEF.ElementLookup[nameof(HOG_RandomizationSettings.Enabled)];
-            enabledControl.SelfChanged += EnableSwitch;
-            accessControl = (MenuEnum<StatueAccessMode>)toplevelMEF.ElementLookup[nameof(HOG_RandomizationSettings.RandomizeStatueAccess)];
-            tierControl = (MenuEnum<TierLimitMode>)toplevelMEF.ElementLookup[nameof(HOG_RandomizationSettings.RandomizeTiers)];
+            MenuLabel headingLabel = new(hogPage, "Hall of Gods Randomizer");
+            elementFactory.ElementLookup["Enabled"].SelfChanged += EnableSwitch;
 
             /// Define hierarchies
-            VerticalItemPanel toplevelSettingHolder = new(randomizerPage, Vector2.zero, VSPACE_SMALL, false, toplevelMEF.Elements);
-            toplevelSettingHolder.Insert(0, headingLabel);
-            toplevelVip.Add(toplevelSettingHolder);
-            Localization.Localize(headingLabel);
-            Localization.Localize(toplevelMEF);
-            toplevelVip.ResetNavigation();
-            toplevelVip.SymSetNeighbor(Neighbor.Down, randomizerPage.backButton);
+            VerticalItemPanel settingHolder = new(hogPage, Vector2.zero, 100, false, [
+                elementFactory.ElementLookup["Enabled"],
+                elementFactory.ElementLookup["RandomizeStatueAccess"],
+                elementFactory.ElementLookup["RandomizeTiers"]
+            ]);
+            settingHolder.Insert(0, headingLabel);
+            topLevelPanel.Add(settingHolder);
+            topLevelPanel.ResetNavigation();
+            topLevelPanel.SymSetNeighbor(Neighbor.Down, hogPage.backButton);
 
             /// Define top level button
             pageRootButton = new SmallButton(connectionPage, "HOG Randomizer");
-            pageRootButton.AddHideAndShowEvent(connectionPage, randomizerPage);
+            pageRootButton.AddHideAndShowEvent(connectionPage, hogPage);
         }
         /// Define parameter changes
         private void EnableSwitch(IValueElement obj)
