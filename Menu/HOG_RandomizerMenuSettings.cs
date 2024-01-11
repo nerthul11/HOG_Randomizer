@@ -1,8 +1,17 @@
 using MenuChanger.Attributes;
+using RandomizerMod.Settings;
 using System;
+using System.EnterpriseServices;
+using System.Runtime.Remoting.Messaging;
 
-namespace HallOfGodsRandomizer
+namespace HallOfGodsRandomizer.Menu
 {
+    [Flags]
+    public enum StatueAccessMode
+    {
+        Vanilla = 0,
+        Randomized = -1
+    }
     [Flags]
     public enum TierLimitMode
     {
@@ -14,8 +23,9 @@ namespace HallOfGodsRandomizer
 
     public class HOG_RandomizationSettings
     {
+        public bool Enabled;
         [MenuLabel("HOG Statue access")]
-        public bool RandomizeAccess { get; set; } = false;
+        public StatueAccessMode RandomizeStatueAccess { get; set; } = StatueAccessMode.Randomized;
         [MenuLabel("HOG Battle randomization")]
         public TierLimitMode RandomizeTiers { get; set; } = TierLimitMode.IncludeAll;
     }
