@@ -143,6 +143,9 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>$(LocalRefs)/System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
+    <Reference Include="TheRealJournalRando">
+      <HintPath>$(LocalRefs)/Mods/TheRealJournalRando/TheRealJournalRando.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>$(LocalRefs)/Unity.Timeline.dll</HintPath>
     </Reference>
