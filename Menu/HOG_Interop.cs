@@ -14,9 +14,5 @@ namespace HallOfGodsRandomizer.Menu
         {
             ConnectionMenu.Hook();
         }
-
-        private static void OnExportCompleted(RandoController rc)
-        {
-        }
     }
 }

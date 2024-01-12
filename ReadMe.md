@@ -22,3 +22,9 @@ Settings:
 - Enabled --> Boolean to define if the connection should be active or not.
 - Limit --> Options: Attuned, Ascended, Radiant. Defines which locations should be randomized and contain items and which should remain vanilla.
 - Randomize access --> Defines if the "Unlock" feature is randomized or vanilla.
+
+Dependencies:
+- ItemChanger
+- MenuChanger
+- Randomizer 4
+- RandomizerCore

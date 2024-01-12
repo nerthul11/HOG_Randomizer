@@ -1,4 +1,5 @@
 using System.Reflection;
+using IL.InControl;
 using ItemChanger.Items;
 
 namespace HallOfGodsRandomizer.Manager {
@@ -28,6 +29,9 @@ namespace HallOfGodsRandomizer.Manager {
             var tierSwitch = this.tier == 0 ? "isUnlocked" : $"completedTier{this.tier}";
             PropertyInfo statueSwitch = PlayerData.instance.GetType().GetProperty(this.statue).GetType().GetProperty(tierSwitch);
             statueSwitch.SetValue(statueSwitch, true);
+            HallOfGodsRandomizer.Instance.Log(statue);
+            HallOfGodsRandomizer.Instance.Log(tierSwitch);
+            HallOfGodsRandomizer.Instance.Log(statueSwitch);
         }
     }
 }
