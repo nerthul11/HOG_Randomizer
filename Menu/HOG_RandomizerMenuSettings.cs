@@ -1,8 +1,5 @@
 using MenuChanger.Attributes;
-using RandomizerMod.Settings;
 using System;
-using System.EnterpriseServices;
-using System.Runtime.Remoting.Messaging;
 
 namespace HallOfGodsRandomizer.Menu
 {

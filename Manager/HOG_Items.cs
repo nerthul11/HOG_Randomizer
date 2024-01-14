@@ -1,12 +1,12 @@
 using System.Reflection;
-using IL.InControl;
+using ItemChanger;
 using ItemChanger.Items;
 
 namespace HallOfGodsRandomizer.Manager {
 
     public class HOG_Item : BoolItem {
         /// <summary>
-        /// All items are boolean and will affect "statueStateBOSSNAME" properties.
+        /// All items are boolean and will affect "statueState{BOSS_NAME}" properties.
         /// By default, they should be initialized to -1.
         /// If StatueAccess in settings is set to Vanilla, then it's initialized to 0.
         /// 
@@ -22,7 +22,7 @@ namespace HallOfGodsRandomizer.Manager {
         public string statue;
         public int tier;
 
-        public HOG_Item(string statue, int tier)
+        public void Set_Switch(string statue, int tier)
         {
             this.statue = $"statueState{statue}";
             this.tier = tier;

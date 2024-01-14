@@ -1,8 +1,4 @@
-using ItemChanger;
-using Modding;
-using Newtonsoft.Json;
-using RandomizerMod.Logging;
-using RandomizerMod.RC;
+using HallOfGodsRandomizer.Manager;
 
 namespace HallOfGodsRandomizer.Menu
 {
@@ -13,6 +9,7 @@ namespace HallOfGodsRandomizer.Menu
         public static void HookRandomizer()
         {
             ConnectionMenu.Hook();
+            LogicHandler.Hook();
         }
     }
 }
