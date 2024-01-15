@@ -1,4 +1,4 @@
-﻿﻿using HallOfGodsRandomizer.Menu;
+﻿﻿using HallOfGodsRandomizer.Manager;
 using Modding;
 using System;
 
@@ -31,7 +31,7 @@ namespace HallOfGodsRandomizer
             if (ModHooks.GetMod("Randomizer 4") is Mod)
             {
                 Log("Initializing");
-                /// Create connection menu
+                /// Randomize menu and logic
                 HOG_Interop.HookRandomizer();
                 Log("Initialized");
             }

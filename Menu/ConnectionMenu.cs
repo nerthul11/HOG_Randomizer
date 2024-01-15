@@ -1,4 +1,5 @@
-﻿﻿using MenuChanger;
+﻿﻿using HallOfGodsRandomizer.Manager;
+using MenuChanger;
 using MenuChanger.Extensions;
 using MenuChanger.MenuElements;
 using MenuChanger.MenuPanels;

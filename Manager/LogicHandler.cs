@@ -19,7 +19,6 @@ namespace HallOfGodsRandomizer.Manager
         private static void ApplyLogic(GenerationSettings gs, LogicManagerBuilder lmb)
         {
             AddConstantJSONs(lmb);
-            AddItems(lmb);
         }
 
         private static void AddConstantJSONs(LogicManagerBuilder lmb)
@@ -33,13 +32,9 @@ namespace HallOfGodsRandomizer.Manager
             using Stream m = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.macros.json");
             lmb.DeserializeJson(LogicManagerBuilder.JsonType.Macros, m);
 
-            
-        }
-
-        private static void AddItems(LogicManagerBuilder lmb)
-        {
-            using Stream i = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.items.json");
-            lmb.DeserializeJson(LogicManagerBuilder.JsonType.Items, i);
+            /// Add locations
+            using Stream l = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.locations.json");
+            lmb.DeserializeJson(LogicManagerBuilder.JsonType.Items, l);
         }
     }
 }

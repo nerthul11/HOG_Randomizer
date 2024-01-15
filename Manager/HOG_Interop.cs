@@ -1,6 +1,9 @@
-using HallOfGodsRandomizer.Manager;
+using HallOfGodsRandomizer.IC;
+using HallOfGodsRandomizer.Menu;
+using Newtonsoft.Json;
+using System.IO;
 
-namespace HallOfGodsRandomizer.Menu
+namespace HallOfGodsRandomizer.Manager
 {
     internal static class HOG_Interop
     {

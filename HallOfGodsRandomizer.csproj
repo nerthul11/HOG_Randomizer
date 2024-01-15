@@ -62,6 +62,10 @@
     <!-- Exec Command="steam steam://rungameid/367520" -->
   </Target>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\Logic\*.json" />
+    <EmbeddedResource Include="IC\Items.json" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="Assembly-CSharp">
       <HintPath>$(LocalRefs)/Assembly-CSharp.dll</HintPath>
     </Reference>
