@@ -1,38 +1,38 @@
 [
     {
-        "name": "HOG-Gruz_Mother-0",
+        "name": "Statue_Unlock-Gruz_Mother-0",
         "logic": "Defeated_Gruz_Mother"
     },
     {
-        "name": "HOG-Gruz_Mother-1",
+        "name": "Bronze_Mark-Gruz_Mother",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_01>0 + COMBAT[Gruz_Mother]"
     },
     {
-        "name": "HOG-Gruz_Mother-2",
+        "name": "Silver_Mark-Gruz_Mother",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_01>1 + COMBAT[Gruz_Mother]"
     },
     {
-        "name": "HOG-Gruz_Mother-3",
+        "name": "Gold_Mark-Gruz_Mother",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_01>2 + COMBAT[Gruz_Mother]"
     },
     {
-        "name": "HOG-Vengefly_King-0",
+        "name": "Statue_Unlock-Vengefly_King-0",
         "logic": "Defeated_Vengefly_King"
     },
     {
-        "name": "HOG-Vengefly_King-1",
+        "name": "Bronze_Mark-Vengefly_King",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_02>0"
     },
     {
-        "name": "HOG-Vengefly_King-2",
+        "name": "Silver_Mark-Vengefly_King",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_02>1"
     },
     {
-        "name": "HOG-Vengefly_King-3",
+        "name": "Gold_Mark-Vengefly_King",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_02>2"
     },
     {
-        "name": "HOG-Brooding_Mawlek-0",
+        "name": "Statue_Unlock-Brooding_Mawlek",
         "logic": "Defeated_Brooding_Mawlek"
     },
     {
@@ -325,15 +325,15 @@
     },
     {
         "name": "HOG-Crystal_Guardian-1",
-        "logic": "ATTUNED + BOTTOM_STATUE + HOG_21>0 + COMBAT[Crystal_Guardian]"
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_21>0 + COMBAT[Crystal_Guardian] + Can_Damage_Crystal_Guardian"
     },
     {
         "name": "HOG-Crystal_Guardian-2",
-        "logic": "ASCENDED + BOTTOM_STATUE + HOG_21>1 + COMBAT[Crystal_Guardian]"
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_21>1 + COMBAT[Crystal_Guardian] + Can_Damage_Crystal_Guardian"
     },
     {
         "name": "HOG-Crystal_Guardian-3",
-        "logic": "RADIANT + BOTTOM_STATUE + HOG_21>2 + COMBAT[Crystal_Guardian]"
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_21>2 + COMBAT[Crystal_Guardian] + Can_Damage_Crystal_Guardian"
     },
     {
         "name": "HOG-Enraged_Guardian-0",
@@ -465,19 +465,19 @@
     },
     {
         "name": "HOG-Pure_Vessel-0",
-        "logic": "Defeated_Pantheon_4"
+        "logic": "Pantheon_4_Beatable"
     },
     {
         "name": "HOG-Pure_Vessel-1",
-        "logic": "ATTUNED + DREAMNAIL + TOP_STATUE + HOG_30>0 + COMBAT[Pantheon_4]"
+        "logic": "ATTUNED + DREAMNAIL + TOP_STATUE + HOG_30>0 + COMBAT[Pure_Vessel]"
     },
     {
         "name": "HOG-Pure_Vessel-2",
-        "logic": "ASCENDED + DREAMNAIL + TOP_STATUE + HOG_30>1 + COMBAT[Pantheon_4]"
+        "logic": "ASCENDED + DREAMNAIL + TOP_STATUE + HOG_30>1 + COMBAT[Pure_Vessel]"
     },
     {
         "name": "HOG-Pure_Vessel-3",
-        "logic": "RADIANT + DREAMNAIL + TOP_STATUE + HOG_30>2 + COMBAT[Pantheon_4]"
+        "logic": "RADIANT + DREAMNAIL + TOP_STATUE + HOG_30>2 + COMBAT[Pure_Vessel]"
     },
     {
         "name": "HOG-Elder_Hu-0",
@@ -593,114 +593,114 @@
     },
     {
         "name": "HOG-Radiance-0",
-        "logic": "Defeated_Pantheon_5"
+        "logic": "Pantheon_5_Beatable"
     },
     {
         "name": "HOG-Radiance-1",
-        "logic": "ATTUNED + TOP_STATUE + HOG_38>0 + COMBAT[Pantheon_5]"
+        "logic": "ATTUNED + TOP_STATUE + HOG_38>0 + COMBAT[Radiance]"
     },
     {
         "name": "HOG-Radiance-2",
-        "logic": "ASCENDED + TOP_STATUE + HOG_38>1 + COMBAT[Pantheon_5]"
+        "logic": "ASCENDED + TOP_STATUE + HOG_38>1 + COMBAT[Radiance]"
     },
     {
         "name": "HOG-Radiance-3",
-        "logic": "RADIANT + TOP_STATUE + HOG_38>2 + COMBAT[Pantheon_5]"
+        "logic": "RADIANT + TOP_STATUE + HOG_38>2 + COMBAT[Radiance]"
     },
     {
         "name": "HOG-Sly-0",
-        "logic": "Defeated_Pantheon_3"
+        "logic": "Pantheon_3_Beatable"
     },
     {
         "name": "HOG-Sly-1",
-        "logic": "ATTUNED + TOP_STATUE + HOG_39>0 + COMBAT[Pantheon_3]"
+        "logic": "ATTUNED + TOP_STATUE + HOG_39>0 + COMBAT[Nailmasters]"
     },
     {
         "name": "HOG-Sly-2",
-        "logic": "ASCENDED + TOP_STATUE + HOG_39>1 + COMBAT[Pantheon_3]"
+        "logic": "ASCENDED + TOP_STATUE + HOG_39>1 + COMBAT[Nailmasters]"
     },
     {
         "name": "HOG-Sly-3",
-        "logic": "RADIANT + TOP_STATUE + HOG_39>2 + COMBAT[Pantheon_3]"
+        "logic": "RADIANT + TOP_STATUE + HOG_39>2 + COMBAT[Nailmasters]"
     },
     {
         "name": "HOG-Nailmaster_Brothers-0",
-        "logic": "Defeated_Pantheon_1"
+        "logic": "Pantheon_1_Beatable"
     },
     {
         "name": "HOG-Nailmaster_Brothers-1",
-        "logic": "ATTUNED + TOP_STATUE + HOG_40>0 + COMBAT[Pantheon_1]"
+        "logic": "ATTUNED + TOP_STATUE + HOG_40>0 + COMBAT[Nailmasters]"
     },
     {
         "name": "HOG-Nailmaster_Brothers-2",
-        "logic": "ASCENDED + TOP_STATUE + HOG_40>1 + COMBAT[Pantheon_1]"
+        "logic": "ASCENDED + TOP_STATUE + HOG_40>1 + COMBAT[Nailmasters]"
     },
     {
         "name": "HOG-Nailmaster_Brothers-3",
-        "logic": "RADIANT + TOP_STATUE + HOG_40>2 + COMBAT[Pantheon_1]"
+        "logic": "RADIANT + TOP_STATUE + HOG_40>2 + COMBAT[Nailmasters]"
     },
     {
         "name": "HOG-Soul_Warrior-0",
-        "logic": "Defeated_Soul_Warrior"
+        "logic": "Defeated_Sanctum_Warrior | Defeated_Elegant_Warrior"
     },
     {
         "name": "HOG-Soul_Warrior-1",
-        "logic": "ATTUNED + TOP_STATUE + HOG_41>0 + COMBAT[Soul_Warrior]"
+        "logic": "ATTUNED + TOP_STATUE + HOG_41>0 + COMBAT[Sanctum_Warrior]"
     },
     {
         "name": "HOG-Soul_Warrior-2",
-        "logic": "ASCENDED + TOP_STATUE + HOG_41>1 + COMBAT[Soul_Warrior]"
+        "logic": "ASCENDED + TOP_STATUE + HOG_41>1 + COMBAT[Sanctum_Warrior]"
     },
     {
         "name": "HOG-Soul_Warrior-3",
-        "logic": "RADIANT + TOP_STATUE + HOG_41>2 + COMBAT[Soul_Warrior]"
+        "logic": "RADIANT + TOP_STATUE + HOG_41>2 + COMBAT[Sanctum_Warrior]"
     },
     {
         "name": "HOG-Paintmaster_Sheo-0",
-        "logic": "Defeated_Pantheon_2"
+        "logic": "Pantheon_2_Beatable"
     },
     {
         "name": "HOG-Paintmaster_Sheo-1",
-        "logic": "ATTUNED + TOP_STATUE + HOG_42>0 + COMBAT[Pantheon_2]"
+        "logic": "ATTUNED + TOP_STATUE + HOG_42>0 + COMBAT[Nailmasters]"
     },
     {
         "name": "HOG-Paintmaster_Sheo-2",
-        "logic": "ASCENDED + TOP_STATUE + HOG_42>1 + COMBAT[Pantheon_2]"
+        "logic": "ASCENDED + TOP_STATUE + HOG_42>1 + COMBAT[Nailmasters]"
     },
     {
         "name": "HOG-Paintmaster_Sheo-3",
-        "logic": "RADIANT + TOP_STATUE + HOG_42>2 + COMBAT[Pantheon_2]"
+        "logic": "RADIANT + TOP_STATUE + HOG_42>2 + COMBAT[Nailmasters]"
     },
     {
         "name": "HOG-Winged_Nosk-0",
-        "logic": "Defeated_Pantheon_5"
+        "logic": "Pantheon_5_Beatable"
     },
     {
         "name": "HOG-Winged_Nosk-1",
-        "logic": "ATTUNED + BOTTOM_STATUE + HOG_43>0 + COMBAT[Pantheon_5]"
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_43>0 + COMBAT[Nosk]"
     },
     {
         "name": "HOG-Winged_Nosk-2",
-        "logic": "ASCENDED + BOTTOM_STATUE + HOG_43>1 + COMBAT[Pantheon_5]"
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_43>1 + COMBAT[Nosk]"
     },
     {
         "name": "HOG-Winged_Nosk-3",
-        "logic": "RADIANT + BOTTOM_STATUE + HOG_43>2 + COMBAT[Pantheon_5]"
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_43>2 + COMBAT[Nosk]"
     },
     {
         "name": "HOG-Sisters_of_Battle-0",
-        "logic": "Defeated_Pantheon_5"
+        "logic": "Pantheon_5_Beatable"
     },
     {
         "name": "HOG-Sisters_of_Battle-1",
-        "logic": "ATTUNED + BOTTOM_STATUE + HOG_44>0 + COMBAT[Pantheon_5]"
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_44>0 + COMBAT[Mantis_Lords]"
     },
     {
         "name": "HOG-Sisters_of_Battle-2",
-        "logic": "ASCENDED + BOTTOM_STATUE + HOG_44>1 + COMBAT[Pantheon_5]"
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_44>1 + COMBAT[Mantis_Lords]"
     },
     {
         "name": "HOG-Sisters_of_Battle-3",
-        "logic": "RADIANT + BOTTOM_STATUE + HOG_44>2 + COMBAT[Pantheon_5]"
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_44>2 + COMBAT[Mantis_Lords]"
     }
 ]

@@ -1,0 +1,16 @@
+[    
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Gruz_Mother",
+        "statueName": "GruzMother",
+        "hogId": "01",
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Vengefly_King",
+        "statueName": "Vengefly",
+        "hogId": "02",
+        "obtainState": "Unobtained"
+    }
+]

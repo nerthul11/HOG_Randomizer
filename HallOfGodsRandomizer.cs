@@ -28,18 +28,14 @@ namespace HallOfGodsRandomizer
         public GlobalSettings GS { get; set; } = new();
         public override void Initialize()
         {
+            // Ignore completely if Randomizer 4 is inactive
             if (ModHooks.GetMod("Randomizer 4") is Mod)
             {
                 Log("Initializing");
-                /// Randomize menu and logic
-                HOG_Interop.HookRandomizer();
+                HOG_Interop.Hook();
                 Log("Initialized");
             }
         }
-
-        /// <summary>
-        ///  This should create instance variables and set it to value based on StatueAccessMode (0 or -1).
-        /// </summary>
 
         public void OnLoadGlobal(GlobalSettings s) => GS = s;
 

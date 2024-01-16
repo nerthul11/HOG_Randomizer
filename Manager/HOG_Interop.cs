@@ -1,7 +1,4 @@
-using HallOfGodsRandomizer.IC;
 using HallOfGodsRandomizer.Menu;
-using Newtonsoft.Json;
-using System.IO;
 
 namespace HallOfGodsRandomizer.Manager
 {
@@ -9,8 +6,9 @@ namespace HallOfGodsRandomizer.Manager
     {
         public static HOG_RandomizationSettings Settings => HallOfGodsRandomizer.Instance.GS.MainSettings;
 
-        public static void HookRandomizer()
+        public static void Hook()
         {
+            ItemHandler.Hook();
             ConnectionMenu.Hook();
             LogicHandler.Hook();
         }

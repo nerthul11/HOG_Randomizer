@@ -1,5 +1,4 @@
 using System.IO;
-using HallOfGodsRandomizer.Menu;
 using RandomizerCore.Logic;
 using RandomizerMod.RC;
 using RandomizerMod.Settings;
@@ -23,18 +22,25 @@ namespace HallOfGodsRandomizer.Manager
 
         private static void AddConstantJSONs(LogicManagerBuilder lmb)
         {
-            /// Deserialization is not reading the files properly. Needs fixing.
-            /// Add terms
+            // Add terms
             using Stream t = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.terms.json");
             lmb.DeserializeJson(LogicManagerBuilder.JsonType.Terms, t);
-
-            /// Add macros
+            
+            // Add macros
             using Stream m = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.macros.json");
             lmb.DeserializeJson(LogicManagerBuilder.JsonType.Macros, m);
 
-            /// Add locations
+            // Add waypoints
+            using Stream w = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.waypoints.json");
+            lmb.DeserializeJson(LogicManagerBuilder.JsonType.Waypoints, w);
+
+            // Add items
+            using Stream i = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.items.json");
+            lmb.DeserializeJson(LogicManagerBuilder.JsonType.Items, i);
+
+            // Add locations
             using Stream l = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.locations.json");
-            lmb.DeserializeJson(LogicManagerBuilder.JsonType.Items, l);
+            lmb.DeserializeJson(LogicManagerBuilder.JsonType.Locations, l);
         }
     }
 }

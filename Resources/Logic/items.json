@@ -1,17 +1,10 @@
 [
     {
-        "name": "Statue_Unlock-Gruz_Mother"
+        "Effect": "HOG_01++",
+        "Name": "Statue_Mark-Gruz_Mother"
     },
     {
-        "effect": "HOG_01++",
-        "name": "Bronze_Mark-Gruz_Mother"
-    },
-    {
-        "effect": "HOG_01++",
-        "name": "Silver_Mark-Gruz_Mother"
-    },
-    {
-        "effect": "HOG_01++",
-        "name": "Gold_Mark-Gruz_Mother"
+        "Effect": "HOG_02++",
+        "Name": "Statue_Mark-Vengefly_King"
     }
 ]
