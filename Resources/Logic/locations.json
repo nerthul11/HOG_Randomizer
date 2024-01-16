@@ -1,6 +1,6 @@
 [
     {
-        "name": "Statue_Unlock-Gruz_Mother-0",
+        "name": "Statue_Unlock-Gruz_Mother",
         "logic": "Defeated_Gruz_Mother"
     },
     {
@@ -16,7 +16,7 @@
         "logic": "RADIANT + BOTTOM_STATUE + HOG_01>2 + COMBAT[Gruz_Mother]"
     },
     {
-        "name": "Statue_Unlock-Vengefly_King-0",
+        "name": "Statue_Unlock-Vengefly_King",
         "logic": "Defeated_Vengefly_King"
     },
     {

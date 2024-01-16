@@ -2,19 +2,19 @@
 
 A Randomizer add-on for Hall of Gods statues.
 
-This will randomize four locations for each HoG Boss:
+## Description
+
+This will randomize four locations for each HoG Boss and their effects:
 - Unlock --> An item is granted when defeating a boss in the overworld.
 - Attuned --> An item is granted when defeating the Attuned version.
 - Ascended --> An item is granted when defeating the Ascended version.
 - Radiant --> An item is granted when defeating the Radiant version.
 
-Likewise, there will be new items affecting these locations:
-- Unlock --> Instead of unlocking when a boss is defeated, the "X Unlock" item will be required.
-- Bronze mark --> Instead of being obtained when defeating an attuned boss, the "X Bronze" item will be required.
-- Silver mark --> Instead of being obtained when defeating an ascended boss, the "X Silver" item will be required.
-- Gold mark --> Instead of being obtained when defeating a radiant boss, the "X Gold" item will be required.
+Likewise, there will be two new item classes affecting these locations:
+- Statue Unlock --> Instead of unlocking when a boss is defeated, the "Statue_Unlock-{BOSS_NAME}" item will be required.
+- Statue Mark --> Each item will improve the Statue_Mark for each boss by 1, meaning you'll get the Attuned, Ascended and Radiant marks in progressive order. Three copies of this item will be present for each boss, each of them representing one of the boss tiers.
 
-These are progressive (meaning that you first unlock a boss, then obtain each mark in Bronze/Silver/Gold order), and the requirements for the Void Idol will be defined by these locations instead of requiring the actual defeat of each boss.
+Requirements for the Void Idol will be defined by these locations instead of requiring the actual defeat of each boss.
 
 All this should add a whopping total of 176 new items and locations to the Randomization pool!
 
@@ -28,3 +28,14 @@ Dependencies:
 - MenuChanger
 - Randomizer 4
 - RandomizerCore
+
+## Work in progress
+
+This is currently under development, and the following are the known steps meant to be dealt with before release.
+
+- ~~Set up the settings and the connection menu.~~ (DONE)
+- Define terms, macros, waypoints, item and location logic. (IN_PROGRESS)
+- Define item and location properties. (IN_PROGRESS)
+- Define FSM changes for all locations. (TO_DO)
+- Validate interaction with other randomizer mods. (TO_DO)
+- Assert all the previous steps function correctly. (TO_DO)
