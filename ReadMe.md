@@ -29,9 +29,9 @@ Dependencies:
 - Randomizer 4
 - RandomizerCore
 
-## Work in progress
+## Current status
 
-This is currently under development, and the following are the known steps meant to be dealt with before release.
+This mod is currently under development, and the following are the known steps meant to be dealt with before release.
 
 - ~~Set up the settings and the connection menu.~~ (DONE)
 - Define terms, macros, waypoints, item and location logic. (IN_PROGRESS)
