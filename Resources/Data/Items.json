@@ -3,14 +3,37 @@
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Gruz_Mother",
         "statueName": "GruzMother",
-        "hogId": "01",
+        "hogId": "HOG_01",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Gruz Mother"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A slumbering god of fertility's demise."
+            }
+        },
         "obtainState": "Unobtained"
     },
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Vengefly_King",
         "statueName": "Vengefly",
-        "hogId": "02",
+        "hogId": "HOG_02",
+        "isUnlock": false,
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Vengefly King"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A vicious god of territories' demise."
+            }
+        },
         "obtainState": "Unobtained"
     }
 ]

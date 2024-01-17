@@ -1,5 +1,5 @@
-using HallOfGodsRandomizer.IC;
 using ItemChanger;
+using ItemChanger.Locations;
 using Newtonsoft.Json;
 using RandomizerMod.RC;
 using System.IO;
@@ -19,17 +19,28 @@ namespace HallOfGodsRandomizer.Manager {
 
         public static void AddObjects(RequestBuilder builder)
         {
-            // Define items
             Assembly assembly = Assembly.GetExecutingAssembly();
             JsonSerializer jsonSerializer = new() {TypeNameHandling = TypeNameHandling.Auto};
+            
+            // Define items
             using Stream itemStream = assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Data.Items.json");
             StreamReader itemReader = new(itemStream);
-            List<StatueItem> itemList = jsonSerializer.Deserialize<List<StatueItem>>(new JsonTextReader(itemReader));
-            foreach (StatueItem item in itemList)
+            List<AbstractItem> itemList = jsonSerializer.Deserialize<List<AbstractItem>>(new JsonTextReader(itemReader));
+            foreach (AbstractItem item in itemList)
                 Finder.DefineCustomItem(item);
 
-            foreach (StatueItem item in itemList)
-                builder.AddItemByName(item.name, 3);
+            foreach (AbstractItem item in itemList)
+                builder.AddItemByName(item.name, 4);
+
+            // Define locations
+            using Stream locationStream = assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Data.Locations.json");
+            StreamReader locationReader = new(locationStream);
+            List<AutoLocation> locationList = jsonSerializer.Deserialize<List<AutoLocation>>(new JsonTextReader(locationReader));
+            foreach (AutoLocation location in locationList)
+                Finder.DefineCustomLocation(location);
+
+            foreach (AutoLocation location in locationList)
+                builder.AddLocationByName(location.name, 3);
         }
     }
 }

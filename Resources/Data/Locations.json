@@ -1,0 +1,56 @@
+[
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Gruz_Mother",
+      "sceneName": "GG_Workshop",
+      "statueName": "GruzMother",
+      "statueTier": "Attuned",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Gruz_Mother",
+      "sceneName": "GG_Workshop",
+      "statueName": "GruzMother",
+      "statueTier": "Ascended",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Gruz_Mother",
+      "sceneName": "GG_Workshop",
+      "statueName": "GruzMother",
+      "statueTier": "Radiant",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Vengefly_King",
+      "sceneName": "GG_Workshop",
+      "statueName": "Vengefly",
+      "statueTier": "Attuned",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Vengefly_King",
+      "sceneName": "GG_Workshop",
+      "statueName": "Vengefly",
+      "statueTier": "Ascended",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Vengefly_King",
+      "sceneName": "GG_Workshop",
+      "statueName": "Vengefly",
+      "statueTier": "Radiant",
+      "flingType": "DirectDeposit",
+      "tags": null
+    }
+]

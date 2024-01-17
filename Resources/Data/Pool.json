@@ -1,0 +1,48 @@
+[
+    {
+      "Group": "Statues",
+      "Name": "Statue",
+      "IncludeItems": [
+        "Statue_Mark-Gruz_Mother",
+        "Statue_Mark-Gruz_Mother",
+        "Statue_Mark-Gruz_Mother",
+        "Statue_Mark-Vengefly_King",
+        "Statue_Mark-Vengefly_King",
+        "Statue_Mark-Vengefly_King"
+      ],
+      "IncludeLocations": [
+        "Bronze_Mark-Gruz_Mother",
+        "Silver_Mark-Gruz_Mother",
+        "Gold_Mark-Gruz_Mother",
+        "Bronze_Mark-Vengefly_King",
+        "Silver_Mark-Vengefly_King",
+        "Gold_Mark-Vengefly_King"
+      ],
+      "Vanilla": [
+        {
+          "item": "Statue_Mark-Gruz_Mother",
+          "location": "Bronze_Mark-Gruz_Mother"
+        },
+        {
+            "item": "Statue_Mark-Gruz_Mother",
+            "location": "Silver_Mark-Gruz_Mother"
+        },
+        {
+            "item": "Statue_Mark-Gruz_Mother",
+            "location": "Gold_Mark-Gruz_Mother"
+        },
+        {
+            "item": "Statue_Mark-Vengefly_King",
+            "location": "Bronze_Mark-Vengefly_King"
+        },
+        {
+            "item": "Statue_Mark-Vengefly_King",
+            "location": "Silver_Mark-Vengefly_King"
+        },
+        {
+            "item": "Statue_Mark-Vengefly_King",
+            "location": "Gold_Mark-Vengefly_King"
+        }
+      ]
+    }
+]

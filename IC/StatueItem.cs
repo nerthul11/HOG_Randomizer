@@ -6,11 +6,10 @@ namespace HallOfGodsRandomizer.IC
     {
         public string hogId { get; set; }
         public string statueName { get; set; }
-
         public override void GiveImmediate(GiveInfo info)
         {
             BossStatueCompletionStates statueState = PlayerData.instance.GetVariable<BossStatueCompletionStates>($"statueState{statueName}");
-            HallOfGodsRandomizer.Instance.Log(statueState);
+            HallOfGodsRandomizer.Instance.LogDebug(statueState);
         }
     }
 }

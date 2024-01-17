@@ -13,22 +13,27 @@ namespace HallOfGodsRandomizer.IC {
         Ascended = 2,
         Radiant = 3
     }
+    
     public class StatueLocation : AutoLocation
     {
+        public string statueName { get; set; }
+        public Tier statueTier { get; set; }
+
         public override GiveInfo GetGiveInfo() => new()
         {
            FlingType = flingType,
-           Callback = null,
            Container = Container.Unknown,
            MessageType = MessageType.Corner
         };
 
         protected override void OnUnload()
         {
+            Events.RemoveFsmEdit(sceneName, new FsmID("Whatever statue object it reads from"), null);
         }
 
         protected override void OnLoad()
         {
+            Events.AddFsmEdit(sceneName, new FsmID("Whatever statue object it reads from"), null);
         }
     }
 }
