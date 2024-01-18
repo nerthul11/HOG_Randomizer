@@ -42,12 +42,8 @@ namespace HallOfGodsRandomizer.Manager
             lmb.DeserializeJson(LogicManagerBuilder.JsonType.Waypoints, w);
 
             // Add items          
-            using Stream itemStream = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Data.Items.json");
-            StreamReader itemReader = new(itemStream);
-            JsonSerializer jsonSerializer = new() {TypeNameHandling = TypeNameHandling.Auto};
-            List<StatueItem> itemList = jsonSerializer.Deserialize<List<StatueItem>>(new JsonTextReader(itemReader));
-            foreach (StatueItem item in itemList)
-                lmb.AddItem(new SingleItem(item.name, new TermValue(lmb.GetTerm(item.hogId), 1)));
+            using Stream i = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.items.json");
+            lmb.DeserializeJson(LogicManagerBuilder.JsonType.Items, i);
 
             // Add locations
             using Stream l = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.locations.json");

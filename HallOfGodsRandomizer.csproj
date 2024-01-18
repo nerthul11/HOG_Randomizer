@@ -64,6 +64,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Resources\Data\*.json" />
     <EmbeddedResource Include="Resources\Logic\*.json" />
+    <EmbeddedResource Include="Resources\Sprites\StatueMark.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">

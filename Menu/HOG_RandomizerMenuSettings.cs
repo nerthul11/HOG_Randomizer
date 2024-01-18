@@ -6,16 +6,34 @@ namespace HallOfGodsRandomizer.Menu
     [Flags]
     public enum StatueAccessMode
     {
+        /// <summary>
+        /// Statues will be unlocked the same way they are in the original game.
+        /// </summary>
         Vanilla = 0,
-        Randomized = -1
+        /// <summary>
+        /// Statues will be unlocked after obtaining a Statue Mark for them.
+        /// </summary>
+        Randomized = 1
     }
     [Flags]
     public enum TierLimitMode
     {
+        /// <summary>
+        /// All Hall of Gods tiers will be randomized.
+        /// </summary>
         IncludeAll = 3,
+        /// <summary>
+        /// Attuned and Ascended Hall of Gods marks will be randomized.
+        /// </summary>
         ExcludeRadiant = 2,
+        /// <summary>
+        /// Attuned Hall of Gods marks will be randomized.
+        /// </summary>
         ExcludeAscended = 1,
-        ExcludeAll = 0
+        /// <summary>
+        /// All Hall of Gods tiers will have vanilla behaviour.
+        /// </summary>
+        Vanilla = 0
     }
 
     public class HOG_RandomizationSettings

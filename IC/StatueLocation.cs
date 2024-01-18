@@ -4,7 +4,7 @@ using ItemChanger.Locations;
 namespace HallOfGodsRandomizer.IC {
     /// <summary>
     /// Each location should add an item when completing a tier for the first time.
-    /// The method for setting boolean values as true should be overriden in the original functions.
+    /// The method for setting statueState completion boolean values should be overriden.
     /// </summary>
     public enum Tier
     {
@@ -28,12 +28,10 @@ namespace HallOfGodsRandomizer.IC {
 
         protected override void OnUnload()
         {
-            Events.RemoveFsmEdit(sceneName, new FsmID("Whatever statue object it reads from"), null);
         }
 
         protected override void OnLoad()
         {
-            Events.AddFsmEdit(sceneName, new FsmID("Whatever statue object it reads from"), null);
         }
     }
 }

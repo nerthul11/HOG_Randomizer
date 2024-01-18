@@ -1,6 +1,15 @@
 [
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Gruz_Mother",
+      "sceneName": "GG_Workshop",
+      "statueName": "GruzMother",
+      "statueTier": "Unlock",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Bronze_Mark-Gruz_Mother",
       "sceneName": "GG_Workshop",
       "statueName": "GruzMother",
@@ -28,6 +37,15 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Vengefly_King",
+      "sceneName": "GG_Workshop",
+      "statueName": "Vengefly",
+      "statueTier": "Unlock",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Bronze_Mark-Vengefly_King",
       "sceneName": "GG_Workshop",
       "statueName": "Vengefly",
@@ -49,6 +67,78 @@
       "name": "Gold_Mark-Vengefly_King",
       "sceneName": "GG_Workshop",
       "statueName": "Vengefly",
+      "statueTier": "Radiant",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Brooding_Mawlek",
+      "sceneName": "GG_Workshop",
+      "statueName": "BroodingMawlek",
+      "statueTier": "Unlock",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Brooding_Mawlek",
+      "sceneName": "GG_Workshop",
+      "statueName": "BroodingMawlek",
+      "statueTier": "Attuned",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Brooding_Mawlek",
+      "sceneName": "GG_Workshop",
+      "statueName": "BroodingMawlek",
+      "statueTier": "Ascended",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Brooding_Mawlek",
+      "sceneName": "GG_Workshop",
+      "statueName": "BroodingMawlek",
+      "statueTier": "Radiant",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-False_Knight",
+      "sceneName": "GG_Workshop",
+      "statueName": "FalseKnight",
+      "statueTier": "Unlock",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-False_Knight",
+      "sceneName": "GG_Workshop",
+      "statueName": "FalseKnight",
+      "statueTier": "Attuned",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-False_Knight",
+      "sceneName": "GG_Workshop",
+      "statueName": "FalseKnight",
+      "statueTier": "Ascended",
+      "flingType": "DirectDeposit",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-False_Knight",
+      "sceneName": "GG_Workshop",
+      "statueName": "FalseKnight",
       "statueTier": "Radiant",
       "flingType": "DirectDeposit",
       "tags": null

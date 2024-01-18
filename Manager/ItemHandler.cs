@@ -40,7 +40,7 @@ namespace HallOfGodsRandomizer.Manager {
                 Finder.DefineCustomLocation(location);
 
             foreach (AutoLocation location in locationList)
-                builder.AddLocationByName(location.name, 3);
+                builder.AddLocationByName(location.name);
         }
     }
 }

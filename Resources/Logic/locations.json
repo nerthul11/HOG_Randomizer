@@ -1,15 +1,23 @@
 [
     {
+        "name": "Empty_Mark-Gruz_Mother",
+        "logic": "Defeated_Gruz_Mother"
+    },
+    {
         "name": "Bronze_Mark-Gruz_Mother",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_01>0 + COMBAT[Gruz_Mother]"
     },
     {
         "name": "Silver_Mark-Gruz_Mother",
-        "logic": "ASCENDED + BOTTOM_STATUE + HOG_01>1 + COMBAT[Gruz_Mother]"
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_01>0 + COMBAT[Gruz_Mother]"
     },
     {
         "name": "Gold_Mark-Gruz_Mother",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_01>2 + COMBAT[Gruz_Mother]"
+    },
+    {
+        "name": "Empty_Mark-Vengefly_King",
+        "logic": "Defeated_Vengefly_King"
     },
     {
         "name": "Bronze_Mark-Vengefly_King",
@@ -17,10 +25,682 @@
     },
     {
         "name": "Silver_Mark-Vengefly_King",
-        "logic": "ASCENDED + BOTTOM_STATUE + HOG_02>1"
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_02>0"
     },
     {
         "name": "Gold_Mark-Vengefly_King",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_02>2"
+    },
+    {
+        "name": "Empty_Mark-Brooding_Mawlek",
+        "logic": "Defeated_Brooding_Mawlek"
+    },
+    {
+        "name": "Bronze_Mark-Brooding_Mawlek",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_03>0 + COMBAT[Brooding_Mawlek]"
+    },
+    {
+        "name": "Silver_Mark-Brooding_Mawlek",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_03>0 + COMBAT[Brooding_Mawlek]"
+    },
+    {
+        "name": "Gold_Mark-Brooding_Mawlek",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_03>2 + COMBAT[Brooding_Mawlek]"
+    },
+    {
+        "name": "Empty_Mark-False_Knight",
+        "logic": "Defeated_False_Knight"
+    },
+    {
+        "name": "Bronze_Mark-False_Knight",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_04>0 + COMBAT[False_Knight]"
+    },
+    {
+        "name": "Silver_Mark-False_Knight",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_04>0 + COMBAT[False_Knight]"
+    },
+    {
+        "name": "Gold_Mark-False_Knight",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_04>2 + COMBAT[False_Knight]"
+    },
+    {
+        "name": "Empty_Mark-Failed_Champion",
+        "logic": "Defeated_Failed_Champion"
+    },
+    {
+        "name": "Bronze_Mark-Failed_Champion",
+        "logic": "ATTUNED + DREAMNAIL + BOTTOM_STATUE + HOG_05>0 + COMBAT[Failed_Champion]"
+    },
+    {
+        "name": "Silver_Mark-Failed_Champion",
+        "logic": "ASCENDED + DREAMNAIL + BOTTOM_STATUE + HOG_05>0 + COMBAT[Failed_Champion]"
+    },
+    {
+        "name": "Gold_Mark-Failed_Champion",
+        "logic": "RADIANT + DREAMNAIL + BOTTOM_STATUE + HOG_05>2 + COMBAT[Failed_Champion]"
+    },
+    {
+        "name": "HOG-Hornet_Protector-0",
+        "logic": "Defeated_Hornet_1"
+    },
+    {
+        "name": "HOG-Hornet_Protector-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_06>0 + COMBAT[Hornet_1]"
+    },
+    {
+        "name": "HOG-Hornet_Protector-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_06>0 + COMBAT[Hornet_1]"
+    },
+    {
+        "name": "HOG-Hornet_Protector-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_06>2 + COMBAT[Hornet_1]"
+    },
+    {
+        "name": "HOG-Hornet_Sentinel-0",
+        "logic": "Defeated_Hornet_1"
+    },
+    {
+        "name": "HOG-Hornet_Sentinel-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_07>0 + COMBAT[Hornet_2]"
+    },
+    {
+        "name": "HOG-Hornet_Sentinel-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_07>0 + COMBAT[Hornet_2]"
+    },
+    {
+        "name": "HOG-Hornet_Sentinel-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_07>2 + COMBAT[Hornet_2]"
+    },
+    {
+        "name": "HOG-Massive_Moss_Charger-0",
+        "logic": "Defeated_Massive_Moss_Charger"
+    },
+    {
+        "name": "HOG-Massive_Moss_Charger-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_08>0"
+    },
+    {
+        "name": "HOG-Massive_Moss_Charger-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_08>0"
+    },
+    {
+        "name": "HOG-Massive_Moss_Charger-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_08>2"
+    },
+    {
+        "name": "HOG-Mantis_Lords-0",
+        "logic": "Defeated_Mantis_Lords"
+    },
+    {
+        "name": "HOG-Mantis_Lords-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_09>0 + COMBAT[Mantis_Lords]"
+    },
+    {
+        "name": "HOG-Mantis_Lords-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_09>0 + COMBAT[Mantis_Lords]"
+    },
+    {
+        "name": "HOG-Mantis_Lords-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_09>2 + COMBAT[Mantis_Lords]"
+    },
+    {
+        "name": "HOG-Oblobbles-0",
+        "logic": "Defeated_Colosseum_2"
+    },
+    {
+        "name": "HOG-Oblobbles-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_10>0 + COMBAT[Colosseum_2]"
+    },
+    {
+        "name": "HOG-Oblobbles-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_10>0 + COMBAT[Colosseum_2]"
+    },
+    {
+        "name": "HOG-Oblobbles-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_10>2 + COMBAT[Colosseum_2]"
+    },
+    {
+        "name": "HOG-Grey_Prince_Zote-0",
+        "logic": "Defeated_Colosseum_2"
+    },
+    {
+        "name": "HOG-Grey_Prince_Zote-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_11>0 + COMBAT[Grey_Prince_Zote]"
+    },
+    {
+        "name": "HOG-Grey_Prince_Zote-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_11>0 + COMBAT[Grey_Prince_Zote]"
+    },
+    {
+        "name": "HOG-Grey_Prince_Zote-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_11>2 + COMBAT[Grey_Prince_Zote]"
+    },
+    {
+        "name": "HOG-Broken_Vessel-0",
+        "logic": "Defeated_Broken_Vessel"
+    },
+    {
+        "name": "HOG-Broken_Vessel-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_12>0 + COMBAT[Broken_Vessel]"
+    },
+    {
+        "name": "HOG-Broken_Vessel-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_12>0 + COMBAT[Broken_Vessel]"
+    },
+    {
+        "name": "HOG-Broken_Vessel-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_12>2 + COMBAT[Broken_Vessel]"
+    },
+    {
+        "name": "HOG-Lost_Kin-0",
+        "logic": "Defeated_Lost_Kin"
+    },
+    {
+        "name": "HOG-Lost_Kin-1",
+        "logic": "ATTUNED + DREAMNAIL + BOTTOM_STATUE + HOG_13>0 + COMBAT[Lost_Kin]"
+    },
+    {
+        "name": "HOG-Lost_Kin-2",
+        "logic": "ASCENDED + DREAMNAIL + BOTTOM_STATUE + HOG_13>0 + COMBAT[Lost_Kin]"
+    },
+    {
+        "name": "HOG-Lost_Kin-3",
+        "logic": "RADIANT + DREAMNAIL + BOTTOM_STATUE + HOG_13>2 + COMBAT[Lost_Kin]"
+    },
+    {
+        "name": "HOG-Nosk-0",
+        "logic": "Defeated_Nosk"
+    },
+    {
+        "name": "HOG-Nosk-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_14>0 + COMBAT[Nosk]"
+    },
+    {
+        "name": "HOG-Nosk-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_14>0 + COMBAT[Nosk]"
+    },
+    {
+        "name": "HOG-Nosk-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_14>2 + COMBAT[Nosk]"
+    },
+    {
+        "name": "HOG-Flukemarm-0",
+        "logic": "Defeated_Flukemarm"
+    },
+    {
+        "name": "HOG-Flukemarm-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_15>0 + COMBAT[Flukemarm]"
+    },
+    {
+        "name": "HOG-Flukemarm-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_15>0 + COMBAT[Flukemarm]"
+    },
+    {
+        "name": "HOG-Flukemarm-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_15>2 + COMBAT[Flukemarm]"
+    },
+    {
+        "name": "HOG-Collector-0",
+        "logic": "Defeated_Collector"
+    },
+    {
+        "name": "HOG-Collector-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_16>0 + COMBAT[Collector]"
+    },
+    {
+        "name": "HOG-Collector-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_16>0 + COMBAT[Collector]"
+    },
+    {
+        "name": "HOG-Collector-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_16>2 + COMBAT[Collector]"
+    },
+    {
+        "name": "HOG-Watcher_Knights-0",
+        "logic": "Defeated_Watcher_Knights"
+    },
+    {
+        "name": "HOG-Watcher_Knights-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_17>0 + COMBAT[Watcher_Knights]"
+    },
+    {
+        "name": "HOG-Watcher_Knights-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_17>0 + COMBAT[Watcher_Knights]"
+    },
+    {
+        "name": "HOG-Watcher_Knights-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_17>2 + COMBAT[Watcher_Knights]"
+    },
+    {
+        "name": "HOG-Soul_Master-0",
+        "logic": "Defeated_Soul_Master"
+    },
+    {
+        "name": "HOG-Soul_Master-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_18>0 + COMBAT[Soul_Master]"
+    },
+    {
+        "name": "HOG-Soul_Master-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_18>0 + COMBAT[Soul_Master]"
+    },
+    {
+        "name": "HOG-Soul_Master-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_18>2 + COMBAT[Soul_Master]"
+    },
+    {
+        "name": "HOG-Soul_Tyrant-0",
+        "logic": "Defeated_Soul_Tyrant"
+    },
+    {
+        "name": "HOG-Soul_Tyrant-1",
+        "logic": "ATTUNED + DREAMNAIL + TOP_STATUE + HOG_19>0 + COMBAT[Soul_Tyrant]"
+    },
+    {
+        "name": "HOG-Soul_Tyrant-2",
+        "logic": "ASCENDED + DREAMNAIL + TOP_STATUE + HOG_19>0 + COMBAT[Soul_Tyrant]"
+    },
+    {
+        "name": "HOG-Soul_Tyrant-3",
+        "logic": "RADIANT + DREAMNAIL + TOP_STATUE + HOG_19>2 + COMBAT[Soul_Tyrant]"
+    },
+    {
+        "name": "HOG-Godtamer-0",
+        "logic": "Defeated_Colosseum_3"
+    },
+    {
+        "name": "HOG-Godtamer-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_20>0 + COMBAT[Colosseum_3]"
+    },
+    {
+        "name": "HOG-Godtamer-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_20>0 + COMBAT[Colosseum_3]"
+    },
+    {
+        "name": "HOG-Godtamer-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_20>2 + COMBAT[Colosseum_3]"
+    },
+    {
+        "name": "HOG-Crystal_Guardian-0",
+        "logic": "Defeated_Crystal_Guardian"
+    },
+    {
+        "name": "HOG-Crystal_Guardian-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_21>0 + COMBAT[Crystal_Guardian] + Can_Damage_Crystal_Guardian"
+    },
+    {
+        "name": "HOG-Crystal_Guardian-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_21>0 + COMBAT[Crystal_Guardian] + Can_Damage_Crystal_Guardian"
+    },
+    {
+        "name": "HOG-Crystal_Guardian-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_21>2 + COMBAT[Crystal_Guardian] + Can_Damage_Crystal_Guardian"
+    },
+    {
+        "name": "HOG-Enraged_Guardian-0",
+        "logic": "Defeated_Enraged_Guardian"
+    },
+    {
+        "name": "HOG-Enraged_Guardian-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_22>0 + COMBAT[Enraged_Guardian]"
+    },
+    {
+        "name": "HOG-Enraged_Guardian-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_22>0 + COMBAT[Enraged_Guardian]"
+    },
+    {
+        "name": "HOG-Enraged_Guardian-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_22>2 + COMBAT[Enraged_Guardian]"
+    },
+    {
+        "name": "HOG-Uumuu-0",
+        "logic": "Defeated_Uumuu"
+    },
+    {
+        "name": "HOG-Uumuu-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_23>0 + COMBAT[Uumuu]"
+    },
+    {
+        "name": "HOG-Uumuu-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_23>0 + COMBAT[Uumuu]"
+    },
+    {
+        "name": "HOG-Uumuu-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_23>2 + COMBAT[Uumuu]"
+    },
+    {
+        "name": "HOG-Dung_Defender-0",
+        "logic": "Defeated_Dung_Defender"
+    },
+    {
+        "name": "HOG-Dung_Defender-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_24>0 + COMBAT[Dung_Defender]"
+    },
+    {
+        "name": "HOG-Dung_Defender-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_24>0 + COMBAT[Dung_Defender]"
+    },
+    {
+        "name": "HOG-Dung_Defender-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_24>2 + COMBAT[Dung_Defender]"
+    },
+    {
+        "name": "HOG-White_Defender-0",
+        "logic": "Defeated_White_Defender"
+    },
+    {
+        "name": "HOG-White_Defender-1",
+        "logic": "ATTUNED + DREAMNAIL + TOP_STATUE + HOG_25>0 + COMBAT[White_Defender]"
+    },
+    {
+        "name": "HOG-White_Defender-2",
+        "logic": "ASCENDED + DREAMNAIL + TOP_STATUE + HOG_25>0 + COMBAT[White_Defender]"
+    },
+    {
+        "name": "HOG-White_Defender-3",
+        "logic": "RADIANT + DREAMNAIL + TOP_STATUE + HOG_25>2 + COMBAT[White_Defender]"
+    },
+    {
+        "name": "HOG-Hive_Knight-0",
+        "logic": "Defeated_White_Defender"
+    },
+    {
+        "name": "HOG-Hive_Knight-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_26>0 + COMBAT[Hive_Knight]"
+    },
+    {
+        "name": "HOG-Hive_Knight-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_26>0 + COMBAT[Hive_Knight]"
+    },
+    {
+        "name": "HOG-Hive_Knight-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_26>2 + COMBAT[Hive_Knight]"
+    },
+    {
+        "name": "HOG-Traitor_Lord-0",
+        "logic": "Defeated_Traitor_Lord"
+    },
+    {
+        "name": "HOG-Traitor_Lord-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_27>0 + COMBAT[Traitor_Lord]"
+    },
+    {
+        "name": "HOG-Traitor_Lord-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_27>0 + COMBAT[Traitor_Lord]"
+    },
+    {
+        "name": "HOG-Traitor_Lord-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_27>2 + COMBAT[Traitor_Lord]"
+    },
+    {
+        "name": "HOG-Troupe_Master_Grimm-0",
+        "logic": "Defeated_Grimm"
+    },
+    {
+        "name": "HOG-Troupe_Master_Grimm-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_28>0 + COMBAT[Grimm]"
+    },
+    {
+        "name": "HOG-Troupe_Master_Grimm-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_28>0 + COMBAT[Grimm]"
+    },
+    {
+        "name": "HOG-Troupe_Master_Grimm-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_28>2 + COMBAT[Grimm]"
+    },
+    {
+        "name": "HOG-Nightmare_King_Grimm-0",
+        "logic": "FLAMES>8 + Defeated_Grimm"
+    },
+    {
+        "name": "HOG-Nightmare_King_Grimm-1",
+        "logic": "ATTUNED + DREAMNAIL + TOP_STATUE + HOG_29>0 + COMBAT[Grimm]"
+    },
+    {
+        "name": "HOG-Nightmare_King_Grimm-2",
+        "logic": "ASCENDED + DREAMNAIL + TOP_STATUE + HOG_29>0 + COMBAT[Grimm]"
+    },
+    {
+        "name": "HOG-Nightmare_King_Grimm-3",
+        "logic": "RADIANT + DREAMNAIL + TOP_STATUE + HOG_29>2 + COMBAT[Grimm]"
+    },
+    {
+        "name": "HOG-Pure_Vessel-0",
+        "logic": "Pantheon_4_Beatable"
+    },
+    {
+        "name": "HOG-Pure_Vessel-1",
+        "logic": "ATTUNED + DREAMNAIL + TOP_STATUE + HOG_30>0 + COMBAT[Pure_Vessel]"
+    },
+    {
+        "name": "HOG-Pure_Vessel-2",
+        "logic": "ASCENDED + DREAMNAIL + TOP_STATUE + HOG_30>0 + COMBAT[Pure_Vessel]"
+    },
+    {
+        "name": "HOG-Pure_Vessel-3",
+        "logic": "RADIANT + DREAMNAIL + TOP_STATUE + HOG_30>2 + COMBAT[Pure_Vessel]"
+    },
+    {
+        "name": "HOG-Elder_Hu-0",
+        "logic": "Defeated_Elder_Hu"
+    },
+    {
+        "name": "HOG-Elder_Hu-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_31>0 + COMBAT[Elder_Hu]"
+    },
+    {
+        "name": "HOG-Elder_Hu-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_31>0 + COMBAT[Elder_Hu]"
+    },
+    {
+        "name": "HOG-Elder_Hu-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_31>2 + COMBAT[Elder_Hu]"
+    },
+    {
+        "name": "HOG-Galien-0",
+        "logic": "Defeated_Galien"
+    },
+    {
+        "name": "HOG-Galien-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_32>0 + COMBAT[Galien]"
+    },
+    {
+        "name": "HOG-Galien-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_32>0 + COMBAT[Galien]"
+    },
+    {
+        "name": "HOG-Galien-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_32>2 + COMBAT[Galien]"
+    },
+    {
+        "name": "HOG-Markoth-0",
+        "logic": "Defeated_Markoth"
+    },
+    {
+        "name": "HOG-Markoth-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_33>0 + COMBAT[Markoth]"
+    },
+    {
+        "name": "HOG-Markoth-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_33>0 + COMBAT[Markoth]"
+    },
+    {
+        "name": "HOG-Markoth-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_33>2 + COMBAT[Markoth]"
+    },
+    {
+        "name": "HOG-Marmu-0",
+        "logic": "Defeated_Marmu"
+    },
+    {
+        "name": "HOG-Marmu-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_34>0 + COMBAT[Marmu]"
+    },
+    {
+        "name": "HOG-Marmu-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_34>0 + COMBAT[Marmu]"
+    },
+    {
+        "name": "HOG-Marmu-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_34>2 + COMBAT[Marmu]"
+    },
+    {
+        "name": "HOG-No_Eyes-0",
+        "logic": "Defeated_No_Eyes"
+    },
+    {
+        "name": "HOG-No_Eyes-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_35>0 + COMBAT[No_Eyes]"
+    },
+    {
+        "name": "HOG-No_Eyes-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_35>0 + COMBAT[No_Eyes]"
+    },
+    {
+        "name": "HOG-No_Eyes-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_35>2 + COMBAT[No_Eyes]"
+    },
+    {
+        "name": "HOG-Xero-0",
+        "logic": "Defeated_Xero"
+    },
+    {
+        "name": "HOG-Xero-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_36>0 + COMBAT[Xero]"
+    },
+    {
+        "name": "HOG-Xero-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_36>0 + COMBAT[Xero]"
+    },
+    {
+        "name": "HOG-Xero-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_36>2 + COMBAT[Xero]"
+    },
+    {
+        "name": "HOG-Gorb-0",
+        "logic": "Defeated_No_Eyes"
+    },
+    {
+        "name": "HOG-Gorb-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_37>0 + COMBAT[Gorb]"
+    },
+    {
+        "name": "HOG-Gorb-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_37>0 + COMBAT[Gorb]"
+    },
+    {
+        "name": "HOG-Gorb-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_37>2 + COMBAT[Gorb]"
+    },
+    {
+        "name": "HOG-Radiance-0",
+        "logic": "Pantheon_5_Beatable"
+    },
+    {
+        "name": "HOG-Radiance-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_38>0 + COMBAT[Radiance]"
+    },
+    {
+        "name": "HOG-Radiance-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_38>0 + COMBAT[Radiance]"
+    },
+    {
+        "name": "HOG-Radiance-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_38>2 + COMBAT[Radiance]"
+    },
+    {
+        "name": "HOG-Sly-0",
+        "logic": "Pantheon_3_Beatable"
+    },
+    {
+        "name": "HOG-Sly-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_39>0 + COMBAT[Nailmasters]"
+    },
+    {
+        "name": "HOG-Sly-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_39>0 + COMBAT[Nailmasters]"
+    },
+    {
+        "name": "HOG-Sly-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_39>2 + COMBAT[Nailmasters]"
+    },
+    {
+        "name": "HOG-Nailmaster_Brothers-0",
+        "logic": "Pantheon_1_Beatable"
+    },
+    {
+        "name": "HOG-Nailmaster_Brothers-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_40>0 + COMBAT[Nailmasters]"
+    },
+    {
+        "name": "HOG-Nailmaster_Brothers-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_40>0 + COMBAT[Nailmasters]"
+    },
+    {
+        "name": "HOG-Nailmaster_Brothers-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_40>2 + COMBAT[Nailmasters]"
+    },
+    {
+        "name": "HOG-Soul_Warrior-0",
+        "logic": "Defeated_Sanctum_Warrior | Defeated_Elegant_Warrior"
+    },
+    {
+        "name": "HOG-Soul_Warrior-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_41>0 + COMBAT[Sanctum_Warrior]"
+    },
+    {
+        "name": "HOG-Soul_Warrior-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_41>0 + COMBAT[Sanctum_Warrior]"
+    },
+    {
+        "name": "HOG-Soul_Warrior-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_41>2 + COMBAT[Sanctum_Warrior]"
+    },
+    {
+        "name": "HOG-Paintmaster_Sheo-0",
+        "logic": "Pantheon_2_Beatable"
+    },
+    {
+        "name": "HOG-Paintmaster_Sheo-1",
+        "logic": "ATTUNED + TOP_STATUE + HOG_42>0 + COMBAT[Nailmasters]"
+    },
+    {
+        "name": "HOG-Paintmaster_Sheo-2",
+        "logic": "ASCENDED + TOP_STATUE + HOG_42>0 + COMBAT[Nailmasters]"
+    },
+    {
+        "name": "HOG-Paintmaster_Sheo-3",
+        "logic": "RADIANT + TOP_STATUE + HOG_42>2 + COMBAT[Nailmasters]"
+    },
+    {
+        "name": "HOG-Winged_Nosk-0",
+        "logic": "Pantheon_5_Beatable"
+    },
+    {
+        "name": "HOG-Winged_Nosk-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_43>0 + COMBAT[Nosk]"
+    },
+    {
+        "name": "HOG-Winged_Nosk-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_43>0 + COMBAT[Nosk]"
+    },
+    {
+        "name": "HOG-Winged_Nosk-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_43>2 + COMBAT[Nosk]"
+    },
+    {
+        "name": "HOG-Sisters_of_Battle-0",
+        "logic": "Pantheon_5_Beatable"
+    },
+    {
+        "name": "HOG-Sisters_of_Battle-1",
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_44>0 + COMBAT[Mantis_Lords]"
+    },
+    {
+        "name": "HOG-Sisters_of_Battle-2",
+        "logic": "ASCENDED + BOTTOM_STATUE + HOG_44>0 + COMBAT[Mantis_Lords]"
+    },
+    {
+        "name": "HOG-Sisters_of_Battle-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_44>2 + COMBAT[Mantis_Lords]"
     }
 ]

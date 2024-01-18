@@ -34,8 +34,8 @@ Dependencies:
 This mod is currently under development, and the following are the known steps meant to be dealt with before release.
 
 - ~~Set up the settings and the connection menu.~~ (DONE)
-- Define terms, macros, waypoints, item and location logic. (IN_PROGRESS)
+- ~~Define terms, macros, waypoints, item and location logic.~~ (DONE)
 - Define item and location properties. (IN_PROGRESS)
 - Define FSM changes for all locations. (TO_DO)
-- Validate interaction with other randomizer mods. (TO_DO)
+- Build connections with other randomizer mods. (TO_DO)
 - Assert all the previous steps function correctly. (TO_DO)

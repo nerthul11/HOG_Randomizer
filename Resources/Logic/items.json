@@ -1,0 +1,34 @@
+[
+{
+    "$type": "RandomizerCore.LogicItems.SingleItem, RandomizerCore",
+    "Effect": {
+        "Term": "HOG_01",
+        "Value": 1
+    },
+    "Name": "Statue_Mark-Gruz_Mother"
+},
+{
+    "$type": "RandomizerCore.LogicItems.SingleItem, RandomizerCore",
+    "Effect": {
+        "Term": "HOG_02",
+        "Value": 1
+    },
+    "Name": "Statue_Mark-Vengefly_King"
+},
+{
+    "$type": "RandomizerCore.LogicItems.SingleItem, RandomizerCore",
+    "Effect": {
+        "Term": "HOG_03",
+        "Value": 1
+    },
+    "Name": "Statue_Mark-Brooding_Mawlek"
+},
+{
+    "$type": "RandomizerCore.LogicItems.SingleItem, RandomizerCore",
+    "Effect": {
+        "Term": "HOG_04",
+        "Value": 1
+    },
+    "Name": "Statue_Mark-False_Knight"
+}
+]

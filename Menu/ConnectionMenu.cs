@@ -10,11 +10,11 @@ namespace HallOfGodsRandomizer.Menu
 {
     public class ConnectionMenu 
     {
-        /// Top-level definitions
+        // Top-level definitions
         internal static ConnectionMenu Instance { get; private set; }
         private SmallButton pageRootButton;
 
-        /// Menu page and elements
+        // Menu page and elements
         private MenuPage hogPage;
         private MenuElementFactory<HOG_RandomizationSettings> elementFactory;
 
@@ -38,16 +38,16 @@ namespace HallOfGodsRandomizer.Menu
 
         private ConnectionMenu(MenuPage connectionPage)
         {
-            /// Define connection page
+            // Define connection page
             hogPage = new MenuPage("hogPage", connectionPage);
             elementFactory = new(hogPage, HOG_Interop.Settings);
             VerticalItemPanel topLevelPanel = new(hogPage, new Vector2(0, 400), 350, true);
             
-            /// Define parameters
+            // Define parameters
             MenuLabel headingLabel = new(hogPage, "Hall of Gods Randomizer");
             elementFactory.ElementLookup["Enabled"].SelfChanged += EnableSwitch;
 
-            /// Define hierarchies
+            // Define hierarchies
             VerticalItemPanel settingHolder = new(hogPage, Vector2.zero, 100, false, [
                 elementFactory.ElementLookup["Enabled"],
                 elementFactory.ElementLookup["RandomizeStatueAccess"],
@@ -58,11 +58,11 @@ namespace HallOfGodsRandomizer.Menu
             topLevelPanel.ResetNavigation();
             topLevelPanel.SymSetNeighbor(Neighbor.Down, hogPage.backButton);
 
-            /// Define top level button
+            // Define top level button
             pageRootButton = new SmallButton(connectionPage, "HOG Randomizer");
             pageRootButton.AddHideAndShowEvent(connectionPage, hogPage);
         }
-        /// Define parameter changes
+        // Define parameter changes
         private void EnableSwitch(IValueElement obj)
         {
             pageRootButton.Text.color = HOG_Interop.Settings.Enabled ? Colors.TRUE_COLOR : Colors.DEFAULT_COLOR;

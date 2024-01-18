@@ -8,8 +8,10 @@ namespace HallOfGodsRandomizer.IC
         public string statueName { get; set; }
         public override void GiveImmediate(GiveInfo info)
         {
-            BossStatueCompletionStates statueState = PlayerData.instance.GetVariable<BossStatueCompletionStates>($"statueState{statueName}");
-            HallOfGodsRandomizer.Instance.LogDebug(statueState);
+            /// <summary>
+            /// Expected to read how many Statue_Marks of the hogID have been obtained and handle switches based 
+            /// on marks obtained and randomizer settings.
+            /// </summary>
         }
     }
 }
