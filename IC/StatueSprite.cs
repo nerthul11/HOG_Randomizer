@@ -1,31 +1,34 @@
-
-using System.IO;
 using ItemChanger;
-using Newtonsoft.Json;
+using KorzUtils.Helper;
+using System;
 using UnityEngine;
 
 namespace HallOfGodsRandomizer.IC
 {
-    internal class StatueSprite : ISprite
+    [Serializable]
+    public class StatueSprite : ISprite
     {
-        [JsonIgnore] public Sprite Value => LoadSprite(ref sprite, "HallOfGodsRandomizer.Resources.Sprites.StatueMark.png");
-        public ISprite Clone() => (ISprite)MemberwiseClone();
+        #region Constructors
 
-        private static Sprite sprite;
+        public StatueSprite() { }
 
-        private static Sprite LoadSprite(ref Sprite store, string name)
+        public StatueSprite(string key)
         {
-            if (store != null)
-            {
-                return store;
-            }
-            var loc = Path.Combine(Path.GetDirectoryName(typeof(StatueSprite).Assembly.Location), name);
-            var imageData = File.ReadAllBytes(loc);
-            var tex = new Texture2D(1, 1, TextureFormat.RGBA32, false);
-            ImageConversion.LoadImage(tex, imageData, true);
-            tex.filterMode = FilterMode.Bilinear;
-            store = Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), new Vector2(.5f, .5f));
-            return store;
+            if (!string.IsNullOrEmpty(key))
+                Key = key;
         }
+
+        #endregion
+
+        #region Properties
+
+        public string Key { get; set; }
+
+        [Newtonsoft.Json.JsonIgnore]
+        public Sprite Value => SpriteHelper.CreateSprite<HallOfGodsRandomizer>("Sprites." + Key.Replace("/", ".").Replace("\\", "."));
+
+        #endregion
+
+        public ISprite Clone() => new StatueSprite(Key);
     }
 }

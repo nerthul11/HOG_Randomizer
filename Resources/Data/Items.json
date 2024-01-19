@@ -3,7 +3,6 @@
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Gruz_Mother",
         "statueName": "GruzMother",
-        "hogId": "HOG_01",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
             "name": {
@@ -16,7 +15,7 @@
             },
             "sprite": {
                 "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
-                "Value": "StatueMark.png"
+                "Key": "StatueMark"
             }
         },
         "obtainState": "Unobtained"
@@ -25,7 +24,6 @@
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Vengefly_King",
         "statueName": "Vengefly",
-        "hogId": "HOG_02",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
             "name": {
@@ -38,7 +36,7 @@
             },
             "sprite": {
                 "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
-                "Value": "StatueMark.png"
+                "Key": "StatueMark"
             }
         },
         "obtainState": "Unobtained"
@@ -47,7 +45,6 @@
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Brooding_Mawlek",
         "statueName": "BroodingMawlek",
-        "hogId": "HOG_03",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
             "name": {
@@ -60,7 +57,7 @@
             },
             "sprite": {
                 "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
-                "Value": "StatueMark.png"
+                "Key": "StatueMark"
             }
         },
         "obtainState": "Unobtained"
@@ -69,7 +66,6 @@
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-False_Knight",
         "statueName": "FalseKnight",
-        "hogId": "HOG_04",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
             "name": {
@@ -82,7 +78,7 @@
             },
             "sprite": {
                 "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
-                "Value": "StatueMark.png"
+                "Key": "StatueMark"
             }
         },
         "obtainState": "Unobtained"
