@@ -21,7 +21,7 @@ All this should add up to a whopping total of 176 new items and locations to the
 - Randomize access --> Defines if the "Unlock" feature is randomized or vanilla.
 - Limit --> Options: IncludeAll, ExcludeRadiant, ExcludeAscended, Vanilla. Defines which locations should be randomized and contain items and which should remain vanilla. Excluding Ascended also Excludes Radiant entries.
 
-Dependencies:
+## Dependencies:
 - ItemChanger
 - MenuChanger
 - Randomizer 4

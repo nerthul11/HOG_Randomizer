@@ -1,7 +1,7 @@
 [
     {
         "name": "Empty_Mark-Gruz_Mother",
-        "logic": "Defeated_Gruz_Mother"
+        "logic": "BOTTOM_STATUE + HOG_01>0 + Defeated_Gruz_Mother"
     },
     {
         "name": "Bronze_Mark-Gruz_Mother",
@@ -17,7 +17,7 @@
     },
     {
         "name": "Empty_Mark-Vengefly_King",
-        "logic": "Defeated_Vengefly_King"
+        "logic": "BOTTOM_STATUE + HOG_02>0 + Defeated_Vengefly_King"
     },
     {
         "name": "Bronze_Mark-Vengefly_King",
@@ -33,7 +33,7 @@
     },
     {
         "name": "Empty_Mark-Brooding_Mawlek",
-        "logic": "Defeated_Brooding_Mawlek"
+        "logic": "BOTTOM_STATUE + HOG_03>0 + Defeated_Brooding_Mawlek"
     },
     {
         "name": "Bronze_Mark-Brooding_Mawlek",
@@ -49,7 +49,7 @@
     },
     {
         "name": "Empty_Mark-False_Knight",
-        "logic": "Defeated_False_Knight"
+        "logic": "BOTTOM_STATUE + HOG_04>0 + Defeated_False_Knight"
     },
     {
         "name": "Bronze_Mark-False_Knight",
@@ -65,7 +65,7 @@
     },
     {
         "name": "Empty_Mark-Failed_Champion",
-        "logic": "Defeated_Failed_Champion"
+        "logic": "BOTTOM_STATUE + HOG_05>0 + DREAMNAIL + Defeated_Failed_Champion"
     },
     {
         "name": "Bronze_Mark-Failed_Champion",
@@ -80,35 +80,35 @@
         "logic": "RADIANT + DREAMNAIL + BOTTOM_STATUE + HOG_05>2 + COMBAT[Failed_Champion]"
     },
     {
-        "name": "HOG-Hornet_Protector-0",
-        "logic": "Defeated_Hornet_1"
+        "name": "Empty_Mark-Hornet_Protector",
+        "logic": "BOTTOM_STATUE + HOG_06>0 + Defeated_Hornet_1"
     },
     {
-        "name": "HOG-Hornet_Protector-1",
+        "name": "Bronze_Mark-Hornet_Protector",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_06>0 + COMBAT[Hornet_1]"
     },
     {
-        "name": "HOG-Hornet_Protector-2",
+        "name": "Silver_Mark-Hornet_Protector",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_06>0 + COMBAT[Hornet_1]"
     },
     {
-        "name": "HOG-Hornet_Protector-3",
+        "name": "Gold_Mark-Hornet_Protector",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_06>2 + COMBAT[Hornet_1]"
     },
     {
-        "name": "HOG-Hornet_Sentinel-0",
-        "logic": "Defeated_Hornet_1"
+        "name": "Empty-Mark-Hornet_Sentinel",
+        "logic": "BOTTOM_STATUE + HOG_07>0 + Defeated_Hornet_1"
     },
     {
-        "name": "HOG-Hornet_Sentinel-1",
+        "name": "Bronze_Mark-Hornet_Sentinel",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_07>0 + COMBAT[Hornet_2]"
     },
     {
-        "name": "HOG-Hornet_Sentinel-2",
+        "name": "Silver_Mark-Hornet_Sentinel",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_07>0 + COMBAT[Hornet_2]"
     },
     {
-        "name": "HOG-Hornet_Sentinel-3",
+        "name": "Gold_Mark-Hornet_Sentinel",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_07>2 + COMBAT[Hornet_2]"
     },
     {
@@ -702,5 +702,21 @@
     {
         "name": "HOG-Sisters_of_Battle-3",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_44>2 + COMBAT[Mantis_Lords]"
+    },
+    {
+        "name": "HOG-Sisters_of_Battle-3",
+        "logic": "RADIANT + BOTTOM_STATUE + HOG_44>2 + COMBAT[Mantis_Lords]"
+    },
+    {
+        "name": "Journal_Entry-Void_Idol_1",
+        "logic": "ATTUNED_IDOL"
+    },
+    {
+        "name": "Journal_Entry-Void_Idol_2",
+        "logic": "ASCENDED_IDOL"
+    },
+    {
+        "name": "Journal_Entry-Void_Idol_3",
+        "logic": "RADIANT_IDOL"
     }
 ]
