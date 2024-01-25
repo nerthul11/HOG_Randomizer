@@ -1,5 +1,6 @@
 using ItemChanger;
 using KorzUtils.Helper;
+using Newtonsoft.Json;
 using System;
 using UnityEngine;
 
@@ -24,7 +25,7 @@ namespace HallOfGodsRandomizer.IC
 
         public string Key { get; set; }
 
-        [Newtonsoft.Json.JsonIgnore]
+        [JsonIgnore]
         public Sprite Value => SpriteHelper.CreateSprite<HallOfGodsRandomizer>("Sprites." + Key.Replace("/", ".").Replace("\\", "."));
 
         #endregion

@@ -1,128 +1,109 @@
-using HutongGames.PlayMaker;
 using ItemChanger;
-using ItemChanger.Extensions;
-using ItemChanger.FsmStateActions;
 using ItemChanger.Locations;
-using ItemChanger.Modules;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
 
 namespace HallOfGodsRandomizer.IC 
 {
     /// <summary>
     /// Each location should add an item when completing a tier for the first time.
     /// The method for setting statueState completion boolean values should be overriden.
-    /// </summary>
-    public class VoidIdolAggregatorModule : Module
-    {
-        private Dictionary<int, List<VoidIdolLocation>> statuePlacements = new();
-        private ParametricFsmEditBuilder<int>? statueEditBuilder;
-
-        public override void Initialize()
-        {
-            statueEditBuilder = new(GenerateStatueEdit);
-            for (int i = 0; i < 3; i++)
-            {
-                string goFullPath = $"/GG_Statue_Knight/Base/Statue/Knight_v0{i + 1}/Interact";
-                Events.AddFsmEdit(SceneNames.GG_Workshop, new(goFullPath, "Conversation Control"), statueEditBuilder.GetOrAddEdit(i));
-            }
-        }
-
-        public override void Unload()
-        {
-            for (int i = 0; i < 3; i++)
-            {
-                string goFullPath = $"/GG_Statue_Knight/Base/Statue/Knight_v0{i + 1}/Interact";
-                Events.RemoveFsmEdit(SceneNames.GG_Workshop, new(goFullPath, "Conversation Control"), statueEditBuilder![i]);
-            }
-        }
-
-        private bool AreAllStatuePlacementsCleared(int statueTier)
-        {
-            if (statuePlacements.TryGetValue(statueTier, out List<VoidIdolLocation> locs))
-            {
-                return locs.All(x => x.Placement.AllObtained());
-            }
-            // if there's no placement... well of course the entire statue is cleared, there's no items here.
-            return true;
-        }
-
-        private void ChainGiveAllPlacementsAsync(int statueTier, Transform t, Action callback)
-        {
-            if (!statuePlacements.TryGetValue(statueTier, out List<VoidIdolLocation> locs))
-            {
-                callback?.Invoke();
-            }
-
-            Action aggregated = () => callback?.Invoke();
-            foreach (VoidIdolLocation loc in locs)
-            {
-                aggregated = ConcatGiveAll(aggregated, t, loc);
-            }
-            aggregated?.Invoke();
-
-            static Action ConcatGiveAll(Action aggregated, Transform t, VoidIdolLocation loc)
-            {
-                return () => loc.GiveAllAsync(t)(aggregated);
-            }
-        }
-
-        private Action<PlayMakerFSM> GenerateStatueEdit(int statueTier)
-        {
-            return (self) =>
-            {
-                FsmState journal = self.GetState("Journal");
-                journal.Actions = new FsmStateAction[]
-                {
-                    new DelegateBoolTest(() => AreAllStatuePlacementsCleared(statueTier), "FINISHED", null),
-                    new AsyncLambda((callback) => ChainGiveAllPlacementsAsync(statueTier, self.gameObject.transform, callback))
-                };
-            };
-        }
-
-        public void PlaceItemsAtStatue(int statueTier, VoidIdolLocation loc)
-        {
-            if (!statuePlacements.ContainsKey(statueTier))
-            {
-                statuePlacements[statueTier] = new List<VoidIdolLocation>();
-            }
-            if (!statuePlacements[statueTier].Contains(loc))
-            {
-                statuePlacements[statueTier].Add(loc);
-            }
-        }
-
-        public void RemoveItemsFromStatue(int statueTier, VoidIdolLocation loc)
-        {
-            if (statuePlacements.TryGetValue(statueTier, out List<VoidIdolLocation> locs))
-            {
-                locs.Remove(loc);
-            }
-        }
-    }
-    
+    /// </summary>    
     
     public class StatueLocation : AutoLocation
     {
         public enum Tier
         {
-            Unlock,
-            Attuned,
-            Ascended,
-            Radiant
+            Unlock = -1,
+            Attuned = 0,
+            Ascended = 1,
+            Radiant = 2
         }
         public string statueStateName { get; set; }
         public Tier statueTier { get; set; }
-        public string statueName { get; set; }
+        public string lastBossScene { get; private set; }
+        public int lastBossLevel { get; private set; }
 
         protected override void OnUnload()
         {
+             On.BossChallengeUI.LoadBoss_int_bool -= BossChallengeUI_LoadBoss_int_bool;
+             On.BossSceneController.Awake -= BossSceneController_Awake;
+             On.BossStatue.SetPlaqueState -= BossStatue_SetPlaqueState;
+             On.BossStatue.UpdateDetails -= BossStatue_UpdateDetails;
         }
 
         protected override void OnLoad()
         {
+            On.BossChallengeUI.LoadBoss_int_bool += BossChallengeUI_LoadBoss_int_bool;
+            On.BossSceneController.Awake += BossSceneController_Awake;
+            On.BossStatue.SetPlaqueState += BossStatue_SetPlaqueState;
+            On.BossStatue.UpdateDetails += BossStatue_UpdateDetails;
+        }
+
+        private void BossStatue_UpdateDetails(On.BossStatue.orig_UpdateDetails orig, BossStatue self)
+        {
+            if (statueTier == Tier.Unlock)
+            {
+            HallOfGodsRandomizer.Instance.ManageState(statueStateName, "isUnlocked", false);
+            }
+            if (statueTier == Tier.Attuned)
+            {
+            HallOfGodsRandomizer.Instance.ManageState(statueStateName, "completedTier1", false);
+            }
+            if (statueTier == Tier.Ascended)
+            {
+            HallOfGodsRandomizer.Instance.ManageState(statueStateName, "completedTier2", false);
+            }
+            if (statueTier == Tier.Radiant)
+            {
+            HallOfGodsRandomizer.Instance.ManageState(statueStateName, "completedTier3", false);
+            }
+            orig(self);
+        }
+
+        private void BossChallengeUI_LoadBoss_int_bool(On.BossChallengeUI.orig_LoadBoss_int_bool orig, BossChallengeUI self, int level, bool doHideAnim)
+        {
+            lastBossLevel = level;
+            orig(self, level, doHideAnim);
+        }
+
+        private void BossSceneController_Awake(On.BossSceneController.orig_Awake orig, BossSceneController self)
+        {
+            lastBossScene = self.gameObject.scene.name;
+            if ((int)statueTier == lastBossLevel && sceneName == lastBossScene)
+            {
+                self.BossLevel = lastBossLevel;
+                self.DreamReturnEvent = "DREAM RETURN";
+                self.OnBossesDead += delegate ()
+                {
+                    if (!Placement.AllObtained())
+                    {
+                        HeroController.instance.RelinquishControl();
+                        Placement.GiveAll(new()
+                        {
+                            FlingType = FlingType.DirectDeposit,
+                            MessageType = MessageType.Corner
+                        }, HeroController.instance.RegainControl);
+                    };
+                };
+                self.OnBossSceneComplete += self.DoDreamReturn;  
+            };
+            orig(self);
+        }
+
+        private void BossStatue_SetPlaqueState(On.BossStatue.orig_SetPlaqueState orig, BossStatue self, BossStatue.Completion statueState, BossStatueTrophyPlaque plaque, string playerDataKey)
+        {
+            if (self.statueStatePD == statueStateName)
+            {
+                if (!Placement.AllObtained() && statueTier == Tier.Unlock)
+                {
+                    HeroController.instance.RelinquishControl();
+                    Placement.GiveAll(new()
+                    {
+                        FlingType = FlingType.DirectDeposit,
+                        MessageType = MessageType.Any
+                    }, HeroController.instance.RegainControl);
+                }
+            }
+            orig(self, statueState, plaque, playerDataKey);
         }
     }
 }

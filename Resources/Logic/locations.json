@@ -1,11 +1,11 @@
 [
     {
         "name": "Empty_Mark-Gruz_Mother",
-        "logic": "BOTTOM_STATUE + HOG_01>0 + Defeated_Gruz_Mother"
+        "logic": "BOTTOM_STATUE + HOG_01>0"
     },
     {
         "name": "Bronze_Mark-Gruz_Mother",
-        "logic": "ATTUNED + BOTTOM_STATUE + HOG_01>0 + COMBAT[Gruz_Mother]"
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_01>0 + COMBAT[Gruz_Mother] + BOTTOM_STATUE"
     },
     {
         "name": "Silver_Mark-Gruz_Mother",
@@ -17,7 +17,7 @@
     },
     {
         "name": "Empty_Mark-Vengefly_King",
-        "logic": "BOTTOM_STATUE + HOG_02>0 + Defeated_Vengefly_King"
+        "logic": "BOTTOM_STATUE + HOG_02>0"
     },
     {
         "name": "Bronze_Mark-Vengefly_King",
@@ -33,7 +33,7 @@
     },
     {
         "name": "Empty_Mark-Brooding_Mawlek",
-        "logic": "BOTTOM_STATUE + HOG_03>0 + Defeated_Brooding_Mawlek"
+        "logic": "BOTTOM_STATUE + HOG_03>0"
     },
     {
         "name": "Bronze_Mark-Brooding_Mawlek",
@@ -49,7 +49,7 @@
     },
     {
         "name": "Empty_Mark-False_Knight",
-        "logic": "BOTTOM_STATUE + HOG_04>0 + Defeated_False_Knight"
+        "logic": "BOTTOM_STATUE + HOG_04>0"
     },
     {
         "name": "Bronze_Mark-False_Knight",
@@ -65,7 +65,7 @@
     },
     {
         "name": "Empty_Mark-Failed_Champion",
-        "logic": "BOTTOM_STATUE + HOG_05>0 + DREAMNAIL + Defeated_Failed_Champion"
+        "logic": "BOTTOM_STATUE + HOG_05>0 + DREAMNAIL"
     },
     {
         "name": "Bronze_Mark-Failed_Champion",
@@ -81,7 +81,7 @@
     },
     {
         "name": "Empty_Mark-Hornet_Protector",
-        "logic": "BOTTOM_STATUE + HOG_06>0 + Defeated_Hornet_1"
+        "logic": "BOTTOM_STATUE + HOG_06>0"
     },
     {
         "name": "Bronze_Mark-Hornet_Protector",
@@ -97,7 +97,7 @@
     },
     {
         "name": "Empty-Mark-Hornet_Sentinel",
-        "logic": "BOTTOM_STATUE + HOG_07>0 + Defeated_Hornet_1"
+        "logic": "BOTTOM_STATUE + HOG_07>0"
     },
     {
         "name": "Bronze_Mark-Hornet_Sentinel",
@@ -112,611 +112,607 @@
         "logic": "RADIANT + BOTTOM_STATUE + HOG_07>2 + COMBAT[Hornet_2]"
     },
     {
-        "name": "HOG-Massive_Moss_Charger-0",
-        "logic": "Defeated_Massive_Moss_Charger"
+        "name": "Empty_Mark-Massive_Moss_Charger",
+        "logic": "BOTTOM_STATUE + HOG_08>0"
     },
     {
-        "name": "HOG-Massive_Moss_Charger-1",
+        "name": "Bronze_Mark-Massive_Moss_Charger",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_08>0"
     },
     {
-        "name": "HOG-Massive_Moss_Charger-2",
+        "name": "Silver_Mark-Massive_Moss_Charger",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_08>0"
     },
     {
-        "name": "HOG-Massive_Moss_Charger-3",
+        "name": "Gold_Mark-Massive_Moss_Charger",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_08>2"
     },
     {
-        "name": "HOG-Mantis_Lords-0",
-        "logic": "Defeated_Mantis_Lords"
+        "name": "Empty_Mark-Mantis_Lords",
+        "logic": "BOTTOM_STATUE + HOG_09>0"
     },
     {
-        "name": "HOG-Mantis_Lords-1",
+        "name": "Bronze_Mark-Mantis_Lords",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_09>0 + COMBAT[Mantis_Lords]"
     },
     {
-        "name": "HOG-Mantis_Lords-2",
+        "name": "Silver_Mark-Mantis_Lords",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_09>0 + COMBAT[Mantis_Lords]"
     },
     {
-        "name": "HOG-Mantis_Lords-3",
+        "name": "Gold_Mark-Mantis_Lords",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_09>2 + COMBAT[Mantis_Lords]"
     },
     {
-        "name": "HOG-Oblobbles-0",
-        "logic": "Defeated_Colosseum_2"
+        "name": "Empty_Mark-Oblobbles",
+        "logic": "BOTTOM_STATUE + HOG_10>0"
     },
     {
-        "name": "HOG-Oblobbles-1",
+        "name": "Bronze_Mark-Oblobbles",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_10>0 + COMBAT[Colosseum_2]"
     },
     {
-        "name": "HOG-Oblobbles-2",
+        "name": "Silver_Mark-Oblobbles",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_10>0 + COMBAT[Colosseum_2]"
     },
     {
-        "name": "HOG-Oblobbles-3",
+        "name": "Gold_Mark-Oblobbles",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_10>2 + COMBAT[Colosseum_2]"
     },
     {
-        "name": "HOG-Grey_Prince_Zote-0",
-        "logic": "Defeated_Colosseum_2"
+        "name": "Empty_Mark-Grey_Prince_Zote",
+        "logic": "BOTTOM_STATUE + HOG_11>0"
     },
     {
-        "name": "HOG-Grey_Prince_Zote-1",
+        "name": "Bronze_Mark-Grey_Prince_Zote",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_11>0 + COMBAT[Grey_Prince_Zote]"
     },
     {
-        "name": "HOG-Grey_Prince_Zote-2",
+        "name": "Silver_Mark-Grey_Prince_Zote",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_11>0 + COMBAT[Grey_Prince_Zote]"
     },
     {
-        "name": "HOG-Grey_Prince_Zote-3",
+        "name": "Gold_Mark-Grey_Prince_Zote",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_11>2 + COMBAT[Grey_Prince_Zote]"
     },
     {
-        "name": "HOG-Broken_Vessel-0",
-        "logic": "Defeated_Broken_Vessel"
+        "name": "Empty_Mark-Broken_Vessel",
+        "logic": "BOTTOM_STATUE + HOG_12>0"
     },
     {
-        "name": "HOG-Broken_Vessel-1",
+        "name": "Bronze_Mark-Broken_Vessel",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_12>0 + COMBAT[Broken_Vessel]"
     },
     {
-        "name": "HOG-Broken_Vessel-2",
+        "name": "Silver_Mark-Broken_Vessel",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_12>0 + COMBAT[Broken_Vessel]"
     },
     {
-        "name": "HOG-Broken_Vessel-3",
+        "name": "Gold_Mark-Broken_Vessel",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_12>2 + COMBAT[Broken_Vessel]"
     },
     {
-        "name": "HOG-Lost_Kin-0",
-        "logic": "Defeated_Lost_Kin"
+        "name": "Empty_Mark-Lost_Kin",
+        "logic": "BOTTOM_STATUE + DREAMNAIL + HOG_13>0"
     },
     {
-        "name": "HOG-Lost_Kin-1",
+        "name": "Bronze_Mark-Lost_Kin",
         "logic": "ATTUNED + DREAMNAIL + BOTTOM_STATUE + HOG_13>0 + COMBAT[Lost_Kin]"
     },
     {
-        "name": "HOG-Lost_Kin-2",
+        "name": "Silver_Mark-Lost_Kin",
         "logic": "ASCENDED + DREAMNAIL + BOTTOM_STATUE + HOG_13>0 + COMBAT[Lost_Kin]"
     },
     {
-        "name": "HOG-Lost_Kin-3",
+        "name": "Gold_Mark-Lost_Kin",
         "logic": "RADIANT + DREAMNAIL + BOTTOM_STATUE + HOG_13>2 + COMBAT[Lost_Kin]"
     },
     {
-        "name": "HOG-Nosk-0",
-        "logic": "Defeated_Nosk"
+        "name": "Empty_Mark-Nosk",
+        "logic": "BOTTOM_STATUE + HOG_14>0"
     },
     {
-        "name": "HOG-Nosk-1",
+        "name": "Bronze_Mark-Nosk",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_14>0 + COMBAT[Nosk]"
     },
     {
-        "name": "HOG-Nosk-2",
+        "name": "Silver_Mark-Nosk",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_14>0 + COMBAT[Nosk]"
     },
     {
-        "name": "HOG-Nosk-3",
+        "name": "Gold_Mark-Nosk",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_14>2 + COMBAT[Nosk]"
     },
     {
-        "name": "HOG-Flukemarm-0",
-        "logic": "Defeated_Flukemarm"
+        "name": "Empty_Mark-Flukemarm",
+        "logic": "BOTTOM_STATUE + HOG_15>0"
     },
     {
-        "name": "HOG-Flukemarm-1",
+        "name": "Bronze_Mark-Flukemarm",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_15>0 + COMBAT[Flukemarm]"
     },
     {
-        "name": "HOG-Flukemarm-2",
+        "name": "Silver_Mark-Flukemarm",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_15>0 + COMBAT[Flukemarm]"
     },
     {
-        "name": "HOG-Flukemarm-3",
+        "name": "Gold_Mark-Flukemarm",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_15>2 + COMBAT[Flukemarm]"
     },
     {
-        "name": "HOG-Collector-0",
-        "logic": "Defeated_Collector"
+        "name": "Empty_Mark-Collector",
+        "logic": "BOTTOM_STATUE + HOG_16>0"
     },
     {
-        "name": "HOG-Collector-1",
+        "name": "Bronze_Mark-Collector",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_16>0 + COMBAT[Collector]"
     },
     {
-        "name": "HOG-Collector-2",
+        "name": "Silver_Mark-Collector",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_16>0 + COMBAT[Collector]"
     },
     {
-        "name": "HOG-Collector-3",
+        "name": "Gold_Mark-Collector",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_16>2 + COMBAT[Collector]"
     },
     {
-        "name": "HOG-Watcher_Knights-0",
-        "logic": "Defeated_Watcher_Knights"
+        "name": "Empty_Mark-Watcher_Knights",
+        "logic": "TOP_STATUE + HOG_17>0"
     },
     {
-        "name": "HOG-Watcher_Knights-1",
+        "name": "Bronze_Mark-Watcher_Knights",
         "logic": "ATTUNED + TOP_STATUE + HOG_17>0 + COMBAT[Watcher_Knights]"
     },
     {
-        "name": "HOG-Watcher_Knights-2",
+        "name": "Silver_Mark-Watcher_Knights",
         "logic": "ASCENDED + TOP_STATUE + HOG_17>0 + COMBAT[Watcher_Knights]"
     },
     {
-        "name": "HOG-Watcher_Knights-3",
+        "name": "Gold_Mark-Watcher_Knights",
         "logic": "RADIANT + TOP_STATUE + HOG_17>2 + COMBAT[Watcher_Knights]"
     },
     {
-        "name": "HOG-Soul_Master-0",
-        "logic": "Defeated_Soul_Master"
+        "name": "Empty_Mark-Soul_Master",
+        "logic": "TOP_STATUE + HOG_18>0"
     },
     {
-        "name": "HOG-Soul_Master-1",
+        "name": "Bronze_Mark-Soul_Master",
         "logic": "ATTUNED + TOP_STATUE + HOG_18>0 + COMBAT[Soul_Master]"
     },
     {
-        "name": "HOG-Soul_Master-2",
+        "name": "Silver_Mark-Soul_Master",
         "logic": "ASCENDED + TOP_STATUE + HOG_18>0 + COMBAT[Soul_Master]"
     },
     {
-        "name": "HOG-Soul_Master-3",
+        "name": "Gold_Mark-Soul_Master",
         "logic": "RADIANT + TOP_STATUE + HOG_18>2 + COMBAT[Soul_Master]"
     },
     {
-        "name": "HOG-Soul_Tyrant-0",
-        "logic": "Defeated_Soul_Tyrant"
+        "name": "Empty_Mark-Soul_Tyrant",
+        "logic": "TOP_STATUE + DREAMNAIL + HOG_19>0"
     },
     {
-        "name": "HOG-Soul_Tyrant-1",
+        "name": "Bronze_Mark-Soul_Tyrant",
         "logic": "ATTUNED + DREAMNAIL + TOP_STATUE + HOG_19>0 + COMBAT[Soul_Tyrant]"
     },
     {
-        "name": "HOG-Soul_Tyrant-2",
+        "name": "Silver_Mark-Soul_Tyrant",
         "logic": "ASCENDED + DREAMNAIL + TOP_STATUE + HOG_19>0 + COMBAT[Soul_Tyrant]"
     },
     {
-        "name": "HOG-Soul_Tyrant-3",
+        "name": "Gold_Mark-Soul_Tyrant",
         "logic": "RADIANT + DREAMNAIL + TOP_STATUE + HOG_19>2 + COMBAT[Soul_Tyrant]"
     },
     {
-        "name": "HOG-Godtamer-0",
-        "logic": "Defeated_Colosseum_3"
+        "name": "Empty_Mark-Godtamer",
+        "logic": "BOTTOM_STATUE + HOG_20>0"
     },
     {
-        "name": "HOG-Godtamer-1",
+        "name": "Bronze_Mark-Godtamer",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_20>0 + COMBAT[Colosseum_3]"
     },
     {
-        "name": "HOG-Godtamer-2",
+        "name": "Silver_Mark-Godtamer",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_20>0 + COMBAT[Colosseum_3]"
     },
     {
-        "name": "HOG-Godtamer-3",
+        "name": "Gold_Mark-Godtamer",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_20>2 + COMBAT[Colosseum_3]"
     },
     {
-        "name": "HOG-Crystal_Guardian-0",
-        "logic": "Defeated_Crystal_Guardian"
+        "name": "Empty_Mark-Crystal_Guardian",
+        "logic": "BOTTOM_STATUE + HOG_21>0"
     },
     {
-        "name": "HOG-Crystal_Guardian-1",
+        "name": "Bronze_Mark-Crystal_Guardian",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_21>0 + COMBAT[Crystal_Guardian] + Can_Damage_Crystal_Guardian"
     },
     {
-        "name": "HOG-Crystal_Guardian-2",
+        "name": "Silver_Mark-Crystal_Guardian",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_21>0 + COMBAT[Crystal_Guardian] + Can_Damage_Crystal_Guardian"
     },
     {
-        "name": "HOG-Crystal_Guardian-3",
+        "name": "Gold_Mark-Crystal_Guardian",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_21>2 + COMBAT[Crystal_Guardian] + Can_Damage_Crystal_Guardian"
     },
     {
-        "name": "HOG-Enraged_Guardian-0",
-        "logic": "Defeated_Enraged_Guardian"
+        "name": "Empty_Mark-Enraged_Guardian",
+        "logic": "BOTTOM_STATUE + HOG_22>0"
     },
     {
-        "name": "HOG-Enraged_Guardian-1",
+        "name": "Bronze_Mark-Enraged_Guardian",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_22>0 + COMBAT[Enraged_Guardian]"
     },
     {
-        "name": "HOG-Enraged_Guardian-2",
+        "name": "Silver_Mark-Enraged_Guardian",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_22>0 + COMBAT[Enraged_Guardian]"
     },
     {
-        "name": "HOG-Enraged_Guardian-3",
+        "name": "Gold_Mark-Enraged_Guardian",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_22>2 + COMBAT[Enraged_Guardian]"
     },
     {
-        "name": "HOG-Uumuu-0",
-        "logic": "Defeated_Uumuu"
+        "name": "Empty_Mark-Uumuu",
+        "logic": "BOTTOM_STATUE + HOG_23>0"
     },
     {
-        "name": "HOG-Uumuu-1",
+        "name": "Bronze_Mark-Uumuu",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_23>0 + COMBAT[Uumuu]"
     },
     {
-        "name": "HOG-Uumuu-2",
+        "name": "Silver_Mark-Uumuu",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_23>0 + COMBAT[Uumuu]"
     },
     {
-        "name": "HOG-Uumuu-3",
+        "name": "Gold_Mark-Uumuu",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_23>2 + COMBAT[Uumuu]"
     },
     {
-        "name": "HOG-Dung_Defender-0",
-        "logic": "Defeated_Dung_Defender"
+        "name": "Empty_Mark-Dung_Defender",
+        "logic": "TOP_STATUE + HOG_24>0"
     },
     {
-        "name": "HOG-Dung_Defender-1",
+        "name": "Bronze_Mark-Dung_Defender",
         "logic": "ATTUNED + TOP_STATUE + HOG_24>0 + COMBAT[Dung_Defender]"
     },
     {
-        "name": "HOG-Dung_Defender-2",
+        "name": "Silver_Mark-Dung_Defender",
         "logic": "ASCENDED + TOP_STATUE + HOG_24>0 + COMBAT[Dung_Defender]"
     },
     {
-        "name": "HOG-Dung_Defender-3",
+        "name": "Gold_Mark-Dung_Defender",
         "logic": "RADIANT + TOP_STATUE + HOG_24>2 + COMBAT[Dung_Defender]"
     },
     {
-        "name": "HOG-White_Defender-0",
-        "logic": "Defeated_White_Defender"
+        "name": "Empty_Mark-White_Defender",
+        "logic": "TOP_STATUE + DREAMNAIL + HOG_25>0"
     },
     {
-        "name": "HOG-White_Defender-1",
+        "name": "Bronze_Mark-White_Defender",
         "logic": "ATTUNED + DREAMNAIL + TOP_STATUE + HOG_25>0 + COMBAT[White_Defender]"
     },
     {
-        "name": "HOG-White_Defender-2",
+        "name": "Silver_Mark-White_Defender",
         "logic": "ASCENDED + DREAMNAIL + TOP_STATUE + HOG_25>0 + COMBAT[White_Defender]"
     },
     {
-        "name": "HOG-White_Defender-3",
+        "name": "Gold_Mark-White_Defender",
         "logic": "RADIANT + DREAMNAIL + TOP_STATUE + HOG_25>2 + COMBAT[White_Defender]"
     },
     {
-        "name": "HOG-Hive_Knight-0",
-        "logic": "Defeated_White_Defender"
+        "name": "Empty_Mark-Hive_Knight",
+        "logic": "BOTTOM_STATUE + HOG_26>0"
     },
     {
-        "name": "HOG-Hive_Knight-1",
+        "name": "Bronze_Mark-Hive_Knight",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_26>0 + COMBAT[Hive_Knight]"
     },
     {
-        "name": "HOG-Hive_Knight-2",
+        "name": "Silver_Mark-Hive_Knight",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_26>0 + COMBAT[Hive_Knight]"
     },
     {
-        "name": "HOG-Hive_Knight-3",
+        "name": "Gold_Mark-Hive_Knight",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_26>2 + COMBAT[Hive_Knight]"
     },
     {
-        "name": "HOG-Traitor_Lord-0",
-        "logic": "Defeated_Traitor_Lord"
+        "name": "Empty_Mark-Traitor_Lord",
+        "logic": "BOTTOM_STATUE + HOG_27>0"
     },
     {
-        "name": "HOG-Traitor_Lord-1",
+        "name": "Bronze_Mark-Traitor_Lord",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_27>0 + COMBAT[Traitor_Lord]"
     },
     {
-        "name": "HOG-Traitor_Lord-2",
+        "name": "Silver_Mark-Traitor_Lord",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_27>0 + COMBAT[Traitor_Lord]"
     },
     {
-        "name": "HOG-Traitor_Lord-3",
+        "name": "Gold_Mark-Traitor_Lord",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_27>2 + COMBAT[Traitor_Lord]"
     },
     {
-        "name": "HOG-Troupe_Master_Grimm-0",
-        "logic": "Defeated_Grimm"
+        "name": "Empty_Mark-Troupe_Master_Grimm",
+        "logic": "TOP_STATUE + HOG_28>0"
     },
     {
-        "name": "HOG-Troupe_Master_Grimm-1",
+        "name": "Bronze_Mark-Troupe_Master_Grimm",
         "logic": "ATTUNED + TOP_STATUE + HOG_28>0 + COMBAT[Grimm]"
     },
     {
-        "name": "HOG-Troupe_Master_Grimm-2",
+        "name": "Silver_Mark-Troupe_Master_Grimm",
         "logic": "ASCENDED + TOP_STATUE + HOG_28>0 + COMBAT[Grimm]"
     },
     {
-        "name": "HOG-Troupe_Master_Grimm-3",
+        "name": "Gold_Mark-Troupe_Master_Grimm",
         "logic": "RADIANT + TOP_STATUE + HOG_28>2 + COMBAT[Grimm]"
     },
     {
-        "name": "HOG-Nightmare_King_Grimm-0",
-        "logic": "FLAMES>8 + Defeated_Grimm"
+        "name": "Empty_Mark-Nightmare_King_Grimm",
+        "logic": "TOP_STATUE + DREAMNAIL + HOG_29>0"
     },
     {
-        "name": "HOG-Nightmare_King_Grimm-1",
+        "name": "Bronze_Mark-Nightmare_King_Grimm",
         "logic": "ATTUNED + DREAMNAIL + TOP_STATUE + HOG_29>0 + COMBAT[Grimm]"
     },
     {
-        "name": "HOG-Nightmare_King_Grimm-2",
+        "name": "Silver_Mark-Nightmare_King_Grimm",
         "logic": "ASCENDED + DREAMNAIL + TOP_STATUE + HOG_29>0 + COMBAT[Grimm]"
     },
     {
-        "name": "HOG-Nightmare_King_Grimm-3",
+        "name": "Gold_Mark-Nightmare_King_Grimm",
         "logic": "RADIANT + DREAMNAIL + TOP_STATUE + HOG_29>2 + COMBAT[Grimm]"
     },
     {
-        "name": "HOG-Pure_Vessel-0",
-        "logic": "Pantheon_4_Beatable"
+        "name": "Empty_Mark-Pure_Vessel",
+        "logic": "TOP_STATUE + HOG_30>0"
     },
     {
-        "name": "HOG-Pure_Vessel-1",
-        "logic": "ATTUNED + DREAMNAIL + TOP_STATUE + HOG_30>0 + COMBAT[Pure_Vessel]"
+        "name": "Bronze_Mark-Pure_Vessel",
+        "logic": "ATTUNED + TOP_STATUE + HOG_30>0 + COMBAT[Pure_Vessel]"
     },
     {
-        "name": "HOG-Pure_Vessel-2",
-        "logic": "ASCENDED + DREAMNAIL + TOP_STATUE + HOG_30>0 + COMBAT[Pure_Vessel]"
+        "name": "Silver_Mark-Pure_Vessel",
+        "logic": "ASCENDED + TOP_STATUE + HOG_30>0 + COMBAT[Pure_Vessel]"
     },
     {
-        "name": "HOG-Pure_Vessel-3",
-        "logic": "RADIANT + DREAMNAIL + TOP_STATUE + HOG_30>2 + COMBAT[Pure_Vessel]"
+        "name": "Gold_Mark-Pure_Vessel",
+        "logic": "RADIANT + TOP_STATUE + HOG_30>2 + COMBAT[Pure_Vessel]"
     },
     {
-        "name": "HOG-Elder_Hu-0",
-        "logic": "Defeated_Elder_Hu"
+        "name": "Empty_Mark-Elder_Hu",
+        "logic": "TOP_STATUE + HOG_31>0"
     },
     {
-        "name": "HOG-Elder_Hu-1",
+        "name": "Bronze_Mark-Elder_Hu",
         "logic": "ATTUNED + TOP_STATUE + HOG_31>0 + COMBAT[Elder_Hu]"
     },
     {
-        "name": "HOG-Elder_Hu-2",
+        "name": "Silver_Mark-Elder_Hu",
         "logic": "ASCENDED + TOP_STATUE + HOG_31>0 + COMBAT[Elder_Hu]"
     },
     {
-        "name": "HOG-Elder_Hu-3",
+        "name": "Gold_Mark-Elder_Hu",
         "logic": "RADIANT + TOP_STATUE + HOG_31>2 + COMBAT[Elder_Hu]"
     },
     {
-        "name": "HOG-Galien-0",
-        "logic": "Defeated_Galien"
+        "name": "Empty_Mark-Galien",
+        "logic": "TOP_STATUE + HOG_32>0"
     },
     {
-        "name": "HOG-Galien-1",
+        "name": "Bronze_Mark-Galien",
         "logic": "ATTUNED + TOP_STATUE + HOG_32>0 + COMBAT[Galien]"
     },
     {
-        "name": "HOG-Galien-2",
+        "name": "Silver_Mark-Galien",
         "logic": "ASCENDED + TOP_STATUE + HOG_32>0 + COMBAT[Galien]"
     },
     {
-        "name": "HOG-Galien-3",
+        "name": "Gold_Mark-Galien",
         "logic": "RADIANT + TOP_STATUE + HOG_32>2 + COMBAT[Galien]"
     },
     {
-        "name": "HOG-Markoth-0",
-        "logic": "Defeated_Markoth"
+        "name": "Empty_Mark-Markoth",
+        "logic": "TOP_STATUE + HOG_33>0"
     },
     {
-        "name": "HOG-Markoth-1",
+        "name": "Bronze_Mark-Markoth",
         "logic": "ATTUNED + TOP_STATUE + HOG_33>0 + COMBAT[Markoth]"
     },
     {
-        "name": "HOG-Markoth-2",
+        "name": "Silver_Mark-Markoth",
         "logic": "ASCENDED + TOP_STATUE + HOG_33>0 + COMBAT[Markoth]"
     },
     {
-        "name": "HOG-Markoth-3",
+        "name": "Gold_Mark-Markoth",
         "logic": "RADIANT + TOP_STATUE + HOG_33>2 + COMBAT[Markoth]"
     },
     {
-        "name": "HOG-Marmu-0",
-        "logic": "Defeated_Marmu"
+        "name": "Empty_Mark-Marmu",
+        "logic": "TOP_STATUE + HOG_34>0"
     },
     {
-        "name": "HOG-Marmu-1",
+        "name": "Bronze_Mark-Marmu",
         "logic": "ATTUNED + TOP_STATUE + HOG_34>0 + COMBAT[Marmu]"
     },
     {
-        "name": "HOG-Marmu-2",
+        "name": "Silver_Mark-Marmu",
         "logic": "ASCENDED + TOP_STATUE + HOG_34>0 + COMBAT[Marmu]"
     },
     {
-        "name": "HOG-Marmu-3",
+        "name": "Gold_Mark-Marmu",
         "logic": "RADIANT + TOP_STATUE + HOG_34>2 + COMBAT[Marmu]"
     },
     {
-        "name": "HOG-No_Eyes-0",
-        "logic": "Defeated_No_Eyes"
+        "name": "Empty_Mark-No_Eyes",
+        "logic": "TOP_STATUE + HOG_35>0"
     },
     {
-        "name": "HOG-No_Eyes-1",
+        "name": "Bronze_Mark-No_Eyes",
         "logic": "ATTUNED + TOP_STATUE + HOG_35>0 + COMBAT[No_Eyes]"
     },
     {
-        "name": "HOG-No_Eyes-2",
+        "name": "Silver_Mark-No_Eyes",
         "logic": "ASCENDED + TOP_STATUE + HOG_35>0 + COMBAT[No_Eyes]"
     },
     {
-        "name": "HOG-No_Eyes-3",
+        "name": "Gold_Mark-No_Eyes",
         "logic": "RADIANT + TOP_STATUE + HOG_35>2 + COMBAT[No_Eyes]"
     },
     {
-        "name": "HOG-Xero-0",
-        "logic": "Defeated_Xero"
+        "name": "Empty_Mark-Xero",
+        "logic": "TOP_STATUE + HOG_36>0"
     },
     {
-        "name": "HOG-Xero-1",
+        "name": "Bronze_Mark-Xero",
         "logic": "ATTUNED + TOP_STATUE + HOG_36>0 + COMBAT[Xero]"
     },
     {
-        "name": "HOG-Xero-2",
+        "name": "Silver_Mark-Xero",
         "logic": "ASCENDED + TOP_STATUE + HOG_36>0 + COMBAT[Xero]"
     },
     {
-        "name": "HOG-Xero-3",
+        "name": "Gold_Mark-Xero",
         "logic": "RADIANT + TOP_STATUE + HOG_36>2 + COMBAT[Xero]"
     },
     {
-        "name": "HOG-Gorb-0",
-        "logic": "Defeated_No_Eyes"
+        "name": "Empty_Mark-Gorb",
+        "logic": "TOP_STATUE + HOG_37>0"
     },
     {
-        "name": "HOG-Gorb-1",
+        "name": "Bronze_Mark-Gorb",
         "logic": "ATTUNED + TOP_STATUE + HOG_37>0 + COMBAT[Gorb]"
     },
     {
-        "name": "HOG-Gorb-2",
+        "name": "Silver_Mark-Gorb",
         "logic": "ASCENDED + TOP_STATUE + HOG_37>0 + COMBAT[Gorb]"
     },
     {
-        "name": "HOG-Gorb-3",
+        "name": "Gold_Mark-Gorb",
         "logic": "RADIANT + TOP_STATUE + HOG_37>2 + COMBAT[Gorb]"
     },
     {
-        "name": "HOG-Radiance-0",
-        "logic": "Pantheon_5_Beatable"
+        "name": "Empty_Mark-Radiance",
+        "logic": "TOP_STATUE + HOG_38>0"
     },
     {
-        "name": "HOG-Radiance-1",
+        "name": "Bronze_Mark-Radiance",
         "logic": "ATTUNED + TOP_STATUE + HOG_38>0 + COMBAT[Radiance]"
     },
     {
-        "name": "HOG-Radiance-2",
+        "name": "Silver_Mark-Radiance",
         "logic": "ASCENDED + TOP_STATUE + HOG_38>0 + COMBAT[Radiance]"
     },
     {
-        "name": "HOG-Radiance-3",
+        "name": "Gold_Mark-Radiance",
         "logic": "RADIANT + TOP_STATUE + HOG_38>2 + COMBAT[Radiance]"
     },
     {
-        "name": "HOG-Sly-0",
-        "logic": "Pantheon_3_Beatable"
+        "name": "Empty_Mark-Sly",
+        "logic": "TOP_STATUE + HOG_39>0"
     },
     {
-        "name": "HOG-Sly-1",
+        "name": "Bronze_Mark-Sly",
         "logic": "ATTUNED + TOP_STATUE + HOG_39>0 + COMBAT[Nailmasters]"
     },
     {
-        "name": "HOG-Sly-2",
+        "name": "Silver_Mark-Sly",
         "logic": "ASCENDED + TOP_STATUE + HOG_39>0 + COMBAT[Nailmasters]"
     },
     {
-        "name": "HOG-Sly-3",
+        "name": "Gold_Mark-Sly",
         "logic": "RADIANT + TOP_STATUE + HOG_39>2 + COMBAT[Nailmasters]"
     },
     {
-        "name": "HOG-Nailmaster_Brothers-0",
-        "logic": "Pantheon_1_Beatable"
+        "name": "Empty_Mark-Nailmaster_Brothers",
+        "logic": "TOP_STATUE + HOG_40>0"
     },
     {
-        "name": "HOG-Nailmaster_Brothers-1",
+        "name": "Bronze_Mark-Nailmaster_Brothers",
         "logic": "ATTUNED + TOP_STATUE + HOG_40>0 + COMBAT[Nailmasters]"
     },
     {
-        "name": "HOG-Nailmaster_Brothers-2",
+        "name": "Silver_Mark-Nailmaster_Brothers",
         "logic": "ASCENDED + TOP_STATUE + HOG_40>0 + COMBAT[Nailmasters]"
     },
     {
-        "name": "HOG-Nailmaster_Brothers-3",
+        "name": "Gold_Mark-Nailmaster_Brothers",
         "logic": "RADIANT + TOP_STATUE + HOG_40>2 + COMBAT[Nailmasters]"
     },
     {
-        "name": "HOG-Soul_Warrior-0",
-        "logic": "Defeated_Sanctum_Warrior | Defeated_Elegant_Warrior"
+        "name": "Empty_Mark-Soul_Warrior",
+        "logic": "TOP_STATUE + HOG_41>0"
     },
     {
-        "name": "HOG-Soul_Warrior-1",
+        "name": "Bronze_Mark-Soul_Warrior",
         "logic": "ATTUNED + TOP_STATUE + HOG_41>0 + COMBAT[Sanctum_Warrior]"
     },
     {
-        "name": "HOG-Soul_Warrior-2",
+        "name": "Silver_Mark-Soul_Warrior",
         "logic": "ASCENDED + TOP_STATUE + HOG_41>0 + COMBAT[Sanctum_Warrior]"
     },
     {
-        "name": "HOG-Soul_Warrior-3",
+        "name": "Gold_Mark-Soul_Warrior",
         "logic": "RADIANT + TOP_STATUE + HOG_41>2 + COMBAT[Sanctum_Warrior]"
     },
     {
-        "name": "HOG-Paintmaster_Sheo-0",
-        "logic": "Pantheon_2_Beatable"
+        "name": "Empty_Mark-Paintmaster_Sheo",
+        "logic": "TOP_STATUE + HOG_42>0"
     },
     {
-        "name": "HOG-Paintmaster_Sheo-1",
+        "name": "Bronze_Mark-Paintmaster_Sheo",
         "logic": "ATTUNED + TOP_STATUE + HOG_42>0 + COMBAT[Nailmasters]"
     },
     {
-        "name": "HOG-Paintmaster_Sheo-2",
+        "name": "Silver_Mark-Paintmaster_Sheo",
         "logic": "ASCENDED + TOP_STATUE + HOG_42>0 + COMBAT[Nailmasters]"
     },
     {
-        "name": "HOG-Paintmaster_Sheo-3",
+        "name": "Gold_Mark-Paintmaster_Sheo",
         "logic": "RADIANT + TOP_STATUE + HOG_42>2 + COMBAT[Nailmasters]"
     },
     {
-        "name": "HOG-Winged_Nosk-0",
-        "logic": "Pantheon_5_Beatable"
+        "name": "Empty_Mark-Winged_Nosk",
+        "logic": "BOTTOM_STATUE + HOG_43>0"
     },
     {
-        "name": "HOG-Winged_Nosk-1",
+        "name": "Bronze_Mark-Winged_Nosk",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_43>0 + COMBAT[Nosk]"
     },
     {
-        "name": "HOG-Winged_Nosk-2",
+        "name": "Silver_Mark-Winged_Nosk",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_43>0 + COMBAT[Nosk]"
     },
     {
-        "name": "HOG-Winged_Nosk-3",
+        "name": "Gold_Mark-Winged_Nosk",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_43>2 + COMBAT[Nosk]"
     },
     {
-        "name": "HOG-Sisters_of_Battle-0",
-        "logic": "Pantheon_5_Beatable"
+        "name": "Empty_Mark-Sisters_of_Battle",
+        "logic": "BOTTOM_STATUE + HOG_44>0"
     },
     {
-        "name": "HOG-Sisters_of_Battle-1",
+        "name": "Bronze_Mark-Sisters_of_Battle",
         "logic": "ATTUNED + BOTTOM_STATUE + HOG_44>0 + COMBAT[Mantis_Lords]"
     },
     {
-        "name": "HOG-Sisters_of_Battle-2",
+        "name": "Silver_Mark-Sisters_of_Battle",
         "logic": "ASCENDED + BOTTOM_STATUE + HOG_44>0 + COMBAT[Mantis_Lords]"
     },
     {
-        "name": "HOG-Sisters_of_Battle-3",
-        "logic": "RADIANT + BOTTOM_STATUE + HOG_44>2 + COMBAT[Mantis_Lords]"
-    },
-    {
-        "name": "HOG-Sisters_of_Battle-3",
+        "name": "Gold_Mark-Sisters_of_Battle",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_44>2 + COMBAT[Mantis_Lords]"
     },
     {
         "name": "Journal_Entry-Void_Idol_1",
-        "logic": "ATTUNED_IDOL"
+        "logic": "(ORIG) + ATTUNED_IDOL"
     },
     {
         "name": "Journal_Entry-Void_Idol_2",
-        "logic": "ASCENDED_IDOL"
+        "logic": "(ORIG) + ASCENDED_IDOL"
     },
     {
         "name": "Journal_Entry-Void_Idol_3",
-        "logic": "RADIANT_IDOL"
+        "logic": "(ORIG) + RADIANT_IDOL"
     }
 ]

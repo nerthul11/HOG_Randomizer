@@ -1,14 +1,7 @@
-using System.IO;
-using RandomizerCore;
 using RandomizerCore.Logic;
-using RandomizerCore.LogicItems;
-using RandomizerMod.RC;
+﻿using RandomizerCore.Json;
 using RandomizerMod.Settings;
-using ItemChanger;
-using Newtonsoft.Json;
-using System.Collections.Generic;
-using System.Reflection;
-using HallOfGodsRandomizer.IC;
+using RandomizerMod.RC;
 
 namespace HallOfGodsRandomizer.Manager
 {
@@ -21,6 +14,14 @@ namespace HallOfGodsRandomizer.Manager
                 RCData.RuntimeLogicOverride.Subscribe(10f, ApplyLogic);
             }
         }
+        private static readonly (LogicFileType type, string fileName)[] files = new[]
+        {
+            (LogicFileType.Terms, "terms"),
+            (LogicFileType.Macros, "macros"),
+            (LogicFileType.Waypoints, "waypoints"),
+            (LogicFileType.Locations, "locations"),
+            (LogicFileType.ItemStrings, "items")
+        };
 
         private static void ApplyLogic(GenerationSettings gs, LogicManagerBuilder lmb)
         {
@@ -29,25 +30,12 @@ namespace HallOfGodsRandomizer.Manager
 
         private static void AddConstantJSONs(LogicManagerBuilder lmb)
         {
-            // Add terms
-            using Stream t = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.terms.json");
-            lmb.DeserializeJson(LogicManagerBuilder.JsonType.Terms, t);
-            
-            // Add macros
-            using Stream m = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.macros.json");
-            lmb.DeserializeJson(LogicManagerBuilder.JsonType.Macros, m);
+            ILogicFormat fmt = new JsonLogicFormat();
 
-            // Add waypoints
-            using Stream w = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.waypoints.json");
-            lmb.DeserializeJson(LogicManagerBuilder.JsonType.Waypoints, w);
-
-            // Add items          
-            using Stream i = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.items.json");
-            lmb.DeserializeJson(LogicManagerBuilder.JsonType.Items, i);
-
-            // Add locations
-            using Stream l = typeof(LogicHandler).Assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Logic.locations.json");
-            lmb.DeserializeJson(LogicManagerBuilder.JsonType.Locations, l);
+            foreach ((LogicFileType type, string fileName) in files)
+            {
+                lmb.DeserializeFile(type, fmt, typeof(HallOfGodsRandomizer).Assembly.GetManifestResourceStream($"HallOfGodsRandomizer.Resources.Logic.{fileName}.json"));
+            }
         }
     }
 }

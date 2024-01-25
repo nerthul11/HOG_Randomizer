@@ -23,8 +23,7 @@ namespace HallOfGodsRandomizer.Manager {
         {
             Assembly assembly = Assembly.GetExecutingAssembly();
             JsonSerializer jsonSerializer = new() {TypeNameHandling = TypeNameHandling.Auto};
-            HOG_RandomizationSettings settings = HallOfGodsRandomizer.Instance.GS.MainSettings;
-            
+            HallOfGodsRandomizationSettings settings = HallOfGodsRandomizer.Instance.GS.MainSettings;
             
             // Define items
             using Stream itemStream = assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Data.Items.json");

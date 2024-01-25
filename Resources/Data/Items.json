@@ -2,7 +2,7 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Gruz_Mother",
-        "statueName": "GruzMother",
+        "statueStateName": "statueStateGruzMother",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
             "name": {
@@ -23,7 +23,7 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Vengefly_King",
-        "statueName": "Vengefly",
+        "statueStateName": "statueStateVengefly",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
             "name": {
@@ -44,7 +44,7 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Brooding_Mawlek",
-        "statueName": "BroodingMawlek",
+        "statueStateName": "statueStateBroodingMawlek",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
             "name": {
@@ -65,7 +65,7 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-False_Knight",
-        "statueName": "FalseKnight",
+        "statueStateName": "statueStateFalseKnight",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
             "name": {
@@ -74,7 +74,91 @@
               },
             "shopDesc": {
                 "$type": "ItemChanger.BoxedString, ItemChanger",
-                "Value": "A lonely god of the nest's mark."
+                "Value": "An angry god of the downtrodden's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Failed_Champion",
+        "statueStateName": "statueStateFailedChampion",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Failed Champion"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A baleful god of regrets' mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Hornet_Protector",
+        "statueStateName": "statueStateHornet1",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Hornet Protector"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A god protector of a fading land's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Hornet_Sentinel",
+        "statueStateName": "statueStateHornet2",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Hornet Sentinel"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A god protector of a fading land's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Massive_Moss_Charger",
+        "statueStateName": "statueStateMegaMossCharger",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Massive Moss Charger"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A restless god of those who band together's mark."
             },
             "sprite": {
                 "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",

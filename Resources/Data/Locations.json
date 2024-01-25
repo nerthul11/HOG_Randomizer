@@ -2,6 +2,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Gruz_Mother",
+      "sceneName": "GG_Workshop",
       "statueStateName": "statueStateGruzMother",
       "statueTier": "Unlock",
       "tags": null
@@ -9,6 +10,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Bronze_Mark-Gruz_Mother",
+      "sceneName": "GG_Gruz_Mother",
       "statueStateName": "statueStateGruzMother",
       "statueTier": "Attuned",
       "tags": null
@@ -16,6 +18,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Silver_Mark-Gruz_Mother",
+      "sceneName": "GG_Gruz_Mother_V",
       "statueStateName": "statueStateGruzMother",
       "statueTier": "Ascended",
       "tags": null
@@ -23,6 +26,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Gold_Mark-Gruz_Mother",
+      "sceneName": "GG_Gruz_Mother_V",
       "statueStateName": "statueStateGruzMother",
       "statueTier": "Radiant",
       "tags": null
@@ -30,6 +34,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Vengefly_King",
+      "sceneName": "GG_Workshop",
       "statueStateName": "statueStateVengefly",
       "statueTier": "Unlock",
       "tags": null
@@ -37,6 +42,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Bronze_Mark-Vengefly_King",
+      "sceneName": "GG_Vengefly",
       "statueStateName": "statueStateVengefly",
       "statueTier": "Attuned",
       "tags": null
@@ -44,6 +50,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Silver_Mark-Vengefly_King",
+      "sceneName": "GG_Vengefly_V",
       "statueStateName": "statueStateVengefly",
       "statueTier": "Ascended",
       "tags": null
@@ -51,6 +58,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Gold_Mark-Vengefly_King",
+      "sceneName": "GG_Vengefly_V",
       "statueStateName": "statueStateVengefly",
       "statueTier": "Radiant",
       "tags": null
@@ -58,6 +66,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Brooding_Mawlek",
+      "sceneName": "GG_Workshop",
       "statueStateName": "statueStateBroodingMawlek",
       "statueTier": "Unlock",
       "tags": null
@@ -65,6 +74,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Bronze_Mark-Brooding_Mawlek",
+      "sceneName": "GG_Brooding_Mawlek",
       "statueStateName": "statueStateBroodingMawlek",
       "statueTier": "Attuned",
       "tags": null
@@ -72,6 +82,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Silver_Mark-Brooding_Mawlek",
+      "sceneName": "GG_Brooding_Mawlek_V",
       "statueStateName": "statueStateBroodingMawlek",
       "statueTier": "Ascended",
       "tags": null
@@ -79,6 +90,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Gold_Mark-Brooding_Mawlek",
+      "sceneName": "GG_Brooding_Mawlek_V",
       "statueStateName": "statueStateBroodingMawlek",
       "statueTier": "Radiant",
       "tags": null
@@ -86,6 +98,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-False_Knight",
+      "sceneName": "GG_Workshop",
       "statueStateName": "statueStateFalseKnight",
       "statueTier": "Unlock",
       "tags": null
@@ -93,6 +106,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Bronze_Mark-False_Knight",
+      "sceneName": "GG_False_Knight",
       "statueStateName": "statueStateFalseKnight",
       "statueTier": "Attuned",
       "tags": null
@@ -100,6 +114,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Silver_Mark-False_Knight",
+      "sceneName": "GG_False_Knight",
       "statueStateName": "statueStateFalseKnight",
       "statueTier": "Ascended",
       "tags": null
@@ -107,7 +122,136 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Gold_Mark-False_Knight",
+      "sceneName": "GG_False_Knight",
       "statueStateName": "statueStateFalseKnight",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Failed_Champion",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateFailedChampion",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Failed_Champion",
+      "sceneName": "GG_Failed_Champion",
+      "statueStateName": "statueStateFailedChampion",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Failed_Champion",
+      "sceneName": "GG_Failed_Champion",
+      "statueStateName": "statueStateFailedChampion",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Failed_Champion",
+      "sceneName": "GG_Failed_Champion",
+      "statueStateName": "statueStateFailedChampion",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Hornet_Protector",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateHornet1",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Hornet_Protector",
+      "sceneName": "GG_Hornet_1",
+      "statueStateName": "statueStateHornet1",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Hornet_Protector",
+      "sceneName": "GG_Hornet_1",
+      "statueStateName": "statueStateHornet1",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Hornet_Protector",
+      "sceneName": "GG_Hornet_1",
+      "statueStateName": "statueStateHornet1",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Hornet_Sentinel",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateHornet2",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Hornet_Sentinel",
+      "sceneName": "GG_Hornet_2",
+      "statueStateName": "statueStateHornet2",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Hornet_Sentinel",
+      "sceneName": "GG_Hornet_2",
+      "statueStateName": "statueStateHornet2",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Hornet_Sentinel",
+      "sceneName": "GG_Hornet_2",
+      "statueStateName": "statueStateHornet2",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Massive_Moss_Charger",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateMegaMossCharger",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Massive_Moss_Charger",
+      "sceneName": "GG_Mega_Moss_Charger",
+      "statueStateName": "statueStateMegaMossCharger",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Massive_Moss_Charger",
+      "sceneName": "GG_Mega_Moss_Charger",
+      "statueStateName": "statueStateMegaMossCharger",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Massive_Moss_Charger",
+      "sceneName": "GG_Mega_Moss_Charger",
+      "statueStateName": "statueStateMegaMossCharger",
       "statueTier": "Radiant",
       "tags": null
     }

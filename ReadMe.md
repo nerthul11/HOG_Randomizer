@@ -33,7 +33,7 @@ This mod is currently under development, and the following are the known steps m
 
 - ~~Set up the settings and the connection menu.~~ (DONE)
 - ~~Define terms, macros, waypoints, item and location logic.~~ (DONE)
-- ~~Define item properties.~~ (DONE)
+- Define item properties. (IN_PROGRESS)
 - Define location properties. (IN_PROGRESS)
-- Build connections with other randomizer mods. (TO_DO)
+- Build connections with other randomizer mods. (BLOCKED) -> Some mods need to update to work with the current unreleased RandomizerCore version.
 - Assert all the previous steps function correctly. (TO_DO)

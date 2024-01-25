@@ -36,7 +36,7 @@ namespace HallOfGodsRandomizer.Menu
         Vanilla = 0
     }
 
-    public class HOG_RandomizationSettings
+    public class HallOfGodsRandomizationSettings
     {
         public bool Enabled;
         [MenuLabel("HOG Statue access")]

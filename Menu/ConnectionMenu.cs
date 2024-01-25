@@ -16,7 +16,7 @@ namespace HallOfGodsRandomizer.Menu
 
         // Menu page and elements
         private MenuPage hogPage;
-        private MenuElementFactory<HOG_RandomizationSettings> elementFactory;
+        private MenuElementFactory<HallOfGodsRandomizationSettings> elementFactory;
 
         public static void Hook()
         {
