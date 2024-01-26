@@ -18,7 +18,6 @@ namespace HallOfGodsRandomizer.Manager
         {
             (LogicFileType.Terms, "terms"),
             (LogicFileType.Macros, "macros"),
-            (LogicFileType.Waypoints, "waypoints"),
             (LogicFileType.Locations, "locations"),
             (LogicFileType.ItemStrings, "items")
         };
