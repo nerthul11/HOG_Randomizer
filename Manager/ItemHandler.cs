@@ -7,6 +7,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Linq;
+using HallOfGodsRandomizer.IC;
 
 namespace HallOfGodsRandomizer.Manager {
     internal static class ItemHandler
@@ -24,48 +25,51 @@ namespace HallOfGodsRandomizer.Manager {
             Assembly assembly = Assembly.GetExecutingAssembly();
             JsonSerializer jsonSerializer = new() {TypeNameHandling = TypeNameHandling.Auto};
             HallOfGodsRandomizationSettings settings = HallOfGodsRandomizer.Instance.GS.MainSettings;
-            
-            // Define items
-            using Stream itemStream = assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Data.Items.json");
-            StreamReader itemReader = new(itemStream);
-            List<AbstractItem> itemList = jsonSerializer.Deserialize<List<AbstractItem>>(new JsonTextReader(itemReader));
-            foreach (AbstractItem item in itemList)
-                Finder.DefineCustomItem(item);
-            
             int itemCount = (int)settings.RandomizeTiers + (int)settings.RandomizeStatueAccess;
-            foreach (AbstractItem item in itemList)
-                builder.AddItemByName(item.name, itemCount);
 
-            // Define locations
-            using Stream locationStream = assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Data.Locations.json");
-            StreamReader locationReader = new(locationStream);
-            List<AutoLocation> locationList = jsonSerializer.Deserialize<List<AutoLocation>>(new JsonTextReader(locationReader));
+            if (itemCount > 0)
+            {
+                // Define items
+                using Stream itemStream = assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Data.Items.json");
+                StreamReader itemReader = new(itemStream);
+                List<StatueItem> itemList = jsonSerializer.Deserialize<List<StatueItem>>(new JsonTextReader(itemReader));
             
-            // Filter Gold, Silver and Bronze marks if TierLimitMode excludes them.
-            if (settings.RandomizeTiers == TierLimitMode.ExcludeRadiant)
-            {
-                locationList = (List<AutoLocation>)locationList.Where(location => !location.name.StartsWith("Gold"));
-            }
-            else if (settings.RandomizeTiers == TierLimitMode.ExcludeAscended)
-            {
-                locationList = (List<AutoLocation>)locationList.Where(location => !location.name.StartsWith("Gold") || !location.name.StartsWith("Silver"));
-            }
-            else if (settings.RandomizeTiers == TierLimitMode.Vanilla)
-            {
-                locationList = (List<AutoLocation>)locationList.Where(location => location.name.StartsWith("Empty"));
-            }
+                foreach (StatueItem item in itemList)
+                    Finder.DefineCustomItem(item);
+                foreach (StatueItem item in itemList)
+                    builder.AddItemByName(item.name, itemCount);
 
-            // Remove statue access locations if StatueAccessMode is Vanilla
-            if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
-            {
-                locationList = (List<AutoLocation>)locationList.Where(location => !location.name.StartsWith("Empty"));
+                // Define locations
+                using Stream locationStream = assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Data.Locations.json");
+                StreamReader locationReader = new(locationStream);
+                List<StatueLocation> locationList = jsonSerializer.Deserialize<List<StatueLocation>>(new JsonTextReader(locationReader));
+                
+                // Filter Gold, Silver and Bronze marks if TierLimitMode excludes them.
+                if (settings.RandomizeTiers == TierLimitMode.ExcludeRadiant)
+                {
+                    locationList = locationList.Where(location => !location.name.StartsWith("Gold")).ToList();
+                }
+                else if (settings.RandomizeTiers == TierLimitMode.ExcludeAscended)
+                {
+                    locationList = locationList.Where(location => !location.name.StartsWith("Gold") || !location.name.StartsWith("Silver")).ToList();
+                }
+                else if (settings.RandomizeTiers == TierLimitMode.Vanilla)
+                {
+                    locationList = locationList.Where(location => location.name.StartsWith("Empty")).ToList();
+                }
+
+                // Remove statue access locations if StatueAccessMode is Vanilla
+                if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
+                {
+                    locationList = locationList.Where(location => !location.name.StartsWith("Empty")).ToList();
+                }
+
+                foreach (StatueLocation location in locationList)
+                    Finder.DefineCustomLocation(location);
+
+                foreach (StatueLocation location in locationList)
+                    builder.AddLocationByName(location.name);
             }
-
-            foreach (AutoLocation location in locationList)
-                Finder.DefineCustomLocation(location);
-
-            foreach (AutoLocation location in locationList)
-                builder.AddLocationByName(location.name);
         }
     }
 }

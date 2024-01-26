@@ -25,11 +25,6 @@ namespace HallOfGodsRandomizer.Manager
 
         private static void ApplyLogic(GenerationSettings gs, LogicManagerBuilder lmb)
         {
-            AddConstantJSONs(lmb);
-        }
-
-        private static void AddConstantJSONs(LogicManagerBuilder lmb)
-        {
             ILogicFormat fmt = new JsonLogicFormat();
 
             foreach ((LogicFileType type, string fileName) in files)

@@ -1,3 +1,4 @@
+using System;
 using ItemChanger;
 using ItemChanger.Locations;
 
@@ -24,10 +25,10 @@ namespace HallOfGodsRandomizer.IC
 
         protected override void OnUnload()
         {
-             On.BossChallengeUI.LoadBoss_int_bool -= BossChallengeUI_LoadBoss_int_bool;
-             On.BossSceneController.Awake -= BossSceneController_Awake;
-             On.BossStatue.SetPlaqueState -= BossStatue_SetPlaqueState;
-             On.BossStatue.UpdateDetails -= BossStatue_UpdateDetails;
+            On.BossChallengeUI.LoadBoss_int_bool -= BossChallengeUI_LoadBoss_int_bool;
+            On.BossSceneController.Awake -= BossSceneController_Awake;
+            On.BossStatue.SetPlaqueState -= BossStatue_SetPlaqueState;
+            On.BossStatue.UpdateDetails -= BossStatue_UpdateDetails;
         }
 
         protected override void OnLoad()

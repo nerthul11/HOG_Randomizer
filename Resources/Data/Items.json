@@ -18,6 +18,7 @@
                 "Key": "StatueMark"
             }
         },
+        "tags": null,
         "obtainState": "Unobtained"
     },
     {
@@ -39,6 +40,7 @@
                 "Key": "StatueMark"
             }
         },
+        "tags": null,
         "obtainState": "Unobtained"
     },
     {
@@ -60,6 +62,7 @@
                 "Key": "StatueMark"
             }
         },
+        "tags": null,
         "obtainState": "Unobtained"
     },
     {
@@ -81,6 +84,7 @@
                 "Key": "StatueMark"
             }
         },
+        "tags": null,
         "obtainState": "Unobtained"
     },
     {
@@ -102,6 +106,7 @@
                 "Key": "StatueMark"
             }
         },
+        "tags": null,
         "obtainState": "Unobtained"
     },
     {
@@ -123,6 +128,7 @@
                 "Key": "StatueMark"
             }
         },
+        "tags": null,
         "obtainState": "Unobtained"
     },
     {
@@ -144,6 +150,7 @@
                 "Key": "StatueMark"
             }
         },
+        "tags": null,
         "obtainState": "Unobtained"
     },
     {
@@ -165,6 +172,7 @@
                 "Key": "StatueMark"
             }
         },
+        "tags": null,
         "obtainState": "Unobtained"
     }
 ]

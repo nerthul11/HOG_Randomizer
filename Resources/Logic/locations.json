@@ -5,7 +5,7 @@
     },
     {
         "name": "Bronze_Mark-Gruz_Mother",
-        "logic": "ATTUNED + BOTTOM_STATUE + HOG_01>0 + COMBAT[Gruz_Mother] + BOTTOM_STATUE"
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_01>0 + COMBAT[Gruz_Mother]"
     },
     {
         "name": "Silver_Mark-Gruz_Mother",
@@ -96,7 +96,7 @@
         "logic": "RADIANT + BOTTOM_STATUE + HOG_06>2 + COMBAT[Hornet_1]"
     },
     {
-        "name": "Empty-Mark-Hornet_Sentinel",
+        "name": "Empty_Mark-Hornet_Sentinel",
         "logic": "BOTTOM_STATUE + HOG_07>0"
     },
     {
@@ -702,17 +702,5 @@
     {
         "name": "Gold_Mark-Sisters_of_Battle",
         "logic": "RADIANT + BOTTOM_STATUE + HOG_44>2 + COMBAT[Mantis_Lords]"
-    },
-    {
-        "name": "Journal_Entry-Void_Idol_1",
-        "logic": "(ORIG) + ATTUNED_IDOL"
-    },
-    {
-        "name": "Journal_Entry-Void_Idol_2",
-        "logic": "(ORIG) + ASCENDED_IDOL"
-    },
-    {
-        "name": "Journal_Entry-Void_Idol_3",
-        "logic": "(ORIG) + RADIANT_IDOL"
     }
 ]

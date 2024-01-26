@@ -49,7 +49,6 @@
         public BossStatue.Completion statueStateNailmasters;
         public BossStatue.Completion statueStateMageKnight;
         public BossStatue.Completion statueStatePaintmaster;
-        public BossStatue.Completion statueStateZote;
         public BossStatue.Completion statueStateNoskHornet;
         public BossStatue.Completion statueStateMantisLordsExtra;
     }
