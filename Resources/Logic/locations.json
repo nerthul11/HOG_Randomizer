@@ -5,7 +5,7 @@
     },
     {
         "name": "Bronze_Mark-Gruz_Mother",
-        "logic": "ATTUNED + BOTTOM_STATUE + HOG_01>0 + COMBAT[Gruz_Mother] + BOTTOM_STATUE"
+        "logic": "ATTUNED + BOTTOM_STATUE + HOG_01>0 + COMBAT[Gruz_Mother]"
     },
     {
         "name": "Silver_Mark-Gruz_Mother",

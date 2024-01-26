@@ -35,5 +35,5 @@ This mod is currently under development, and the following are the known steps m
 - ~~Define terms, macros, waypoints, item and location logic.~~ (DONE)
 - Define item properties. (IN_PROGRESS)
 - Define location properties. (IN_PROGRESS)
-- Build connections with other randomizer mods. (BLOCKED) -> Some mods need to update to work with the current unreleased RandomizerCore version.
+- Build connections with other randomizer mods. (TO_DO)
 - Assert all the previous steps function correctly. (TO_DO)

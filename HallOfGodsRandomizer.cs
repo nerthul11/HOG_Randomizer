@@ -34,14 +34,8 @@ namespace HallOfGodsRandomizer
             {
                 Log("Initializing");
                 HOG_Interop.Hook();
-                On.GameManager.StartNewGame += GameManager_StartNewGame;
                 Log("Initialized");
             }
-        }
-
-        private void GameManager_StartNewGame(On.GameManager.orig_StartNewGame orig, GameManager self, bool permadeathMode, bool bossRushMode)
-        {
-            orig(self, permadeathMode, bossRushMode);
         }
 
         public void OnLoadGlobal(GlobalSettings s) => GS = s;
@@ -260,11 +254,6 @@ namespace HallOfGodsRandomizer
             {
                 BossStatue.Completion statue = Instance.LS.statueStatePaintmaster;
                 Instance.LS.statueStatePaintmaster = Override(statueName, statue, tier, setAsTrue);
-            }
-            if (statueName == "statueStateZote")
-            {
-                BossStatue.Completion statue = Instance.LS.statueStateZote;
-                Instance.LS.statueStateZote = Override(statueName, statue, tier, setAsTrue);
             }
             if (statueName == "statueStateNoskHornet")
             {
