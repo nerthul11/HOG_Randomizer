@@ -92,9 +92,9 @@ namespace HallOfGodsRandomizer.IC
 
         private void BossStatue_SetPlaqueState(On.BossStatue.orig_SetPlaqueState orig, BossStatue self, BossStatue.Completion statueState, BossStatueTrophyPlaque plaque, string playerDataKey)
         {
-            if (self.statueStatePD == statueStateName)
+            if (self.statueStatePD == statueStateName && statueTier == Tier.Unlock)
             {
-                if (!Placement.AllObtained() && statueTier == Tier.Unlock)
+                if (!Placement.AllObtained())
                 {
                     HeroController.instance.RelinquishControl();
                     Placement.GiveAll(new()

@@ -51,7 +51,7 @@ namespace HallOfGodsRandomizer.Manager {
                 }
                 else if (settings.RandomizeTiers == TierLimitMode.ExcludeAscended)
                 {
-                    locationList = locationList.Where(location => !location.name.StartsWith("Gold") || !location.name.StartsWith("Silver")).ToList();
+                    locationList = locationList.Where(location => !location.name.StartsWith("Gold") && !location.name.StartsWith("Silver")).ToList();
                 }
                 else if (settings.RandomizeTiers == TierLimitMode.Vanilla)
                 {

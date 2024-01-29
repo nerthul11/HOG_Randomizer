@@ -254,5 +254,1157 @@
       "statueStateName": "statueStateMegaMossCharger",
       "statueTier": "Radiant",
       "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Mantis_Lords",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateMantisLords",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Mantis_Lords",
+      "sceneName": "GG_Mantis_Lords",
+      "statueStateName": "statueStateMantisLords",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Mantis_Lords",
+      "sceneName": "GG_Mantis_Lords",
+      "statueStateName": "statueStateMantisLords",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Mantis_Lords",
+      "sceneName": "GG_Mantis_Lords_V",
+      "statueStateName": "statueStateMantisLords",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Oblobbles",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateOblobbles",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Oblobbles",
+      "sceneName": "GG_Oblobbles",
+      "statueStateName": "statueStateOblobbles",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Oblobbles",
+      "sceneName": "GG_Oblobbles",
+      "statueStateName": "statueStateOblobbles",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Oblobbles",
+      "sceneName": "GG_Oblobbles",
+      "statueStateName": "statueStateOblobbles",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Grey_Prince_Zote",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateGreyPrince",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Grey_Prince_Zote",
+      "sceneName": "GG_Grey_Prince_Zote",
+      "statueStateName": "statueStateGreyPrince",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Grey_Prince_Zote",
+      "sceneName": "GG_Grey_Prince_Zote",
+      "statueStateName": "statueStateGreyPrince",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Grey_Prince_Zote",
+      "sceneName": "GG_Grey_Prince_Zote",
+      "statueStateName": "statueStateGreyPrince",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Broken_Vessel",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateBrokenVessel",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Broken_Vessel",
+      "sceneName": "GG_Broken_Vessel",
+      "statueStateName": "statueStateBrokenVessel",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Broken_Vessel",
+      "sceneName": "GG_Broken_Vessel",
+      "statueStateName": "statueStateBrokenVessel",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Broken_Vessel",
+      "sceneName": "GG_Broken_Vessel",
+      "statueStateName": "statueStateBrokenVessel",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Lost_Kin",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateLostKin",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Lost_Kin",
+      "sceneName": "GG_Lost_Kin",
+      "statueStateName": "statueStateLostKin",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Lost_Kin",
+      "sceneName": "GG_Lost_Kin",
+      "statueStateName": "statueStateLostKin",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Lost_Kin",
+      "sceneName": "GG_Lost_Kin",
+      "statueStateName": "statueStateLostKin",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Nosk",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateNosk",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Nosk",
+      "sceneName": "GG_Nosk",
+      "statueStateName": "statueStateNosk",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Nosk",
+      "sceneName": "GG_Nosk_V",
+      "statueStateName": "statueStateNosk",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Nosk",
+      "sceneName": "GG_Nosk_V",
+      "statueStateName": "statueStateNosk",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Flukemarm",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateFlukemarm",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Flukemarm",
+      "sceneName": "GG_Flukemarm",
+      "statueStateName": "statueStateFlukemarm",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Flukemarm",
+      "sceneName": "GG_Flukemarm",
+      "statueStateName": "statueStateFlukemarm",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Flukemarm",
+      "sceneName": "GG_Flukemarm",
+      "statueStateName": "statueStateFlukemarm",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Collector",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateCollector",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Collector",
+      "sceneName": "GG_Collector",
+      "statueStateName": "statueStateCollector",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Collector",
+      "sceneName": "GG_Collector_V",
+      "statueStateName": "statueStateCollector",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Collector",
+      "sceneName": "GG_Collector_V",
+      "statueStateName": "statueStateCollector",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Watcher_Knights",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateWatcherKnights",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Watcher_Knights",
+      "sceneName": "GG_Watcher_Knights",
+      "statueStateName": "statueStateWatcherKnights",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Watcher_Knights",
+      "sceneName": "GG_Watcher_Knights",
+      "statueStateName": "statueStateWatcherKnights",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Watcher_Knights",
+      "sceneName": "GG_Watcher_Knights",
+      "statueStateName": "statueStateWatcherKnights",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Soul_Master",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateSoulMaster",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Soul_Master",
+      "sceneName": "GG_Soul_Master",
+      "statueStateName": "statueStateSoulMaster",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Soul_Master",
+      "sceneName": "GG_Soul_Master",
+      "statueStateName": "statueStateSoulMaster",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Soul_Master",
+      "sceneName": "GG_Soul_Master",
+      "statueStateName": "statueStateSoulMaster",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Soul_Tyrant",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateSoulTyrant",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Soul_Tyrant",
+      "sceneName": "GG_Soul_Tyrant",
+      "statueStateName": "statueStateSoulTyrant",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Soul_Tyrant",
+      "sceneName": "GG_Soul_Tyrant",
+      "statueStateName": "statueStateSoulTyrant",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Soul_Tyrant",
+      "sceneName": "GG_Soul_Tyrant",
+      "statueStateName": "statueStateSoulTyrant",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-God_Tamer",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateGodTamer",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-God_Tamer",
+      "sceneName": "GG_God_Tamer",
+      "statueStateName": "statueStateGodTamer",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-God_Tamer",
+      "sceneName": "GG_God_Tamer",
+      "statueStateName": "statueStateGodTamer",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-God_Tamer",
+      "sceneName": "GG_God_Tamer",
+      "statueStateName": "statueStateGodTamer",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Crystal_Guardian",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateCrystalGuardian1",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Crystal_Guardian",
+      "sceneName": "GG_Crystal_Guardian",
+      "statueStateName": "statueStateCrystalGuardian1",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Crystal_Guardian",
+      "sceneName": "GG_Crystal_Guardian",
+      "statueStateName": "statueStateCrystalGuardian1",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Crystal_Guardian",
+      "sceneName": "GG_Crystal_Guardian",
+      "statueStateName": "statueStateCrystalGuardian1",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Enraged_Guardian",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateCrystalGuardian2",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Enraged_Guardian",
+      "sceneName": "GG_Crystal_Guardian_2",
+      "statueStateName": "statueStateCrystalGuardian2",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Enraged_Guardian",
+      "sceneName": "GG_Crystal_Guardian_2",
+      "statueStateName": "statueStateCrystalGuardian2",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Enraged_Guardian",
+      "sceneName": "GG_Crystal_Guardian_2",
+      "statueStateName": "statueStateCrystalGuardian2",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Uumuu",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateUumuu",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Uumuu",
+      "sceneName": "GG_Uumuu",
+      "statueStateName": "statueStateUumuu",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Uumuu",
+      "sceneName": "GG_Uumuu_V",
+      "statueStateName": "statueStateUumuu",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Uumuu",
+      "sceneName": "GG_Uumuu_V",
+      "statueStateName": "statueStateUumuu",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Dung_Defender",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateDungDefender",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Dung_Defender",
+      "sceneName": "GG_Dung_Defender",
+      "statueStateName": "statueStateDungDefender",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Dung_Defender",
+      "sceneName": "GG_Dung_Defender",
+      "statueStateName": "statueStateDungDefender",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Dung_Defender",
+      "sceneName": "GG_Dung_Defender",
+      "statueStateName": "statueStateDungDefender",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-White_Defender",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateWhiteDefender",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-White_Defender",
+      "sceneName": "GG_White_Defender",
+      "statueStateName": "statueStateWhiteDefender",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-White_Defender",
+      "sceneName": "GG_White_Defender",
+      "statueStateName": "statueStateWhiteDefender",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-White_Defender",
+      "sceneName": "GG_White_Defender",
+      "statueStateName": "statueStateWhiteDefender",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Hive_Knight",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateHiveKnight",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Hive_Knight",
+      "sceneName": "GG_Hive_Knight",
+      "statueStateName": "statueStateHiveKnight",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Hive_Knight",
+      "sceneName": "GG_Hive_Knight",
+      "statueStateName": "statueStateHiveKnight",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Hive_Knight",
+      "sceneName": "GG_Hive_Knight",
+      "statueStateName": "statueStateHiveKnight",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Traitor_Lord",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateTraitorLord",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Traitor_Lord",
+      "sceneName": "GG_Traitor_Lord",
+      "statueStateName": "statueStateTraitorLord",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Traitor_Lord",
+      "sceneName": "GG_Traitor_Lord",
+      "statueStateName": "statueStateTraitorLord",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Traitor_Lord",
+      "sceneName": "GG_Traitor_Lord",
+      "statueStateName": "statueStateTraitorLord",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Troupe_Master_Grimm",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateGrimm",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Troupe_Master_Grimm",
+      "sceneName": "GG_Grimm",
+      "statueStateName": "statueStateGrimm",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Troupe_Master_Grimm",
+      "sceneName": "GG_Grimm",
+      "statueStateName": "statueStateGrimm",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Troupe_Master_Grimm",
+      "sceneName": "GG_Grimm",
+      "statueStateName": "statueStateGrimm",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Nightmare_King_Grimm",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateNightmareGrimm",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Nightmare_King_Grimm",
+      "sceneName": "GG_Grimm_Nightmare",
+      "statueStateName": "statueStateNightmareGrimm",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Nightmare_King_Grimm",
+      "sceneName": "GG_Grimm_Nightmare",
+      "statueStateName": "statueStateNightmareGrimm",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Nightmare_King_Grimm",
+      "sceneName": "GG_Grimm_Nightmare",
+      "statueStateName": "statueStateNightmareGrimm",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Pure_Vessel",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateHollowKnight",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Pure_Vessel",
+      "sceneName": "GG_Hollow_Knight",
+      "statueStateName": "statueStateHollowKnight",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Pure_Vessel",
+      "sceneName": "GG_Hollow_Knight",
+      "statueStateName": "statueStateHollowKnight",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Pure_Vessel",
+      "sceneName": "GG_Hollow_Knight",
+      "statueStateName": "statueStateHollowKnight",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Elder_Hu",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateElderHu",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Elder_Hu",
+      "sceneName": "GG_Ghost_Hu",
+      "statueStateName": "statueStateElderHu",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Elder_Hu",
+      "sceneName": "GG_Ghost_Hu",
+      "statueStateName": "statueStateElderHu",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Elder_Hu",
+      "sceneName": "GG_Ghost_Hu",
+      "statueStateName": "statueStateElderHu",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Galien",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateGalien",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Galien",
+      "sceneName": "GG_Ghost_Galien",
+      "statueStateName": "statueStateGalien",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Galien",
+      "sceneName": "GG_Ghost_Galien",
+      "statueStateName": "statueStateGalien",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Galien",
+      "sceneName": "GG_Ghost_Galien",
+      "statueStateName": "statueStateGalien",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Markoth",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateMarkoth",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Markoth",
+      "sceneName": "GG_Ghost_Markoth",
+      "statueStateName": "statueStateMarkoth",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Markoth",
+      "sceneName": "GG_Ghost_Markoth_V",
+      "statueStateName": "statueStateMarkoth",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Markoth",
+      "sceneName": "GG_Ghost_Markoth_V",
+      "statueStateName": "statueStateMarkoth",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Marmu",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateMarmu",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Marmu",
+      "sceneName": "GG_Ghost_Marmu",
+      "statueStateName": "statueStateMarmu",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Marmu",
+      "sceneName": "GG_Ghost_Marmu_V",
+      "statueStateName": "statueStateMarmu",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Marmu",
+      "sceneName": "GG_Ghost_Marmu_V",
+      "statueStateName": "statueStateMarmu",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-No_Eyes",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateNoEyes",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-No_Eyes",
+      "sceneName": "GG_Ghost_No_Eyes",
+      "statueStateName": "statueStateNoEyes",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-No_Eyes",
+      "sceneName": "GG_Ghost_No_Eyes_V",
+      "statueStateName": "statueStateNoEyes",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-No_Eyes",
+      "sceneName": "GG_Ghost_No_Eyes_V",
+      "statueStateName": "statueStateNoEyes",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Xero",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateXero",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Xero",
+      "sceneName": "GG_Ghost_Xero",
+      "statueStateName": "statueStateXero",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Xero",
+      "sceneName": "GG_Ghost_Xero_V",
+      "statueStateName": "statueStateXero",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Xero",
+      "sceneName": "GG_Ghost_Xero_V",
+      "statueStateName": "statueStateXero",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Gorb",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateGorb",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Gorb",
+      "sceneName": "GG_Ghost_Gorb",
+      "statueStateName": "statueStateGorb",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Gorb",
+      "sceneName": "GG_Ghost_Gorb_V",
+      "statueStateName": "statueStateGorb",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Gorb",
+      "sceneName": "GG_Ghost_Gorb_V",
+      "statueStateName": "statueStateGorb",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Radiance",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateRadiance",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Radiance",
+      "sceneName": "GG_Radiance",
+      "statueStateName": "statueStateRadiance",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Radiance",
+      "sceneName": "GG_Radiance",
+      "statueStateName": "statueStateRadiance",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Radiance",
+      "sceneName": "GG_Radiance",
+      "statueStateName": "statueStateRadiance",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Sly",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateSly",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Sly",
+      "sceneName": "GG_Sly",
+      "statueStateName": "statueStateSly",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Sly",
+      "sceneName": "GG_Sly",
+      "statueStateName": "statueStateSly",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Sly",
+      "sceneName": "GG_Sly",
+      "statueStateName": "statueStateSly",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Nailmaster_Brothers",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateNailmasters",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Nailmaster_Brothers",
+      "sceneName": "GG_Nailmasters",
+      "statueStateName": "statueStateNailmasters",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Nailmaster_Brothers",
+      "sceneName": "GG_Nailmasters",
+      "statueStateName": "statueStateNailmasters",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Nailmaster_Brothers",
+      "sceneName": "GG_Nailmasters",
+      "statueStateName": "statueStateNailmasters",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Soul_Warrior",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateMageKnight",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Soul_Warrior",
+      "sceneName": "GG_Mage_Knight_V",
+      "statueStateName": "statueStateMageKnight",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Soul_Warrior",
+      "sceneName": "GG_Mage_Knight_V",
+      "statueStateName": "statueStateMageKnight",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Soul_Warrior",
+      "sceneName": "GG_Mage_Knight_V",
+      "statueStateName": "statueStateMageKnight",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Paintmaster_Sheo",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStatePaintmaster",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Paintmaster_Sheo",
+      "sceneName": "GG_Painter",
+      "statueStateName": "statueStatePaintmaster",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Paintmaster_Sheo",
+      "sceneName": "GG_Painter",
+      "statueStateName": "statueStatePaintmaster",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Paintmaster_Sheo",
+      "sceneName": "GG_Painter",
+      "statueStateName": "statueStatePaintmaster",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Winged_Nosk",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateNoskHornet",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Winged_Nosk",
+      "sceneName": "GG_Nosk_Hornet",
+      "statueStateName": "statueStateNoskHornet",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Winged_Nosk",
+      "sceneName": "GG_Nosk_Hornet",
+      "statueStateName": "statueStateNoskHornet",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Winged_Nosk",
+      "sceneName": "GG_Nosk_Hornet",
+      "statueStateName": "statueStateNoskHornet",
+      "statueTier": "Radiant",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Empty_Mark-Sisters_of_Battle",
+      "sceneName": "GG_Workshop",
+      "statueStateName": "statueStateMantisLordsExtra",
+      "statueTier": "Unlock",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Bronze_Mark-Sisters_of_Battle",
+      "sceneName": "GG_Mantis_Lords_V",
+      "statueStateName": "statueStateMantisLordsExtra",
+      "statueTier": "Attuned",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Silver_Mark-Sisters_of_Battle",
+      "sceneName": "GG_Mantis_Lords_V",
+      "statueStateName": "statueStateMantisLordsExtra",
+      "statueTier": "Ascended",
+      "tags": null
+    },
+    {
+      "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
+      "name": "Gold_Mark-Sisters_of_Battle",
+      "sceneName": "GG_Mantis_Lords_V",
+      "statueStateName": "statueStateMantisLordsExtra",
+      "statueTier": "Radiant",
+      "tags": null
     }
 ]

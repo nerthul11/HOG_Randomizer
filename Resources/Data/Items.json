@@ -18,7 +18,15 @@
                 "Key": "StatueMark"
             }
         },
-        "tags": null,
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
         "obtainState": "Unobtained"
     },
     {
@@ -40,7 +48,15 @@
                 "Key": "StatueMark"
             }
         },
-        "tags": null,
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
         "obtainState": "Unobtained"
     },
     {
@@ -62,7 +78,15 @@
                 "Key": "StatueMark"
             }
         },
-        "tags": null,
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
         "obtainState": "Unobtained"
     },
     {
@@ -84,7 +108,15 @@
                 "Key": "StatueMark"
             }
         },
-        "tags": null,
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
         "obtainState": "Unobtained"
     },
     {
@@ -106,7 +138,15 @@
                 "Key": "StatueMark"
             }
         },
-        "tags": null,
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
         "obtainState": "Unobtained"
     },
     {
@@ -128,7 +168,15 @@
                 "Key": "StatueMark"
             }
         },
-        "tags": null,
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
         "obtainState": "Unobtained"
     },
     {
@@ -150,7 +198,15 @@
                 "Key": "StatueMark"
             }
         },
-        "tags": null,
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
         "obtainState": "Unobtained"
     },
     {
@@ -172,7 +228,1095 @@
                 "Key": "StatueMark"
             }
         },
-        "tags": null,
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Mantis_Lords",
+        "statueStateName": "statueStateMantisLords",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Mantis Lords"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Noble sister gods of combat's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Oblobbles",
+        "statueStateName": "statueStateOblobbles",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Oblobbles"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Lover gods of faith and devotion's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Grey_Prince_Zote",
+        "statueStateName": "statueStateGreyPrince",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Grey Prince Zote"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A false god conjured by the lonely's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Broken_Vessel",
+        "statueStateName": "statueStateBrokenVessel",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Broken Vessel"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A broken shell of an empty god's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Lost_Kin",
+        "statueStateName": "statueStateLostKin",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Lost Kin"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A lost god of the abyss' mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Nosk",
+        "statueStateName": "statueStateNosk",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Nosk"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "An everchanging god of the faceless' mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Flukemarm",
+        "statueStateName": "statueStateFlukemarm",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Flukemarm"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "An alluring god of motherhood's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Collector",
+        "statueStateName": "statueStateCollector",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - The Collector"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A joyful god of protection's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Watcher_Knights",
+        "statueStateName": "statueStateWatcherKnights",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Watcher Knights"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Sentinel gods of the spire's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Soul_Master",
+        "statueStateName": "statueStateSoulMaster",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Soul Master"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A covetous god of soul's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Soul_Tyrant",
+        "statueStateName": "statueStateSoulTyrant",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Soul Tyrant"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A frenzied god of mortality's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-God_Tamer",
+        "statueStateName": "statueStateGodTamer",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - God Tamer"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A gallant god of the arena's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Crystal_Guardian",
+        "statueStateName": "statueStateCrystalGuardian1",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Crystal Guardian"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A shining god of greed's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Enraged_Guardian",
+        "statueStateName": "statueStateCrystalGuardian2",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Enraged Guardian"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A shining god of greed's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Uumuu",
+        "statueStateName": "statueStateUumuu",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Uumuu"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "An uncanny god of knowledge's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Dung_Defender",
+        "statueStateName": "statueStateDungDefender",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Dung Defender"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A kindly god of bravery and honour's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-White_Defender",
+        "statueStateName": "statueStateWhiteDefender",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - White Defender"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A kindly god of bravery and honour's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Hive_Knight",
+        "statueStateName": "statueStateHiveKnight",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Hive Knight"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A watchful god of duty's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Traitor_Lord",
+        "statueStateName": "statueStateTraitorLord",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Traitor Lord"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A treacherous god of anger's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Troupe_Master_Grimm",
+        "statueStateName": "statueStateGrimm",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Troupe Master Grimm"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A travelling god of the troupe's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Nightmare_King_Grimm",
+        "statueStateName": "statueStateNightmareGrimm",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Nightmare King Grimm"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A god of nightmare's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Pure_Vessel",
+        "statueStateName": "statueStateHollowKnight",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Pure Vessel"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A mighty god of nothingness' mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Elder_Hu",
+        "statueStateName": "statueStateElderHu",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Elder Hu"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A dreamborn god of travellers and sages' mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Galien",
+        "statueStateName": "statueStateGalien",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Galien"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A dreamborn god of heroic hearts' mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Markoth",
+        "statueStateName": "statueStateMarkoth",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Markoth"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A dreamborn god of meditation and isolation's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Marmu",
+        "statueStateName": "statueStateMarmu",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Marmu"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A dreamborn god of gardens' mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-No_Eyes",
+        "statueStateName": "statueStateNoEyes",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - No Eyes"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A dreamborn god of fear and relief's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Xero",
+        "statueStateName": "statueStateXero",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Xero"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A dreamborn god of faith and betrayal's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Gorb",
+        "statueStateName": "statueStateGorb",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Gorb"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A dreamborn god of the beyond's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Radiance",
+        "statueStateName": "statueStateRadiance",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Absolute Radiance"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A forgotten god of light's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Sly",
+        "statueStateName": "statueStateSly",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Sly"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A cunning god of opportunity's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Nailmaster_Brothers",
+        "statueStateName": "statueStateNailmasters",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Oro & Mato"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Loyal brothers of the nail's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Soul_Warrior",
+        "statueStateName": "statueStateMageKnight",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Soul Warrior"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A haunted god of the sanctum's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Paintmaster_Sheo",
+        "statueStateName": "statueStatePaintmaster",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Paintmaster Sheo"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A talented god of artists and creators' mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Winged_Nosk",
+        "statueStateName": "statueStateNoskHornet",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Winged Nosk"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "A deceptive god assuming a protector's form's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
+        "obtainState": "Unobtained"
+    },
+    {
+        "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
+        "name": "Statue_Mark-Sisters_of_Battle",
+        "statueStateName": "statueStateMantisLordsExtra",
+        "UIDef": {
+            "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
+            "name": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Statue Mark - Sisters of Battle"
+              },
+            "shopDesc": {
+                "$type": "ItemChanger.BoxedString, ItemChanger",
+                "Value": "Revered gods of a proud tribe's mark."
+            },
+            "sprite": {
+                "$type": "HallOfGodsRandomizer.IC.StatueSprite, HallOfGodsRandomizer",
+                "Key": "StatueMark"
+            }
+        },
+        "tags": [
+            {
+              "$type": "ItemChanger.Tags.InteropTag, ItemChanger",
+              "Properties": {
+                "ModSource": "HallOfGodsRandomizer",
+                "PoolGroup": "HallOfGods"
+              }
+            }
+          ],
         "obtainState": "Unobtained"
     }
 ]

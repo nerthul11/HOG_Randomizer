@@ -32,8 +32,8 @@ All this should add up to a whopping total of 176 new items and locations to the
 This mod is currently under development, and the following are the known steps meant to be dealt with before release.
 
 - ~~Set up the settings and the connection menu.~~ (DONE)
-- ~~Define terms, macros, waypoints, item and location logic.~~ (DONE)
-- Define item properties. (IN_PROGRESS)
-- Define location properties. (IN_PROGRESS)
-- Build connections with other randomizer mods. (TO_DO)
-- Assert all the previous steps function correctly. (TO_DO)
+- Define terms, macros, waypoints, item and location logic. (REVIEWING)
+- ~~Define item properties.~~ (DONE)
+- Define location properties. (REVIEWING)
+- Build connections with other randomizer mods. (IN_PROGRESS)
+- Assert all the previous steps function correctly. (IN_PROGRESS)

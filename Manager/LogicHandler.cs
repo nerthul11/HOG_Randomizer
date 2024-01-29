@@ -30,6 +30,8 @@ namespace HallOfGodsRandomizer.Manager
             {
                 lmb.DeserializeFile(type, fmt, typeof(HallOfGodsRandomizer).Assembly.GetManifestResourceStream($"HallOfGodsRandomizer.Resources.Logic.{fileName}.json"));
             }
+
+            
         }
     }
 }
