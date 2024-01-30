@@ -161,7 +161,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Empty_Mark-Hornet_Protector",
+      "name": "Empty_Mark-Hornet_1",
       "sceneName": "GG_Workshop",
       "statueStateName": "statueStateHornet1",
       "statueTier": "Unlock",
@@ -169,7 +169,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Bronze_Mark-Hornet_Protector",
+      "name": "Bronze_Mark-Hornet_1",
       "sceneName": "GG_Hornet_1",
       "statueStateName": "statueStateHornet1",
       "statueTier": "Attuned",
@@ -177,7 +177,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Silver_Mark-Hornet_Protector",
+      "name": "Silver_Mark-Hornet_1",
       "sceneName": "GG_Hornet_1",
       "statueStateName": "statueStateHornet1",
       "statueTier": "Ascended",
@@ -185,7 +185,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Gold_Mark-Hornet_Protector",
+      "name": "Gold_Mark-Hornet_1",
       "sceneName": "GG_Hornet_1",
       "statueStateName": "statueStateHornet1",
       "statueTier": "Radiant",
@@ -193,7 +193,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Empty_Mark-Hornet_Sentinel",
+      "name": "Empty_Mark-Hornet_2",
       "sceneName": "GG_Workshop",
       "statueStateName": "statueStateHornet2",
       "statueTier": "Unlock",
@@ -201,7 +201,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Bronze_Mark-Hornet_Sentinel",
+      "name": "Bronze_Mark-Hornet_2",
       "sceneName": "GG_Hornet_2",
       "statueStateName": "statueStateHornet2",
       "statueTier": "Attuned",
@@ -209,7 +209,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Silver_Mark-Hornet_Sentinel",
+      "name": "Silver_Mark-Hornet_2",
       "sceneName": "GG_Hornet_2",
       "statueStateName": "statueStateHornet2",
       "statueTier": "Ascended",
@@ -217,7 +217,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Gold_Mark-Hornet_Sentinel",
+      "name": "Gold_Mark-Hornet_2",
       "sceneName": "GG_Hornet_2",
       "statueStateName": "statueStateHornet2",
       "statueTier": "Radiant",
@@ -865,7 +865,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Empty_Mark-Troupe_Master_Grimm",
+      "name": "Empty_Mark-Grimm",
       "sceneName": "GG_Workshop",
       "statueStateName": "statueStateGrimm",
       "statueTier": "Unlock",
@@ -873,7 +873,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Bronze_Mark-Troupe_Master_Grimm",
+      "name": "Bronze_Mark-Grimm",
       "sceneName": "GG_Grimm",
       "statueStateName": "statueStateGrimm",
       "statueTier": "Attuned",
@@ -881,7 +881,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Silver_Mark-Troupe_Master_Grimm",
+      "name": "Silver_Mark-Grimm",
       "sceneName": "GG_Grimm",
       "statueStateName": "statueStateGrimm",
       "statueTier": "Ascended",
@@ -889,7 +889,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Gold_Mark-Troupe_Master_Grimm",
+      "name": "Gold_Mark-Grimm",
       "sceneName": "GG_Grimm",
       "statueStateName": "statueStateGrimm",
       "statueTier": "Radiant",
@@ -897,7 +897,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Empty_Mark-Nightmare_King_Grimm",
+      "name": "Empty_Mark-Nightmare_King",
       "sceneName": "GG_Workshop",
       "statueStateName": "statueStateNightmareGrimm",
       "statueTier": "Unlock",
@@ -905,7 +905,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Bronze_Mark-Nightmare_King_Grimm",
+      "name": "Bronze_Mark-Nightmare_King",
       "sceneName": "GG_Grimm_Nightmare",
       "statueStateName": "statueStateNightmareGrimm",
       "statueTier": "Attuned",
@@ -913,7 +913,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Silver_Mark-Nightmare_King_Grimm",
+      "name": "Silver_Mark-Nightmare_King",
       "sceneName": "GG_Grimm_Nightmare",
       "statueStateName": "statueStateNightmareGrimm",
       "statueTier": "Ascended",
@@ -921,7 +921,7 @@
     },
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
-      "name": "Gold_Mark-Nightmare_King_Grimm",
+      "name": "Gold_Mark-Nightmare_King",
       "sceneName": "GG_Grimm_Nightmare",
       "statueStateName": "statueStateNightmareGrimm",
       "statueTier": "Radiant",

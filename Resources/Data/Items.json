@@ -151,7 +151,7 @@
     },
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
-        "name": "Statue_Mark-Hornet_Protector",
+        "name": "Statue_Mark-Hornet_1",
         "statueStateName": "statueStateHornet1",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -181,7 +181,7 @@
     },
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
-        "name": "Statue_Mark-Hornet_Sentinel",
+        "name": "Statue_Mark-Hornet_2",
         "statueStateName": "statueStateHornet2",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -811,7 +811,7 @@
     },
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
-        "name": "Statue_Mark-Troupe_Master_Grimm",
+        "name": "Statue_Mark-Grimm",
         "statueStateName": "statueStateGrimm",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -841,7 +841,7 @@
     },
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
-        "name": "Statue_Mark-Nightmare_King_Grimm",
+        "name": "Statue_Mark-Nightmare_King",
         "statueStateName": "statueStateNightmareGrimm",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",

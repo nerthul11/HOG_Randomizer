@@ -1,15 +1,20 @@
 ﻿using HallOfGodsRandomizer.Manager;
+using HallOfGodsRandomizer.Menu;
 using Modding;
 using System;
 
 namespace HallOfGodsRandomizer
 {
-    public class HallOfGodsRandomizer : Mod, ILocalSettings<LocalSettings>, IGlobalSettings<GlobalSettings>
+    public class HallOfGodsRandomizer : Mod, ILocalSettings<LocalSettings>
     {
         new public string GetName() => "HallOfGodsRandomizer";
-        public override string GetVersion() => "0.3.0";
+        public override string GetVersion() => "0.4.0.0";
 
         private static HallOfGodsRandomizer _instance;
+        public HallOfGodsRandomizer() : base()
+        {
+            _instance = this;
+        }
         internal static HallOfGodsRandomizer Instance
         {
             get
@@ -21,12 +26,8 @@ namespace HallOfGodsRandomizer
                 return _instance;
             }
         }
-        public HallOfGodsRandomizer() : base()
-        {
-            _instance = this;
-        }
-        public GlobalSettings GS { get; private set; } = new();
         public LocalSettings LS { get; internal set; } = new();
+        public GlobalSettings GS { get; internal set; } = new();
         public override void Initialize()
         {
             // Ignore completely if Randomizer 4 is inactive
@@ -37,7 +38,6 @@ namespace HallOfGodsRandomizer
                 Log("Initialized");
             }
         }
-
         public void OnLoadGlobal(GlobalSettings s) => GS = s;
         public GlobalSettings OnSaveGlobal() => GS;
         public void OnLoadLocal(LocalSettings s) => LS = s;
@@ -270,36 +270,44 @@ namespace HallOfGodsRandomizer
         public BossStatue.Completion Override(string statueName, BossStatue.Completion statue, string tier, bool setAsTrue)
         {
             BossStatue.Completion orig = PlayerData.instance.GetVariable<BossStatue.Completion>(statueName);
+            // Set LocalSettings statue values if item is obtained
             if (tier == "isUnlocked" && setAsTrue)
-            {
                 statue.isUnlocked = true;
-            }
             if (tier == "completedTier1" && setAsTrue)
-            {
                 statue.completedTier1 = true;
-            }
             if (tier == "completedTier2" && setAsTrue)
-            {
                 statue.completedTier2 = true;
-            }
             if (tier == "completedTier3" && setAsTrue)
-            {
                 statue.completedTier3 = true;
-            }
-            if (Instance.GS.MainSettings.RandomizeStatueAccess == Menu.StatueAccessMode.Randomized)
-            {
+            
+            // Override: If settings enabled, orig is replaced. If not enabled, orig settings are copied.
+            HallOfGodsRandomizationSettings settings = HOG_Interop.Settings;
+            if (settings.RandomizeStatueAccess == StatueAccessMode.Randomized)
                 orig.isUnlocked = statue.isUnlocked;
-            }
             else
-            {
                 statue.isUnlocked = orig.isUnlocked;
-            }
-            orig.completedTier1 = statue.completedTier1;
-            orig.completedTier2 = statue.completedTier2;
-            orig.completedTier3 = statue.completedTier3;
+            
+            if (settings.RandomizeTiers > TierLimitMode.Vanilla)
+                orig.completedTier1 = statue.completedTier1;
+            else
+                statue.completedTier1 = orig.completedTier1;
+
+            if (settings.RandomizeTiers > TierLimitMode.ExcludeAscended)
+                orig.completedTier2 = statue.completedTier2;
+            else
+                statue.completedTier2 = orig.completedTier2;
+
+            if (settings.RandomizeTiers > TierLimitMode.ExcludeRadiant)
+                orig.completedTier3 = statue.completedTier3;
+            else
+                statue.completedTier3 = orig.completedTier3;
+
+            // Other properties are unhandled by the mod and always take orig values       
             statue.hasBeenSeen = orig.hasBeenSeen;
             statue.seenTier3Unlock = orig.seenTier3Unlock;
             statue.usingAltVersion = orig.usingAltVersion;
+
+            // Save changes
             PlayerData.instance.SetVariable<BossStatue.Completion>(statueName, orig);
             return statue;
         }

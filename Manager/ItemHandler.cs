@@ -1,6 +1,5 @@
 using HallOfGodsRandomizer.Menu;
 using ItemChanger;
-using ItemChanger.Locations;
 using Newtonsoft.Json;
 using RandomizerMod.RC;
 using System.IO;
@@ -24,7 +23,7 @@ namespace HallOfGodsRandomizer.Manager {
         {
             Assembly assembly = Assembly.GetExecutingAssembly();
             JsonSerializer jsonSerializer = new() {TypeNameHandling = TypeNameHandling.Auto};
-            HallOfGodsRandomizationSettings settings = HallOfGodsRandomizer.Instance.GS.MainSettings;
+            HallOfGodsRandomizationSettings settings = HOG_Interop.Settings;
             int itemCount = (int)settings.RandomizeTiers + (int)settings.RandomizeStatueAccess;
 
             if (itemCount > 0)
