@@ -66,13 +66,13 @@ namespace HallOfGodsRandomizer.Manager
                 {
                     lmb.AddLogicDef(new($"Bronze_Mark-{boss}", $"STATUE + ATTUNED + GG_{boss}>0 + COMBAT[{boss}]"));
                     if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
-                        lmb.DoLogicEdit(new($"Bronze_Mark-{boss}", $"STATUE + ATTUNED + GG_{boss}>0 + Defeated_{boss}"));
+                        lmb.DoLogicEdit(new($"Bronze_Mark-{boss}", $"STATUE + ATTUNED + Defeated_{boss}"));
                 }
                 if (settings.RandomizeTiers > TierLimitMode.ExcludeAscended)
                 {
                     lmb.AddLogicDef(new($"Silver_Mark-{boss}", $"STATUE + ASCENDED + GG_{boss}>0 + COMBAT[{boss}]"));
                     if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
-                        lmb.DoLogicEdit(new($"Silver_Mark-{boss}", $"STATUE + ASCENDED + GG_{boss}>0 + Defeated_{boss}"));
+                        lmb.DoLogicEdit(new($"Silver_Mark-{boss}", $"STATUE + ASCENDED + Defeated_{boss}"));
                 }
                 if (settings.RandomizeTiers > TierLimitMode.ExcludeRadiant)
                 {

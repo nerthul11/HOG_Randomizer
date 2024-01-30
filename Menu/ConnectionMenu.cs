@@ -12,10 +12,10 @@ namespace HallOfGodsRandomizer.Menu
     {
         // Top-level definitions
         internal static ConnectionMenu Instance { get; private set; }
-        private SmallButton pageRootButton;
+        private readonly SmallButton pageRootButton;
 
         // Menu page and elements
-        private MenuPage hogPage;
+        private readonly MenuPage hogPage;
         private MenuElementFactory<HallOfGodsRandomizationSettings> elementFactory;
 
         public static void Hook()

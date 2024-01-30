@@ -38,10 +38,9 @@ namespace HallOfGodsRandomizer.Menu
 
     public class HallOfGodsRandomizationSettings
     {
-        // Set default values
         public bool Enabled { get; set; } = true;
         [MenuLabel("HOG Statue access")]
-        public StatueAccessMode RandomizeStatueAccess { get; set; } = StatueAccessMode.Randomized;
+        public StatueAccessMode RandomizeStatueAccess { get; set; } = StatueAccessMode.Vanilla;
         [MenuLabel("HOG Battle randomization")]
         public TierLimitMode RandomizeTiers { get; set; } = TierLimitMode.IncludeAll;
     }

@@ -6,7 +6,6 @@
     }
     public class LocalSettings
     {
-        public Menu.HallOfGodsRandomizationSettings MainSettings { get; set; } = new();
         public BossStatue.Completion statueStateGruzMother;
         public BossStatue.Completion statueStateVengefly;
         public BossStatue.Completion statueStateBroodingMawlek;

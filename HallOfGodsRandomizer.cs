@@ -5,7 +5,7 @@ using System;
 
 namespace HallOfGodsRandomizer
 {
-    public class HallOfGodsRandomizer : Mod, ILocalSettings<LocalSettings>
+    public class HallOfGodsRandomizer : Mod, ILocalSettings<LocalSettings>, IGlobalSettings<GlobalSettings>
     {
         new public string GetName() => "HallOfGodsRandomizer";
         public override string GetVersion() => "0.4.0.0";
