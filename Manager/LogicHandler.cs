@@ -50,8 +50,10 @@ namespace HallOfGodsRandomizer.Manager
             foreach (StatueItem item in itemList)
             {
                 string boss = item.name.Split('-').Last();
+                string position = item.position;
+                string dependency = item.dependency;
 
-                // Add terms
+                // Add term and initialize value
                 lmb.GetOrAddTerm($"GG_{boss}", TermType.Int);
 
                 // Add logic items
@@ -60,25 +62,48 @@ namespace HallOfGodsRandomizer.Manager
                 // Add location logic
                 if (settings.RandomizeStatueAccess == StatueAccessMode.Randomized)
                 {
-                    lmb.AddLogicDef(new($"Empty_Mark-{boss}", $"STATUE + GG_{boss}>0"));
+                    lmb.AddLogicDef(new($"Empty_Mark-{boss}", $"{position}_STATUE + GG_{boss}>0"));
+                    if (dependency is not null)
+                        lmb.DoLogicEdit(new($"Empty_Mark-{boss}", $"ORIG + GG_{dependency}>0"));
                 }
                 if (settings.RandomizeTiers > TierLimitMode.Vanilla)
                 {
-                    lmb.AddLogicDef(new($"Bronze_Mark-{boss}", $"STATUE + ATTUNED + GG_{boss}>0 + COMBAT[{boss}]"));
+                    lmb.AddLogicDef(new($"Bronze_Mark-{boss}", $"{position}_STATUE + Attuned_Combat + GG_{boss}>0 + COMBAT[{boss}]"));
+                    if (dependency is not null)
+                        lmb.DoLogicEdit(new($"Bronze_Mark-{boss}", $"ORIG + GG_{dependency}>0"));
+                    
                     if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
-                        lmb.DoLogicEdit(new($"Bronze_Mark-{boss}", $"STATUE + ATTUNED + Defeated_{boss}"));
+                    {
+                        lmb.DoLogicEdit(new($"Bronze_Mark-{boss}", $"{position}_STATUE + Attuned_Combat + Defeated_{boss}"));
+                        if (dependency is not null)
+                            lmb.DoLogicEdit(new($"Bronze_Mark-{boss}", $"ORIG + Defeated_{dependency}"));
+                    }
                 }
                 if (settings.RandomizeTiers > TierLimitMode.ExcludeAscended)
                 {
-                    lmb.AddLogicDef(new($"Silver_Mark-{boss}", $"STATUE + ASCENDED + GG_{boss}>0 + COMBAT[{boss}]"));
+                    lmb.AddLogicDef(new($"Silver_Mark-{boss}", $"{position}_STATUE + Ascended_Combat + GG_{boss}>0 + COMBAT[{boss}]"));
+                    if (dependency is not null)
+                        lmb.DoLogicEdit(new($"Silver_Mark-{boss}", $"ORIG + GG_{dependency}>0"));
+                    
                     if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
-                        lmb.DoLogicEdit(new($"Silver_Mark-{boss}", $"STATUE + ASCENDED + Defeated_{boss}"));
+                    {
+                        lmb.DoLogicEdit(new($"Silver_Mark-{boss}", $"{position}_STATUE + Ascended_Combat + Defeated_{boss}"));
+                        if (dependency is not null)
+                            lmb.DoLogicEdit(new($"Silver_Mark-{boss}", $"ORIG + Defeated_{dependency}"));                        
+                    }
                 }
                 if (settings.RandomizeTiers > TierLimitMode.ExcludeRadiant)
                 {
-                    lmb.AddLogicDef(new($"Gold_Mark-{boss}", $"STATUE + RADIANT + GG_{boss}>{req + 1} + COMBAT[{boss}]"));
+                    lmb.AddLogicDef(new($"Gold_Mark-{boss}", $"{position}_STATUE + Radiant_Combat + GG_{boss}>{1 + req} + COMBAT[{boss}]"));
+                    if (dependency is not null)
+                        lmb.DoLogicEdit(new($"Gold_Mark-{boss}", $"ORIG + GG_{dependency}>0"));
+                    
                     if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
-                        lmb.DoLogicEdit(new($"Gold_Mark-{boss}", $"STATUE + RADIANT + GG_{boss}>{req + 1} + Defeated_{boss}"));
+                    {
+                        lmb.DoLogicEdit(new($"Gold_Mark-{boss}", $"{position}_STATUE + Radiant_Combat + GG_{boss}>{1 + req} + Defeated_{boss}"));
+                        if (dependency is not null)
+                            lmb.DoLogicEdit(new($"Gold_Mark-{boss}", $"ORIG + Defeated_{dependency}"));
+                    }
                 }
             }
         }

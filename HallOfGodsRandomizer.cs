@@ -267,9 +267,9 @@ namespace HallOfGodsRandomizer
             }
         }
 
-        public BossStatue.Completion Override(string statueName, BossStatue.Completion statue, string tier, bool setAsTrue)
+        public BossStatue.Completion Override(string statueStateName, BossStatue.Completion statue, string tier, bool setAsTrue)
         {
-            BossStatue.Completion orig = PlayerData.instance.GetVariable<BossStatue.Completion>(statueName);
+            BossStatue.Completion orig = PlayerData.instance.GetVariable<BossStatue.Completion>(statueStateName);
             // Set LocalSettings statue values if item is obtained
             if (tier == "isUnlocked" && setAsTrue)
                 statue.isUnlocked = true;
@@ -308,7 +308,7 @@ namespace HallOfGodsRandomizer
             statue.usingAltVersion = orig.usingAltVersion;
 
             // Save changes
-            PlayerData.instance.SetVariable<BossStatue.Completion>(statueName, orig);
+            PlayerData.instance.SetVariable<BossStatue.Completion>(statueStateName, orig);
             return statue;
         }
     }   

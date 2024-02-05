@@ -50,8 +50,8 @@ namespace HallOfGodsRandomizer.Menu
             // Define hierarchies
             VerticalItemPanel settingHolder = new(hogPage, Vector2.zero, 100, false, [
                 elementFactory.ElementLookup["Enabled"],
-                elementFactory.ElementLookup["RandomizeStatueAccess"],
-                elementFactory.ElementLookup["RandomizeTiers"]
+                elementFactory.ElementLookup["RandomizeTiers"],
+                elementFactory.ElementLookup["RandomizeStatueAccess"]
             ]);
             settingHolder.Insert(0, headingLabel);
             topLevelPanel.Add(settingHolder);

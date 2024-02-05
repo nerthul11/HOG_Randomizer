@@ -13,7 +13,11 @@ namespace HallOfGodsRandomizer.Menu
         /// <summary>
         /// Statues will be unlocked after obtaining a Statue Mark for them.
         /// </summary>
-        Randomized = 1
+        Randomized = 1,
+        /// <summary>
+        /// Statues will always be unlocked.
+        ///
+        AllUnlocked = 2
     }
     [Flags]
     public enum TierLimitMode

@@ -103,5 +103,20 @@
         "name": "Defeated_Sisters_of_Battle",
         "logic": "Defeated_Pantheon_5",
         "Stateless": true
+    },
+    {
+        "name": "Attuned_Combat",
+        "logic": "NAILCOMBAT | SPELLS | MILDCOMBATSKIPS",
+        "Stateless": true
+    },
+    {
+        "name": "Ascended_Combat",
+        "logic": "NAILCOMBAT + SPELLS>1 + (FULLDASH | ANYDASH + MILDCOMBATSKIPS) | SPICYCOMBATSKIPS",
+        "Stateless": true
+    },
+    {
+        "name": "Radiant_Combat",
+        "logic":  "NAILCOMBAT + SPELLS>1 + (FULLSHADOWDASH | ANYSHADOWDASH + QUAKE + MILDCOMBATSKIPS) | SPICYCOMBATSKIPS",
+        "Stateless": true
     }
 ]

@@ -57,8 +57,8 @@ namespace HallOfGodsRandomizer.Manager {
                     locationList = locationList.Where(location => location.name.StartsWith("Empty")).ToList();
                 }
 
-                // Remove statue access locations if StatueAccessMode is Vanilla
-                if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
+                // Remove statue access locations if StatueAccessMode isn't randomized
+                if (settings.RandomizeStatueAccess != StatueAccessMode.Randomized)
                 {
                     locationList = locationList.Where(location => !location.name.StartsWith("Empty")).ToList();
                 }

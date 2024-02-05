@@ -1,14 +1,13 @@
 using System;
+using System.Collections;
+using HallOfGodsRandomizer.Manager;
+using HallOfGodsRandomizer.Menu;
 using ItemChanger;
 using ItemChanger.Locations;
+using UnityEngine;
 
 namespace HallOfGodsRandomizer.IC 
-{
-    /// <summary>
-    /// Each location should add an item when completing a tier for the first time.
-    /// The method for setting statueState completion boolean values should be overriden.
-    /// </summary>    
-    
+{    
     public class StatueLocation : AutoLocation
     {
         public enum Tier
@@ -25,17 +24,31 @@ namespace HallOfGodsRandomizer.IC
 
         protected override void OnUnload()
         {
-            On.BossChallengeUI.LoadBoss_int_bool -= BossChallengeUI_LoadBoss_int_bool;
-            On.BossSceneController.Awake -= BossSceneController_Awake;
-            On.BossStatue.SetPlaqueState -= BossStatue_SetPlaqueState;
+            if (statueTier == Tier.Unlock)
+            {
+                On.BossScene.IsUnlocked -= BossScene_IsUnlocked;
+                On.BossStatue.SetPlaqueState -= BossStatue_SetPlaqueState;
+            }
+            else
+            {
+                On.BossChallengeUI.LoadBoss_int_bool -= BossChallengeUI_LoadBoss_int_bool;
+                On.BossSceneController.Awake -= BossSceneController_Awake;
+            }
             On.BossStatue.UpdateDetails -= BossStatue_UpdateDetails;
         }
 
         protected override void OnLoad()
-        {
-            On.BossChallengeUI.LoadBoss_int_bool += BossChallengeUI_LoadBoss_int_bool;
-            On.BossSceneController.Awake += BossSceneController_Awake;
-            On.BossStatue.SetPlaqueState += BossStatue_SetPlaqueState;
+        {   
+            if (statueTier == Tier.Unlock)
+            {
+                On.BossScene.IsUnlocked += BossScene_IsUnlocked;
+                On.BossStatue.SetPlaqueState += BossStatue_SetPlaqueState;
+            }
+            else
+            {
+                On.BossChallengeUI.LoadBoss_int_bool += BossChallengeUI_LoadBoss_int_bool;
+                On.BossSceneController.Awake += BossSceneController_Awake;
+            }
             On.BossStatue.UpdateDetails += BossStatue_UpdateDetails;
         }
 
@@ -58,6 +71,49 @@ namespace HallOfGodsRandomizer.IC
             HallOfGodsRandomizer.Instance.ManageState(statueStateName, "completedTier3", false);
             }
             orig(self);
+        }
+
+        private void BossStatue_SetPlaqueState(On.BossStatue.orig_SetPlaqueState orig, BossStatue self, BossStatue.Completion statueState, BossStatueTrophyPlaque plaque, string playerDataKey)
+        {
+            if (self.StatueState.isUnlocked == true && statueTier == Tier.Unlock && self.statueStatePD == statueStateName)
+            {
+                if (!Placement.AllObtained())
+                {
+                    HeroController.instance.RelinquishControl();
+                    Placement.GiveAll(new()
+                    {
+                        FlingType = FlingType.DirectDeposit,
+                        MessageType = MessageType.Any
+                    }, HeroController.instance.RegainControl);
+                }
+            }
+            if (self.DreamStatueState.isUnlocked == true && statueTier == Tier.Unlock && self.dreamStatueStatePD == statueStateName)
+            {
+                if (!Placement.AllObtained())
+                {
+                    HeroController.instance.RelinquishControl();
+                    Placement.GiveAll(new()
+                    {
+                        FlingType = FlingType.DirectDeposit,
+                        MessageType = MessageType.Any
+                    }, HeroController.instance.RegainControl);
+                }
+            }
+            orig(self, statueState, plaque, playerDataKey);
+        }
+        
+
+        private bool BossScene_IsUnlocked(On.BossScene.orig_IsUnlocked orig, BossScene self, BossSceneCheckSource source)
+        {
+            if (HOG_Interop.Settings.RandomizeStatueAccess == StatueAccessMode.AllUnlocked)
+                return true;
+            
+            if (HOG_Interop.Settings.RandomizeStatueAccess == StatueAccessMode.Randomized && sceneName == self.Tier1Scene)
+            {
+                BossStatue.Completion completion = PlayerData.instance.GetVariable<BossStatue.Completion>(statueStateName);
+                return completion.isUnlocked;
+            }
+            else return orig(self, source);
         }
 
         private void BossChallengeUI_LoadBoss_int_bool(On.BossChallengeUI.orig_LoadBoss_int_bool orig, BossChallengeUI self, int level, bool doHideAnim)
@@ -88,23 +144,6 @@ namespace HallOfGodsRandomizer.IC
                 self.OnBossSceneComplete += self.DoDreamReturn;  
             };
             orig(self);
-        }
-
-        private void BossStatue_SetPlaqueState(On.BossStatue.orig_SetPlaqueState orig, BossStatue self, BossStatue.Completion statueState, BossStatueTrophyPlaque plaque, string playerDataKey)
-        {
-            if (self.statueStatePD == statueStateName && statueTier == Tier.Unlock)
-            {
-                if (!Placement.AllObtained())
-                {
-                    HeroController.instance.RelinquishControl();
-                    Placement.GiveAll(new()
-                    {
-                        FlingType = FlingType.DirectDeposit,
-                        MessageType = MessageType.Any
-                    }, HeroController.instance.RegainControl);
-                }
-            }
-            orig(self, statueState, plaque, playerDataKey);
         }
     }
 }

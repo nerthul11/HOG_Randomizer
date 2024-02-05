@@ -2,7 +2,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Gruz_Mother",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Gruz_Mother",
       "statueStateName": "statueStateGruzMother",
       "statueTier": "Unlock",
       "tags": null
@@ -34,7 +34,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Vengefly_King",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Vengefly",
       "statueStateName": "statueStateVengefly",
       "statueTier": "Unlock",
       "tags": null
@@ -66,7 +66,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Brooding_Mawlek",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Brooding_Mawlek",
       "statueStateName": "statueStateBroodingMawlek",
       "statueTier": "Unlock",
       "tags": null
@@ -98,7 +98,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-False_Knight",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_False_Knight",
       "statueStateName": "statueStateFalseKnight",
       "statueTier": "Unlock",
       "tags": null
@@ -130,7 +130,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Failed_Champion",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Failed_Champion",
       "statueStateName": "statueStateFailedChampion",
       "statueTier": "Unlock",
       "tags": null
@@ -162,7 +162,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Hornet_1",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Hornet_1",
       "statueStateName": "statueStateHornet1",
       "statueTier": "Unlock",
       "tags": null
@@ -194,7 +194,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Hornet_2",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Hornet_2",
       "statueStateName": "statueStateHornet2",
       "statueTier": "Unlock",
       "tags": null
@@ -226,7 +226,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Massive_Moss_Charger",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Mega_Moss_Charger",
       "statueStateName": "statueStateMegaMossCharger",
       "statueTier": "Unlock",
       "tags": null
@@ -258,7 +258,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Mantis_Lords",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Mantis_Lords",
       "statueStateName": "statueStateMantisLords",
       "statueTier": "Unlock",
       "tags": null
@@ -290,7 +290,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Oblobbles",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Oblobbles",
       "statueStateName": "statueStateOblobbles",
       "statueTier": "Unlock",
       "tags": null
@@ -322,7 +322,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Grey_Prince_Zote",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Grey_Prince_Zote",
       "statueStateName": "statueStateGreyPrince",
       "statueTier": "Unlock",
       "tags": null
@@ -354,7 +354,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Broken_Vessel",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Broken_Vessel",
       "statueStateName": "statueStateBrokenVessel",
       "statueTier": "Unlock",
       "tags": null
@@ -386,7 +386,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Lost_Kin",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Lost_Kin",
       "statueStateName": "statueStateLostKin",
       "statueTier": "Unlock",
       "tags": null
@@ -418,7 +418,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Nosk",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Nosk",
       "statueStateName": "statueStateNosk",
       "statueTier": "Unlock",
       "tags": null
@@ -450,7 +450,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Flukemarm",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Flukemarm",
       "statueStateName": "statueStateFlukemarm",
       "statueTier": "Unlock",
       "tags": null
@@ -482,7 +482,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Collector",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Collector",
       "statueStateName": "statueStateCollector",
       "statueTier": "Unlock",
       "tags": null
@@ -514,7 +514,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Watcher_Knights",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Watcher_Knights",
       "statueStateName": "statueStateWatcherKnights",
       "statueTier": "Unlock",
       "tags": null
@@ -546,7 +546,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Soul_Master",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Soul_Master",
       "statueStateName": "statueStateSoulMaster",
       "statueTier": "Unlock",
       "tags": null
@@ -578,7 +578,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Soul_Tyrant",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Soul_Tyrant",
       "statueStateName": "statueStateSoulTyrant",
       "statueTier": "Unlock",
       "tags": null
@@ -610,7 +610,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-God_Tamer",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_God_Tamer",
       "statueStateName": "statueStateGodTamer",
       "statueTier": "Unlock",
       "tags": null
@@ -642,7 +642,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Crystal_Guardian",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Crystal_Guardian",
       "statueStateName": "statueStateCrystalGuardian1",
       "statueTier": "Unlock",
       "tags": null
@@ -674,7 +674,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Enraged_Guardian",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Crystal_Guardian_2",
       "statueStateName": "statueStateCrystalGuardian2",
       "statueTier": "Unlock",
       "tags": null
@@ -706,7 +706,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Uumuu",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Uumuu",
       "statueStateName": "statueStateUumuu",
       "statueTier": "Unlock",
       "tags": null
@@ -738,7 +738,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Dung_Defender",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Dung_Defender",
       "statueStateName": "statueStateDungDefender",
       "statueTier": "Unlock",
       "tags": null
@@ -770,7 +770,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-White_Defender",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_White_Defender",
       "statueStateName": "statueStateWhiteDefender",
       "statueTier": "Unlock",
       "tags": null
@@ -802,7 +802,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Hive_Knight",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Hive_Knight",
       "statueStateName": "statueStateHiveKnight",
       "statueTier": "Unlock",
       "tags": null
@@ -834,7 +834,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Traitor_Lord",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Traitor_Lord",
       "statueStateName": "statueStateTraitorLord",
       "statueTier": "Unlock",
       "tags": null
@@ -866,7 +866,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Grimm",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Grimm",
       "statueStateName": "statueStateGrimm",
       "statueTier": "Unlock",
       "tags": null
@@ -898,7 +898,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Nightmare_King",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Grimm_Nightmare",
       "statueStateName": "statueStateNightmareGrimm",
       "statueTier": "Unlock",
       "tags": null
@@ -930,7 +930,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Pure_Vessel",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Hollow_Knight",
       "statueStateName": "statueStateHollowKnight",
       "statueTier": "Unlock",
       "tags": null
@@ -962,7 +962,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Elder_Hu",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Ghost_Hu",
       "statueStateName": "statueStateElderHu",
       "statueTier": "Unlock",
       "tags": null
@@ -994,7 +994,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Galien",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Ghost_Galien",
       "statueStateName": "statueStateGalien",
       "statueTier": "Unlock",
       "tags": null
@@ -1026,7 +1026,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Markoth",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Ghost_Markoth",
       "statueStateName": "statueStateMarkoth",
       "statueTier": "Unlock",
       "tags": null
@@ -1058,7 +1058,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Marmu",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Ghost_Marmu",
       "statueStateName": "statueStateMarmu",
       "statueTier": "Unlock",
       "tags": null
@@ -1090,7 +1090,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-No_Eyes",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Ghost_No_Eyes",
       "statueStateName": "statueStateNoEyes",
       "statueTier": "Unlock",
       "tags": null
@@ -1122,7 +1122,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Xero",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Ghost_Xero",
       "statueStateName": "statueStateXero",
       "statueTier": "Unlock",
       "tags": null
@@ -1154,7 +1154,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Gorb",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Ghost_Gorb",
       "statueStateName": "statueStateGorb",
       "statueTier": "Unlock",
       "tags": null
@@ -1186,7 +1186,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Radiance",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Radiance",
       "statueStateName": "statueStateRadiance",
       "statueTier": "Unlock",
       "tags": null
@@ -1218,7 +1218,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Sly",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Sly",
       "statueStateName": "statueStateSly",
       "statueTier": "Unlock",
       "tags": null
@@ -1250,7 +1250,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Nailmaster_Brothers",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Nailmasters",
       "statueStateName": "statueStateNailmasters",
       "statueTier": "Unlock",
       "tags": null
@@ -1282,7 +1282,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Soul_Warrior",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Mage_Knight",
       "statueStateName": "statueStateMageKnight",
       "statueTier": "Unlock",
       "tags": null
@@ -1290,7 +1290,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Bronze_Mark-Soul_Warrior",
-      "sceneName": "GG_Mage_Knight_V",
+      "sceneName": "GG_Mage_Knight",
       "statueStateName": "statueStateMageKnight",
       "statueTier": "Attuned",
       "tags": null
@@ -1314,7 +1314,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Paintmaster_Sheo",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Painter",
       "statueStateName": "statueStatePaintmaster",
       "statueTier": "Unlock",
       "tags": null
@@ -1346,7 +1346,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Winged_Nosk",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Nosk_Hornet",
       "statueStateName": "statueStateNoskHornet",
       "statueTier": "Unlock",
       "tags": null
@@ -1378,7 +1378,7 @@
     {
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Empty_Mark-Sisters_of_Battle",
-      "sceneName": "GG_Workshop",
+      "sceneName": "GG_Mantis_Lords_V",
       "statueStateName": "statueStateMantisLordsExtra",
       "statueTier": "Unlock",
       "tags": null

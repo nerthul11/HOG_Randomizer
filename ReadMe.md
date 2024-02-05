@@ -14,32 +14,27 @@ The Statue_Mark items will improve the statue's state for each boss by 1, meanin
 
 Requirements for the Void Idol will be defined by these locations instead of requiring the actual defeat of each boss.
 
-All this should add up to a whopping total of 176 new items and locations to the Randomization pool!
+All this can add up to a whopping total of 176 new items and locations to the Randomization pool!
 
 ## Settings:
 - Enabled --> Boolean to define if the connection should be active or not.
-- Randomize access --> Defines if the "Unlock" feature is randomized or vanilla.
+- Randomize access --> Defines if statue access is vanilla, randomized or if all of them are unlocked by default. This last option will likely force you to fight Godhome bosses earlier in the progression.
 - Limit --> Options: IncludeAll, ExcludeRadiant, ExcludeAscended, Vanilla. Defines which locations should be randomized and contain items and which should remain vanilla. Excluding Ascended also Excludes Radiant entries.
 
 ## Dependencies:
 - ItemChanger
+- KorzUtils (for the moment, might remove in future patches if I get a better understanding of sprite rendering)
 - MenuChanger
 - Randomizer 4
 - RandomizerCore
 
-# Mod's current status
-
-This mod is currently under development, and the following are the known steps meant to be dealt with before release.
-
-- ~~Set up the settings and the connection menu.~~ (DONE)
-- ~~Define terms, macros, waypoints, item and location logic.~~ (DONE)
-- ~~Define item properties.~~ (DONE)
-- ~~Define location properties.~~ (DONE)
-- ~~Build connection with TRJR.~~ (DONE)
-- Build connection with RandoMapMod (TO_DO)
-- Build connection with RSM (TO_DO)
-- Assert all the previous steps function correctly. (IN_PROGRESS)
-
 ## Known issues
 
-- MAJOR: Using the Randomize Access settings still has irregular behaviour and some locations can be made unreachable due to logic constraints - leaving Vanilla is recommended.
+- If a new game is started and the randomization is aborted, it doesn't always unload the files and thus rends you unable to randomize properly. This fixes automatically by reopening the game.
+- Pins for locations aren't properly loaded into RandoMapMod, so to check their status one has to rely on the Randomizer log files. Information is correctly stored inside those.
+
+## Future improvements
+
+- Have a UI indicator of which locations have been cleared and which haven't.
+- Add the mod to RSM.
+- Fix the pin issues.

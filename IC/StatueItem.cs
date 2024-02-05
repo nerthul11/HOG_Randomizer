@@ -8,6 +8,8 @@ namespace HallOfGodsRandomizer.IC
     public class StatueItem : AbstractItem
     {
         public string statueStateName { get; set; }
+        public string position { get; set; }
+        public string dependency { get; set; }
         public override void GiveImmediate(GiveInfo info)
         {
             BossStatue.Completion statueCompletion = PlayerData.instance.GetVariable<BossStatue.Completion>(statueStateName);
@@ -29,7 +31,7 @@ namespace HallOfGodsRandomizer.IC
             }
             else
             {
-                throw new NotImplementedException("The item had no effect due to logic inconsistencies.");
+                throw new ArgumentException("The item had no effect due to logic inconsistencies.");
             }
         }
     }

@@ -2,6 +2,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Gruz_Mother",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateGruzMother",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -32,6 +34,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Vengefly_King",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateVengefly",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -62,6 +66,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Brooding_Mawlek",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateBroodingMawlek",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -92,6 +98,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-False_Knight",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateFalseKnight",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -122,6 +130,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Failed_Champion",
+        "position": "BOTTOM",
+        "dependency": "False_Knight",
         "statueStateName": "statueStateFailedChampion",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -152,6 +162,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Hornet_1",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateHornet1",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -182,6 +194,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Hornet_2",
+        "position": "BOTTOM",
+        "dependency": "Hornet_1",
         "statueStateName": "statueStateHornet2",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -212,6 +226,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Massive_Moss_Charger",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateMegaMossCharger",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -242,6 +258,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Mantis_Lords",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateMantisLords",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -272,6 +290,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Oblobbles",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateOblobbles",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -302,6 +322,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Grey_Prince_Zote",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateGreyPrince",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -332,6 +354,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Broken_Vessel",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateBrokenVessel",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -362,6 +386,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Lost_Kin",
+        "position": "BOTTOM",
+        "dependency": "Broken_Vessel",
         "statueStateName": "statueStateLostKin",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -392,6 +418,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Nosk",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateNosk",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -422,6 +450,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Flukemarm",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateFlukemarm",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -452,6 +482,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Collector",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateCollector",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -482,6 +514,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Watcher_Knights",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateWatcherKnights",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -512,6 +546,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Soul_Master",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateSoulMaster",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -542,6 +578,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Soul_Tyrant",
+        "position": "TOP",
+        "dependency": "Soul_Master",
         "statueStateName": "statueStateSoulTyrant",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -572,6 +610,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-God_Tamer",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateGodTamer",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -602,6 +642,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Crystal_Guardian",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateCrystalGuardian1",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -632,6 +674,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Enraged_Guardian",
+        "position": "BOTTOM",
+        "dependency": "Crystal_Guardian",
         "statueStateName": "statueStateCrystalGuardian2",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -662,6 +706,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Uumuu",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateUumuu",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -692,6 +738,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Dung_Defender",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateDungDefender",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -722,6 +770,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-White_Defender",
+        "position": "TOP",
+        "dependency": "Dung_Defender",
         "statueStateName": "statueStateWhiteDefender",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -752,6 +802,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Hive_Knight",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateHiveKnight",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -782,6 +834,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Traitor_Lord",
+        "position": "BOTTOM",
+        "dependency": null,
         "statueStateName": "statueStateTraitorLord",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -812,6 +866,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Grimm",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateGrimm",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -842,6 +898,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Nightmare_King",
+        "position": "TOP",
+        "dependency": "Grimm",
         "statueStateName": "statueStateNightmareGrimm",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -872,6 +930,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Pure_Vessel",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateHollowKnight",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -902,6 +962,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Elder_Hu",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateElderHu",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -932,6 +994,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Galien",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateGalien",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -962,6 +1026,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Markoth",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateMarkoth",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -992,6 +1058,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Marmu",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateMarmu",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -1022,6 +1090,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-No_Eyes",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateNoEyes",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -1052,6 +1122,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Xero",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateXero",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -1082,6 +1154,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Gorb",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateGorb",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -1112,6 +1186,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Radiance",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateRadiance",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -1142,6 +1218,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Sly",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateSly",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -1172,6 +1250,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Nailmaster_Brothers",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateNailmasters",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -1202,6 +1282,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Soul_Warrior",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStateMageKnight",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -1232,6 +1314,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Paintmaster_Sheo",
+        "position": "TOP",
+        "dependency": null,
         "statueStateName": "statueStatePaintmaster",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -1262,6 +1346,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Winged_Nosk",
+        "position": "BOTTOM",
+        "dependency": "Nosk",
         "statueStateName": "statueStateNoskHornet",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
@@ -1292,6 +1378,8 @@
     {
         "$type": "HallOfGodsRandomizer.IC.StatueItem, HallOfGodsRandomizer",
         "name": "Statue_Mark-Sisters_of_Battle",
+        "position": "BOTTOM",
+        "dependency": "Mantis_Lords",
         "statueStateName": "statueStateMantisLordsExtra",
         "UIDef": {
             "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
