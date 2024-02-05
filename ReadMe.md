@@ -35,6 +35,6 @@ All this can add up to a whopping total of 176 new items and locations to the Ra
 
 ## Future improvements
 
-- Have a UI indicator of which locations have been cleared and which haven't.
+- Have a UI indicator of which locations have been cleared and which haven't to improve Godhome tracking.
 - Add the mod to RSM.
 - Fix the pin issues.
