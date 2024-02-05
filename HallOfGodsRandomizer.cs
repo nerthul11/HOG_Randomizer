@@ -8,7 +8,7 @@ namespace HallOfGodsRandomizer
     public class HallOfGodsRandomizer : Mod, ILocalSettings<LocalSettings>, IGlobalSettings<GlobalSettings>
     {
         new public string GetName() => "HallOfGodsRandomizer";
-        public override string GetVersion() => "0.4.0.0";
+        public override string GetVersion() => "1.0.0.0";
 
         private static HallOfGodsRandomizer _instance;
         public HallOfGodsRandomizer() : base()

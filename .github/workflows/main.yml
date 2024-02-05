@@ -23,10 +23,40 @@ jobs:
           wget https://github.com/hk-modding/api/releases/latest/download/ModdingApiWin.zip -O API.zip
           unzip -o API.zip -d References
 
-      # - name: Fetch a dependency
-      #   run: |
-      #     wget {dependencyLink} -O {dependencyName}.zip
-      #     unzip -o {dependencyName}.zip -d References
+      - name: Fetch ItemChanger
+        run: |
+          wget https://github.com/homothetyhk/HollowKnight.ItemChanger/releases/latest/download/ItemChanger.zip -O ItemChanger.zip
+          unzip -o ItemChanger.zip -d References
+
+      - name: Fetch ItemChangerDataLoader
+        run: |
+          wget https://github.com/homothetyhk/ItemChangerDataLoader/releases/latest/download/ItemChangerDataLoader.zip -O ItemChangerDataLoader.zip
+          unzip -o ItemChangerDataLoader.zip -d References
+      
+      - name: Fetch KorzUtils
+        run: |
+          wget https://github.com/Korzer420/KorzUtils/releases/latest/download/KorzUtils.zip -O KorzUtils.zip
+          unzip -o KorzUtils.zip -d References
+      
+      - name: Fetch MenuChanger
+        run: |
+          wget https://github.com/homothetyhk/HollowKnight.MenuChanger/releases/latest/download/MenuChanger.zip -O MenuChanger.zip
+          unzip -o MenuChanger.zip -d References
+     
+      - name: Fetch RandomizerCore
+        run: |
+          wget https://github.com/homothetyhk/RandomizerCore/releases/latest/download/RandomizerCore.zip -O RandomizerCore.zip
+          unzip -o RandomizerCore.zip -d References
+      
+      - name: Fetch RandomizerCore.JSON
+        run: |
+          wget https://github.com/homothetyhk/RandomizerCore.Json/releases/latest/download/RandomizerCore.Json.zip -O RandomizerCore.Json.zip
+          unzip -o RandomizerCore.Json.zip -d References
+      
+      - name: Fetch RandomizerMod
+        run: |
+          wget https://github.com/homothetyhk/RandomizerMod/releases/latest/download/RandomizerMod.zip -O RandomizerMod.zip
+          unzip -o RandomizerMod.zip -d References
           
       - name: Setup MSBuild
         run: sudo apt-get install -y nuget mono-devel mono-xbuild
