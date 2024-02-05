@@ -32,14 +32,14 @@ jobs:
         run: sudo apt-get install -y nuget mono-devel mono-xbuild
 
       - name: Restore packages
-        run: nuget restore HKMod.csproj
+        run: nuget restore HallOfGodsRandomizer.csproj
 
       - name: Build project
         run: dotnet build --configuration Release
 
       - name: Get SHA256 of zipped mod
         id: get_hash
-        run: echo "::set-output name=hash::$(sha256sum Output/HKMod.zip | cut -d ' ' -f 1)"
+        run: echo "::set-output name=hash::$(sha256sum Output/HallOfGodsRandomizer.zip | cut -d ' ' -f 1)"
 
       - name: Get Assembly version
         id: get_version
@@ -63,6 +63,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: Output/HKMod.zip
-          asset_name: HKMod.zip
+          asset_path: Output/HallOfGodsRandomizer.zip
+          asset_name: HallOfGodsRandomizer.zip
           asset_content_type: application/zip
