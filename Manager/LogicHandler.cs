@@ -1,5 +1,5 @@
 using HallOfGodsRandomizer.IC;
-using HallOfGodsRandomizer.Menu;
+using HallOfGodsRandomizer.Settings;
 using Modding;
 using Newtonsoft.Json;
 using RandomizerCore.Json;
@@ -18,7 +18,7 @@ namespace HallOfGodsRandomizer.Manager
     {
         public static void Hook()
         {
-            if (HOG_Interop.Settings.Enabled)
+            if (HOG_Interop.GlobalSettings.Enabled)
             {
                 // Priority set to have it run after TRJR - may change depending on other connection interactions
                 RCData.RuntimeLogicOverride.Subscribe(11f, ApplyLogic);
@@ -45,8 +45,8 @@ namespace HallOfGodsRandomizer.Manager
             StreamReader itemReader = new(itemStream);
             List<StatueItem> itemList = jsonSerializer.Deserialize<List<StatueItem>>(new JsonTextReader(itemReader));
 
-            HallOfGodsRandomizationSettings settings = HOG_Interop.Settings;
-            int req = (int)settings.RandomizeStatueAccess;
+            HallOfGodsRandomizationSettings settings = HOG_Interop.GlobalSettings;
+            int req = settings.RandomizeStatueAccess == StatueAccessMode.Randomized ? 1 : 0;
             foreach (StatueItem item in itemList)
             {
                 string boss = item.name.Split('-').Last();
@@ -65,12 +65,16 @@ namespace HallOfGodsRandomizer.Manager
                     lmb.AddLogicDef(new($"Empty_Mark-{boss}", $"{position}_STATUE + GG_{boss}>0"));
                     if (dependency is not null)
                         lmb.DoLogicEdit(new($"Empty_Mark-{boss}", $"ORIG + GG_{dependency}>0"));
+                    if (item.isDreamBoss)
+                        lmb.DoLogicEdit(new($"Empty_Mark-{boss}", $"ORIG + DREAMNAIL"));
                 }
                 if (settings.RandomizeTiers > TierLimitMode.Vanilla)
                 {
                     lmb.AddLogicDef(new($"Bronze_Mark-{boss}", $"{position}_STATUE + Attuned_Combat + GG_{boss}>0 + COMBAT[{boss}]"));
                     if (dependency is not null)
                         lmb.DoLogicEdit(new($"Bronze_Mark-{boss}", $"ORIG + GG_{dependency}>0"));
+                    if (item.isDreamBoss)
+                        lmb.DoLogicEdit(new($"Empty_Mark-{boss}", $"ORIG + DREAMNAIL"));
                     
                     if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
                     {
@@ -84,6 +88,8 @@ namespace HallOfGodsRandomizer.Manager
                     lmb.AddLogicDef(new($"Silver_Mark-{boss}", $"{position}_STATUE + Ascended_Combat + GG_{boss}>0 + COMBAT[{boss}]"));
                     if (dependency is not null)
                         lmb.DoLogicEdit(new($"Silver_Mark-{boss}", $"ORIG + GG_{dependency}>0"));
+                    if (item.isDreamBoss)
+                        lmb.DoLogicEdit(new($"Empty_Mark-{boss}", $"ORIG + DREAMNAIL"));
                     
                     if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
                     {
@@ -97,6 +103,8 @@ namespace HallOfGodsRandomizer.Manager
                     lmb.AddLogicDef(new($"Gold_Mark-{boss}", $"{position}_STATUE + Radiant_Combat + GG_{boss}>{1 + req} + COMBAT[{boss}]"));
                     if (dependency is not null)
                         lmb.DoLogicEdit(new($"Gold_Mark-{boss}", $"ORIG + GG_{dependency}>0"));
+                    if (item.isDreamBoss)
+                        lmb.DoLogicEdit(new($"Empty_Mark-{boss}", $"ORIG + DREAMNAIL"));
                     
                     if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
                     {
@@ -117,8 +125,8 @@ namespace HallOfGodsRandomizer.Manager
             StreamReader itemReader = new(itemStream);
             List<StatueItem> itemList = jsonSerializer.Deserialize<List<StatueItem>>(new JsonTextReader(itemReader));
 
-            HallOfGodsRandomizationSettings settings = HOG_Interop.Settings;
-            int req = (int)settings.RandomizeStatueAccess;
+            HallOfGodsRandomizationSettings settings = HOG_Interop.GlobalSettings;
+            int req = settings.RandomizeStatueAccess == StatueAccessMode.Randomized ? 1 : 0;
 
             // Connection with TRJR's Void Idol entries.
             if (ModHooks.GetMod("TheRealJournalRando") is Mod)

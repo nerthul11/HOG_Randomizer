@@ -106,7 +106,7 @@
     },
     {
         "name": "Attuned_Combat",
-        "logic": "NAILCOMBAT | SPELLS | MILDCOMBATSKIPS",
+        "logic": "NAILCOMBAT + SPELLS | SPICYCOMBATSKIPS",
         "Stateless": true
     },
     {
@@ -116,7 +116,7 @@
     },
     {
         "name": "Radiant_Combat",
-        "logic":  "NAILCOMBAT + SPELLS>1 + (FULLSHADOWDASH | ANYSHADOWDASH + QUAKE + MILDCOMBATSKIPS) | SPICYCOMBATSKIPS",
+        "logic":  "NAILCOMBAT + SPELLS>1 + (FULLSHADOWDASH | ANYSHADOWDASH + MILDCOMBATSKIPS) + QUAKE | SPICYCOMBATSKIPS",
         "Stateless": true
     }
 ]

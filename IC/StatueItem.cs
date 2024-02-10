@@ -1,5 +1,5 @@
 using HallOfGodsRandomizer.Manager;
-using HallOfGodsRandomizer.Menu;
+using HallOfGodsRandomizer.Settings;
 using ItemChanger;
 using System;
 
@@ -10,6 +10,7 @@ namespace HallOfGodsRandomizer.IC
         public string statueStateName { get; set; }
         public string position { get; set; }
         public string dependency { get; set; }
+        public bool isDreamBoss { get; set; }
         public override void GiveImmediate(GiveInfo info)
         {
             BossStatue.Completion statueCompletion = PlayerData.instance.GetVariable<BossStatue.Completion>(statueStateName);

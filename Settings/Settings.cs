@@ -1,11 +1,12 @@
-﻿namespace HallOfGodsRandomizer
+﻿namespace HallOfGodsRandomizer.Settings
 {
     public class GlobalSettings
     {
-        public Menu.HallOfGodsRandomizationSettings MainSettings { get; set; } = new();
+        public HallOfGodsRandomizationSettings MainSettings { get; set; } = new();
     }
     public class LocalSettings
     {
+        public HallOfGodsRandomizationSettings Settings { get; set; } = new();
         public BossStatue.Completion statueStateGruzMother;
         public BossStatue.Completion statueStateVengefly;
         public BossStatue.Completion statueStateBroodingMawlek;

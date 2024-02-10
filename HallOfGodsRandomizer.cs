@@ -1,5 +1,5 @@
 ﻿using HallOfGodsRandomizer.Manager;
-using HallOfGodsRandomizer.Menu;
+using HallOfGodsRandomizer.Settings;
 using Modding;
 using System;
 

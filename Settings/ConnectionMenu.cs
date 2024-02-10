@@ -6,7 +6,7 @@ using MenuChanger.MenuPanels;
 using RandomizerMod.Menu;
 using UnityEngine;
 
-namespace HallOfGodsRandomizer.Menu
+namespace HallOfGodsRandomizer.Settings
 {
     public class ConnectionMenu 
     {
@@ -27,7 +27,7 @@ namespace HallOfGodsRandomizer.Menu
         private static bool HandleButton(MenuPage landingPage, out SmallButton button)
         {
             button = Instance.pageRootButton;
-            button.Text.color = HOG_Interop.Settings.Enabled ? Colors.TRUE_COLOR : Colors.DEFAULT_COLOR;
+            button.Text.color = HOG_Interop.GlobalSettings.Enabled ? Colors.TRUE_COLOR : Colors.DEFAULT_COLOR;
             return true;
         }
 
@@ -40,7 +40,7 @@ namespace HallOfGodsRandomizer.Menu
         {
             // Define connection page
             hogPage = new MenuPage("hogPage", connectionPage);
-            elementFactory = new(hogPage, HOG_Interop.Settings);
+            elementFactory = new(hogPage, HOG_Interop.GlobalSettings);
             VerticalItemPanel topLevelPanel = new(hogPage, new Vector2(0, 400), 350, true);
             
             // Define parameters
@@ -65,7 +65,7 @@ namespace HallOfGodsRandomizer.Menu
         // Define parameter changes
         private void EnableSwitch(IValueElement obj)
         {
-            pageRootButton.Text.color = HOG_Interop.Settings.Enabled ? Colors.TRUE_COLOR : Colors.DEFAULT_COLOR;
+            pageRootButton.Text.color = HOG_Interop.GlobalSettings.Enabled ? Colors.TRUE_COLOR : Colors.DEFAULT_COLOR;
         }
     }
 }

@@ -1,7 +1,7 @@
 using MenuChanger.Attributes;
 using System;
 
-namespace HallOfGodsRandomizer.Menu
+namespace HallOfGodsRandomizer.Settings
 {
     [Flags]
     public enum StatueAccessMode
@@ -9,15 +9,15 @@ namespace HallOfGodsRandomizer.Menu
         /// <summary>
         /// Statues will be unlocked the same way they are in the original game.
         /// </summary>
-        Vanilla = 0,
+        Vanilla,
         /// <summary>
         /// Statues will be unlocked after obtaining a Statue Mark for them.
         /// </summary>
-        Randomized = 1,
+        Randomized,
         /// <summary>
         /// Statues will always be unlocked.
         ///
-        AllUnlocked = 2
+        AllUnlocked
     }
     [Flags]
     public enum TierLimitMode
@@ -46,6 +46,6 @@ namespace HallOfGodsRandomizer.Menu
         [MenuLabel("HOG Statue access")]
         public StatueAccessMode RandomizeStatueAccess { get; set; } = StatueAccessMode.Vanilla;
         [MenuLabel("HOG Battle randomization")]
-        public TierLimitMode RandomizeTiers { get; set; } = TierLimitMode.IncludeAll;
+        public TierLimitMode RandomizeTiers { get; set; } = TierLimitMode.Vanilla;
     }
 }

@@ -1,4 +1,4 @@
-using HallOfGodsRandomizer.Menu;
+using HallOfGodsRandomizer.Settings;
 using ItemChanger;
 using Newtonsoft.Json;
 using RandomizerMod.RC;
@@ -13,7 +13,7 @@ namespace HallOfGodsRandomizer.Manager {
     {
         internal static void Hook()
         {
-            if (HOG_Interop.Settings.Enabled)
+            if (HOG_Interop.GlobalSettings.Enabled)
             {
                 RequestBuilder.OnUpdate.Subscribe(100f, AddObjects);
             }            
@@ -23,8 +23,10 @@ namespace HallOfGodsRandomizer.Manager {
         {
             Assembly assembly = Assembly.GetExecutingAssembly();
             JsonSerializer jsonSerializer = new() {TypeNameHandling = TypeNameHandling.Auto};
-            HallOfGodsRandomizationSettings settings = HOG_Interop.Settings;
-            int itemCount = (int)settings.RandomizeTiers + (int)settings.RandomizeStatueAccess;
+            HallOfGodsRandomizationSettings settings = HOG_Interop.GlobalSettings;
+            int itemCount = (int)settings.RandomizeTiers;
+            if (settings.RandomizeStatueAccess == StatueAccessMode.Randomized)
+                itemCount += 1;
 
             if (itemCount > 0)
             {
