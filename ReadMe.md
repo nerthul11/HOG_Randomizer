@@ -5,7 +5,7 @@ A Randomizer add-on for Hall of Gods statues.
 ## Description
 
 This will randomize four locations for each HoG Boss and their effects:
-- Unlock --> An item is granted when defeating a boss in the overworld.
+- Unlock --> An item is granted when interacting with a statue for the first time.
 - Attuned --> An item is granted when defeating the Attuned version.
 - Ascended --> An item is granted when defeating the Ascended version.
 - Radiant --> An item is granted when defeating the Radiant version.
@@ -31,10 +31,3 @@ All this can add up to a whopping total of 176 new items and locations to the Ra
 ## Known issues
 
 - If a new game is started and the randomization is aborted, it doesn't always unload the files and thus rends you unable to randomize properly. This fixes automatically by reopening the game.
-- Pins for locations aren't properly loaded into RandoMapMod, so to check their status one has to rely on the Randomizer log files. Information is correctly stored inside those.
-
-## Future improvements
-
-- Have a UI indicator of which locations have been cleared and which haven't to improve Godhome tracking.
-- Add the mod to RSM.
-- Fix the pin issues.
