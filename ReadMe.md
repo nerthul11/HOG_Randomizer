@@ -5,7 +5,7 @@ A Randomizer add-on for Hall of Gods statues.
 ## Description
 
 This will randomize four locations for each HoG Boss and their effects:
-- Unlock --> An item is granted when interacting with a statue for the first time.
+- Unlock --> An item is granted when interacting with a statue for the first time. (TBD - Redirecting this to overworld boss defeating)
 - Attuned --> An item is granted when defeating the Attuned version.
 - Ascended --> An item is granted when defeating the Ascended version.
 - Radiant --> An item is granted when defeating the Radiant version.
@@ -31,3 +31,4 @@ All this can add up to a whopping total of 176 new items and locations to the Ra
 ## Known issues
 
 - If a new game is started and the randomization is aborted, it doesn't always unload the files and thus rends you unable to randomize properly. This fixes automatically by reopening the game.
+- If every single other Randomizer settings are vanilla AND statue access is randomized, there could be unreachable location issues.
