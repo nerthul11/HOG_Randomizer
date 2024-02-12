@@ -43,6 +43,11 @@ jobs:
           wget https://github.com/homothetyhk/HollowKnight.MenuChanger/releases/latest/download/MenuChanger.zip -O MenuChanger.zip
           unzip -o MenuChanger.zip -d References
      
+      - name: Fetch RandoSettingsManager
+        run: |
+          wget https://github.com/BadMagic100/RandoSettingsManager/releases/latest/download/RandoSettingsManager.zip -O RandoSettingsManager.zip
+          unzip -o RandoSettingsManager.zip -d References
+      
       - name: Fetch RandomizerCore
         run: |
           wget https://github.com/homothetyhk/RandomizerCore/releases/latest/download/RandomizerCore.zip -O RandomizerCore.zip

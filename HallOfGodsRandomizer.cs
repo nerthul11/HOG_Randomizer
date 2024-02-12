@@ -8,7 +8,7 @@ namespace HallOfGodsRandomizer
     public class HallOfGodsRandomizer : Mod, ILocalSettings<LocalSettings>, IGlobalSettings<GlobalSettings>
     {
         new public string GetName() => "HallOfGodsRandomizer";
-        public override string GetVersion() => "1.0.0.0";
+        public override string GetVersion() => "1.1.1.0";
 
         private static HallOfGodsRandomizer _instance;
         public HallOfGodsRandomizer() : base()
@@ -36,6 +36,11 @@ namespace HallOfGodsRandomizer
                 Log("Initializing");
                 HOG_Interop.Hook();
                 Log("Initialized");
+
+                if (ModHooks.GetMod("RandoSettingsManager") is Mod)
+                {
+                    RSM_Interop.Hook();
+                }
             }
         }
         public void OnLoadGlobal(GlobalSettings s) => GS = s;

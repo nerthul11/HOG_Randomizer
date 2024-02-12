@@ -67,5 +67,17 @@ namespace HallOfGodsRandomizer.Settings
         {
             pageRootButton.Text.color = HOG_Interop.GlobalSettings.Enabled ? Colors.TRUE_COLOR : Colors.DEFAULT_COLOR;
         }
+
+        // Apply proxy settings
+        public void Disable()
+        {
+            IValueElement elem = elementFactory.ElementLookup[nameof(HallOfGodsRandomizationSettings.Enabled)];
+            elem.SetValue(false);
+        }
+
+        public void Apply(HallOfGodsRandomizationSettings settings)
+        {
+            elementFactory.SetMenuValues(settings);
+        }
     }
 }
