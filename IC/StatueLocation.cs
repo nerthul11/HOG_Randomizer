@@ -28,7 +28,6 @@ namespace HallOfGodsRandomizer.IC
             On.BossChallengeUI.LoadBoss_int_bool -= BossChallengeUI_LoadBoss_int_bool;
             On.BossSceneController.Awake -= BossSceneController_Awake;
             On.BossStatue.UpdateDetails -= BossStatue_UpdateDetails;
-            On.BossChallengeUI.Setup -= BossChallengeUI_Setup;
         }
 
         protected override void OnLoad()
@@ -38,17 +37,6 @@ namespace HallOfGodsRandomizer.IC
             On.BossChallengeUI.LoadBoss_int_bool += BossChallengeUI_LoadBoss_int_bool;
             On.BossSceneController.Awake += BossSceneController_Awake;
             On.BossStatue.UpdateDetails += BossStatue_UpdateDetails;
-            On.BossChallengeUI.Setup += BossChallengeUI_Setup;
-        }
-
-        private void BossChallengeUI_Setup(On.BossChallengeUI.orig_Setup orig, BossChallengeUI self, BossStatue bossStatue, string bossNameSheet, string bossNameKey, string descriptionSheet, string descriptionKey)
-        {
-            if (!bossStatue.UsingDreamVersion && bossStatue.statueStatePD == statueStateName)
-            {
-                HallOfGodsRandomizer.Instance.Log(bossNameSheet);
-                HallOfGodsRandomizer.Instance.Log(bossNameKey);
-                orig(self, bossStatue, bossNameSheet, bossNameKey, descriptionSheet, descriptionKey);
-            }
         }
 
         private void BossStatue_UpdateDetails(On.BossStatue.orig_UpdateDetails orig, BossStatue self)
@@ -93,15 +81,18 @@ namespace HallOfGodsRandomizer.IC
 
         private bool BossScene_IsUnlocked(On.BossScene.orig_IsUnlocked orig, BossScene self, BossSceneCheckSource source)
         {
-            if (HOG_Interop.Settings.RandomizeStatueAccess == StatueAccessMode.AllUnlocked)
-                return true;
-            
-            if (HOG_Interop.Settings.RandomizeStatueAccess == StatueAccessMode.Randomized && battleScene == self.Tier1Scene)
+            if (GameManager.instance.sceneName == SceneNames.GG_Workshop)
             {
-                BossStatue.Completion completion = PlayerData.instance.GetVariable<BossStatue.Completion>(statueStateName);
-                return completion.isUnlocked;
+                if (HOG_Interop.Settings.RandomizeStatueAccess == StatueAccessMode.AllUnlocked)
+                    return true;
+                
+                if (HOG_Interop.Settings.RandomizeStatueAccess == StatueAccessMode.Randomized && battleScene == self.Tier1Scene)
+                {
+                    BossStatue.Completion completion = PlayerData.instance.GetVariable<BossStatue.Completion>(statueStateName);
+                    return completion.isUnlocked;
+                }
             }
-            else return orig(self, source);
+            return orig(self, source);
         }
 
         private void BossChallengeUI_LoadBoss_int_bool(On.BossChallengeUI.orig_LoadBoss_int_bool orig, BossChallengeUI self, int level, bool doHideAnim)

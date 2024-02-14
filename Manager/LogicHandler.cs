@@ -74,7 +74,7 @@ namespace HallOfGodsRandomizer.Manager
                     if (dependency is not null)
                         lmb.DoLogicEdit(new($"Bronze_Mark-{boss}", $"ORIG + GG_{dependency}>0"));
                     if (item.isDreamBoss)
-                        lmb.DoLogicEdit(new($"Empty_Mark-{boss}", $"ORIG + DREAMNAIL"));
+                        lmb.DoLogicEdit(new($"Bronze_Mark-{boss}", $"ORIG + DREAMNAIL"));
                     
                     if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
                     {
@@ -89,7 +89,7 @@ namespace HallOfGodsRandomizer.Manager
                     if (dependency is not null)
                         lmb.DoLogicEdit(new($"Silver_Mark-{boss}", $"ORIG + GG_{dependency}>0"));
                     if (item.isDreamBoss)
-                        lmb.DoLogicEdit(new($"Empty_Mark-{boss}", $"ORIG + DREAMNAIL"));
+                        lmb.DoLogicEdit(new($"Silver_Mark-{boss}", $"ORIG + DREAMNAIL"));
                     
                     if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
                     {
@@ -104,7 +104,7 @@ namespace HallOfGodsRandomizer.Manager
                     if (dependency is not null)
                         lmb.DoLogicEdit(new($"Gold_Mark-{boss}", $"ORIG + GG_{dependency}>0"));
                     if (item.isDreamBoss)
-                        lmb.DoLogicEdit(new($"Empty_Mark-{boss}", $"ORIG + DREAMNAIL"));
+                        lmb.DoLogicEdit(new($"Gold_Mark-{boss}", $"ORIG + DREAMNAIL"));
                     
                     if (settings.RandomizeStatueAccess == StatueAccessMode.Vanilla)
                     {
