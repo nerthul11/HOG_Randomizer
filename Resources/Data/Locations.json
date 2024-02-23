@@ -1158,7 +1158,7 @@
       "$type": "HallOfGodsRandomizer.IC.StatueLocation, HallOfGodsRandomizer",
       "name": "Gold_Mark-Mantis_Lords",
       "sceneName": "GG_Workshop",
-      "battleScene": "GG_Mantis_Lords_V",
+      "battleScene": "GG_Mantis_Lords",
       "statueStateName": "statueStateMantisLords",
       "statueTier": "Radiant",
       "tags": [
