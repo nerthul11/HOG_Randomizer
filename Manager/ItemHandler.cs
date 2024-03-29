@@ -13,10 +13,30 @@ namespace HallOfGodsRandomizer.Manager {
     {
         internal static void Hook()
         {
+            DefineObjects();
             if (HOG_Interop.GlobalSettings.Enabled)
-            {
+            {   
                 RequestBuilder.OnUpdate.Subscribe(100f, AddObjects);
             }            
+        }
+
+        public static void DefineObjects()
+        {
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            JsonSerializer jsonSerializer = new() {TypeNameHandling = TypeNameHandling.Auto};
+            
+            using Stream itemStream = assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Data.Items.json");
+            StreamReader itemReader = new(itemStream);
+            List<StatueItem> itemList = jsonSerializer.Deserialize<List<StatueItem>>(new JsonTextReader(itemReader));
+        
+            foreach (StatueItem item in itemList)
+                Finder.DefineCustomItem(item);
+
+            using Stream locationStream = assembly.GetManifestResourceStream("HallOfGodsRandomizer.Resources.Data.Locations.json");
+            StreamReader locationReader = new(locationStream);
+            List<StatueLocation> locationList = jsonSerializer.Deserialize<List<StatueLocation>>(new JsonTextReader(locationReader));
+            foreach (StatueLocation location in locationList)
+                    Finder.DefineCustomLocation(location);
         }
 
         public static void AddObjects(RequestBuilder builder)
@@ -35,8 +55,6 @@ namespace HallOfGodsRandomizer.Manager {
                 StreamReader itemReader = new(itemStream);
                 List<StatueItem> itemList = jsonSerializer.Deserialize<List<StatueItem>>(new JsonTextReader(itemReader));
             
-                foreach (StatueItem item in itemList)
-                    Finder.DefineCustomItem(item);
                 foreach (StatueItem item in itemList)
                     builder.AddItemByName(item.name, itemCount);
 
@@ -64,9 +82,6 @@ namespace HallOfGodsRandomizer.Manager {
                 {
                     locationList = locationList.Where(location => !location.name.StartsWith("Empty")).ToList();
                 }
-
-                foreach (StatueLocation location in locationList)
-                    Finder.DefineCustomLocation(location);
 
                 foreach (StatueLocation location in locationList)
                     builder.AddLocationByName(location.name);

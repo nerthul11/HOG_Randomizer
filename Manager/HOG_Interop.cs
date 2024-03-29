@@ -11,8 +11,8 @@ namespace HallOfGodsRandomizer.Manager
         public static void Hook()
         {
             ItemHandler.Hook();
-            ConnectionMenu.Hook();
             LogicHandler.Hook();
+            ConnectionMenu.Hook();
             SettingsLog.AfterLogSettings += AddFileSettings;
         }
 

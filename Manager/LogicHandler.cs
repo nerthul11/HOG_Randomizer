@@ -20,7 +20,6 @@ namespace HallOfGodsRandomizer.Manager
         {
             if (HOG_Interop.GlobalSettings.Enabled)
             {
-                // Priority set to have it run after TRJR - may change depending on other connection interactions
                 RCData.RuntimeLogicOverride.Subscribe(11f, ApplyLogic);
             }
         }
@@ -165,6 +164,22 @@ namespace HallOfGodsRandomizer.Manager
                     }
                     lmb.DoMacroEdit(new("RADIANT_IDOL", logic));
                     lmb.DoLogicEdit(new("Journal_Entry-Void_Idol_3", "RADIANT_IDOL"));
+                }
+            }
+            
+            // Connection with Lost Artifacts' AttunedJewel location.
+            if (ModHooks.GetMod("LostArtifacts") is Mod)
+            {
+                if (settings.RandomizeTiers > TierLimitMode.Vanilla)
+                {
+                    string logic = "GG_Workshop";
+                    foreach (StatueItem item in itemList)
+                    {
+                        string boss = item.name.Split('-').Last();
+                        logic += $" + GG_{boss}>{req}";
+                    }
+                    lmb.DoMacroEdit(new("ATTUNED_IDOL", logic));
+                    lmb.DoLogicEdit(new("AttunedJewel", "ATTUNED_IDOL"));
                 }
             }
         }
