@@ -1,4 +1,6 @@
-﻿namespace HallOfGodsRandomizer.Settings
+﻿using System;
+
+namespace HallOfGodsRandomizer.Settings
 {
     public class GlobalSettings
     {
@@ -53,17 +55,17 @@
         public BossStatue.Completion statueStateMantisLordsExtra { get; set; }
 
         public T GetVariable<T>(string propertyName) {
-            var property = typeof(HallOfGodsCompletion).GetProperty(propertyName);
+            var property = typeof(LocalSettings).GetProperty(propertyName);
             if (property == null) {
-                throw new ArgumentException($"Property '{propertyName}' not found in HallOfGodsCompletion class.");
+                throw new ArgumentException($"Property '{propertyName}' not found in LocalSettings class.");
             }
             return (T)property.GetValue(this);
         }
 
         public void SetVariable<T>(string propertyName, T value) {
-            var property = typeof(HallOfGodsCompletion).GetProperty(propertyName);
+            var property = typeof(LocalSettings).GetProperty(propertyName);
             if (property == null) {
-                throw new ArgumentException($"Property '{propertyName}' not found in HallOfGodsCompletion class.");
+                throw new ArgumentException($"Property '{propertyName}' not found in LocalSettings class.");
             }
             property.SetValue(this, value);
         }

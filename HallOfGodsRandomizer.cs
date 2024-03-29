@@ -50,8 +50,8 @@ namespace HallOfGodsRandomizer
 
         public void ManageState(string statueName, string tier, bool setAsTrue)
         {
-            BossStatue.Completion statue = Instance.LS.GetVariable<BossStatue.Completion>(statueName)
-            Instance.LS.GetVariable<BossStatue.Completion>(statueName) = Override(statueName, statue, tier, setAsTrue)
+            BossStatue.Completion statue = Instance.LS.GetVariable<BossStatue.Completion>(statueName);
+            Instance.LS.SetVariable(statueName, Override(statueName, statue, tier, setAsTrue));
         }
 
         public BossStatue.Completion Override(string statueStateName, BossStatue.Completion statue, string tier, bool setAsTrue)
