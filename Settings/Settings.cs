@@ -7,49 +7,65 @@
     public class LocalSettings
     {
         public HallOfGodsRandomizationSettings Settings { get; set; } = new();
-        public BossStatue.Completion statueStateGruzMother;
-        public BossStatue.Completion statueStateVengefly;
-        public BossStatue.Completion statueStateBroodingMawlek;
-        public BossStatue.Completion statueStateFalseKnight;
-        public BossStatue.Completion statueStateFailedChampion;
-        public BossStatue.Completion statueStateHornet1;
-        public BossStatue.Completion statueStateHornet2;
-        public BossStatue.Completion statueStateMegaMossCharger;
-        public BossStatue.Completion statueStateMantisLords;
-        public BossStatue.Completion statueStateOblobbles;
-        public BossStatue.Completion statueStateGreyPrince;
-        public BossStatue.Completion statueStateBrokenVessel;
-        public BossStatue.Completion statueStateLostKin;
-        public BossStatue.Completion statueStateNosk;
-        public BossStatue.Completion statueStateFlukemarm;
-        public BossStatue.Completion statueStateCollector;
-        public BossStatue.Completion statueStateWatcherKnights;
-        public BossStatue.Completion statueStateSoulMaster;
-        public BossStatue.Completion statueStateSoulTyrant;
-        public BossStatue.Completion statueStateGodTamer;
-        public BossStatue.Completion statueStateCrystalGuardian1;
-        public BossStatue.Completion statueStateCrystalGuardian2;
-        public BossStatue.Completion statueStateUumuu;
-        public BossStatue.Completion statueStateDungDefender;
-        public BossStatue.Completion statueStateWhiteDefender;
-        public BossStatue.Completion statueStateHiveKnight;
-        public BossStatue.Completion statueStateTraitorLord;
-        public BossStatue.Completion statueStateGrimm;
-        public BossStatue.Completion statueStateNightmareGrimm;
-        public BossStatue.Completion statueStateHollowKnight;
-        public BossStatue.Completion statueStateElderHu;
-        public BossStatue.Completion statueStateGalien;
-        public BossStatue.Completion statueStateMarkoth;
-        public BossStatue.Completion statueStateMarmu;
-        public BossStatue.Completion statueStateNoEyes;
-        public BossStatue.Completion statueStateXero;
-        public BossStatue.Completion statueStateGorb;
-        public BossStatue.Completion statueStateRadiance;
-        public BossStatue.Completion statueStateSly;
-        public BossStatue.Completion statueStateNailmasters;
-        public BossStatue.Completion statueStateMageKnight;
-        public BossStatue.Completion statueStatePaintmaster;
-        public BossStatue.Completion statueStateNoskHornet;
-        public BossStatue.Completion statueStateMantisLordsExtra;
+        public BossStatue.Completion statueStateGruzMother { get; set; }
+        public BossStatue.Completion statueStateVengefly { get; set; }
+        public BossStatue.Completion statueStateBroodingMawlek { get; set; }
+        public BossStatue.Completion statueStateFalseKnight { get; set; }
+        public BossStatue.Completion statueStateFailedChampion { get; set; }
+        public BossStatue.Completion statueStateHornet1 { get; set; }
+        public BossStatue.Completion statueStateHornet2 { get; set; }
+        public BossStatue.Completion statueStateMegaMossCharger { get; set; }
+        public BossStatue.Completion statueStateMantisLords { get; set; }
+        public BossStatue.Completion statueStateOblobbles { get; set; }
+        public BossStatue.Completion statueStateGreyPrince { get; set; }
+        public BossStatue.Completion statueStateBrokenVessel { get; set; }
+        public BossStatue.Completion statueStateLostKin { get; set; }
+        public BossStatue.Completion statueStateNosk { get; set; }
+        public BossStatue.Completion statueStateFlukemarm { get; set; }
+        public BossStatue.Completion statueStateCollector { get; set; }
+        public BossStatue.Completion statueStateWatcherKnights { get; set; }
+        public BossStatue.Completion statueStateSoulMaster { get; set; }
+        public BossStatue.Completion statueStateSoulTyrant { get; set; }
+        public BossStatue.Completion statueStateGodTamer { get; set; }
+        public BossStatue.Completion statueStateCrystalGuardian1 { get; set; }
+        public BossStatue.Completion statueStateCrystalGuardian2 { get; set; }
+        public BossStatue.Completion statueStateUumuu { get; set; }
+        public BossStatue.Completion statueStateDungDefender { get; set; }
+        public BossStatue.Completion statueStateWhiteDefender { get; set; }
+        public BossStatue.Completion statueStateHiveKnight { get; set; }
+        public BossStatue.Completion statueStateTraitorLord { get; set; }
+        public BossStatue.Completion statueStateGrimm { get; set; }
+        public BossStatue.Completion statueStateNightmareGrimm { get; set; }
+        public BossStatue.Completion statueStateHollowKnight { get; set; }
+        public BossStatue.Completion statueStateElderHu { get; set; }
+        public BossStatue.Completion statueStateGalien { get; set; }
+        public BossStatue.Completion statueStateMarkoth { get; set; }
+        public BossStatue.Completion statueStateMarmu { get; set; }
+        public BossStatue.Completion statueStateNoEyes { get; set; }
+        public BossStatue.Completion statueStateXero { get; set; }
+        public BossStatue.Completion statueStateGorb { get; set; }
+        public BossStatue.Completion statueStateRadiance { get; set; }
+        public BossStatue.Completion statueStateSly { get; set; }
+        public BossStatue.Completion statueStateNailmasters { get; set; }
+        public BossStatue.Completion statueStateMageKnight { get; set; }
+        public BossStatue.Completion statueStatePaintmaster { get; set; }
+        public BossStatue.Completion statueStateNoskHornet { get; set; }
+        public BossStatue.Completion statueStateMantisLordsExtra { get; set; }
+
+        public T GetVariable<T>(string propertyName) {
+            var property = typeof(HallOfGodsCompletion).GetProperty(propertyName);
+            if (property == null) {
+                throw new ArgumentException($"Property '{propertyName}' not found in HallOfGodsCompletion class.");
+            }
+            return (T)property.GetValue(this);
+        }
+
+        public void SetVariable<T>(string propertyName, T value) {
+            var property = typeof(HallOfGodsCompletion).GetProperty(propertyName);
+            if (property == null) {
+                throw new ArgumentException($"Property '{propertyName}' not found in HallOfGodsCompletion class.");
+            }
+            property.SetValue(this, value);
+        }
     }
 }
