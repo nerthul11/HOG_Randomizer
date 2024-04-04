@@ -1,3 +1,5 @@
+This mod will no longer receive support. Please head to https://github.com/nerthul11/GodhomeRandomizer as it contains everything included here.
+
 # Hall of Gods Randomizer
 
 A Randomizer add-on for Hall of Gods statues.
